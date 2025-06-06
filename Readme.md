@@ -25,3 +25,30 @@ docker compose up -d --build
 
 -Limpar cache:
 docker system prune -af
+
+-Ver as variaveis de ambiente do docker:
+docker compose exec postgres env | Select-String POSTGRES
+
+-Testar conexão manual:
+docker exec -it wernetech_app bash
+
+-Após testar tente conectar ao banco:
+psql -U wernetech_admin -d empresa (troque as variaveis de acordo com o seu banco)
+
+
+
+
+
+------ Redis:
+
+-Lista todas as chaves do Redis:
+KEYS *
+
+-Ver conteúdo de uma chave:
+GET someKey
+
+-Ver lista de jobs na fila (chave lista):
+LRANGE bull:profile-jobs:wait 0 -1
+
+-Remover tudo (cuidado!):
+FLUSHALL
