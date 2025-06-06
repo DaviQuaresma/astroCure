@@ -4,7 +4,7 @@ import path from 'path'
 
 const logFile = path.resolve('./scheduler/logs.json')
 
-export function logJob(jobId, data) {
+export default function logJob(jobId, data) {
     const entry = {
         timestamp: new Date().toISOString(),
         jobId,
