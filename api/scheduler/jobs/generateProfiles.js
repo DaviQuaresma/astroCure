@@ -15,10 +15,10 @@ export function generateProfiles() {
     {
       user_id: "kt4kg1b",
       email: "Jedjdjdi123@outlook.com"
-    },
-    {
-      user_id: "kt4kfdq",
-      email: "Dfhhg3432@outlook.com"
     }
+    // {
+    //   user_id: "kt4kfdq",
+    //   email: "Dfhhg3432@outlook.com"
+    // }
   ]
 }

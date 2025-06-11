@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { chromium } from 'playwright'
 
-const ADSPOWER_URL = 'http://local.adspower.com:50325'
+const ADSPOWER_URL = process.env.ADSPOWER_URL
 
 export async function startSession(user_id) {
     try {

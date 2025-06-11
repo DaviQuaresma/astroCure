@@ -1,16 +1,22 @@
-// scheduler/utils/logger.js
 import fs from 'fs'
 import path from 'path'
 
 const logFile = path.resolve('./scheduler/logs.json')
 
-export default function logJob(jobId, data) {
-    const entry = {
-        timestamp: new Date().toISOString(),
-        jobId,
-        data,
-    }
-
+/**
+ * Salva uma entrada de log no arquivo JSON local.
+ * @param {Object} entry - Objeto contendo os dados do log.
+ * Exemplo:
+ * {
+ *   jobId: 101,
+ *   type: 'worker',
+ *   profile: { user_id, email },
+ *   status: 'ok' | 'error',
+ *   duration: '3.5s',
+ *   error: 'Descrição do erro (se houver)'
+ * }
+ */
+export default function logJob(entry) {
     let logs = []
 
     try {
@@ -19,10 +25,19 @@ export default function logJob(jobId, data) {
             logs = JSON.parse(content)
         }
     } catch (err) {
-        console.error('Erro ao ler logs:', err)
+        console.error('[LOGGER] Erro ao ler arquivo de log:', err.message)
     }
 
-    logs.push(entry)
+    const newLog = {
+        timestamp: new Date().toISOString(),
+        ...entry,
+    }
 
-    fs.writeFileSync(logFile, JSON.stringify(logs, null, 2))
+    logs.push(newLog)
+
+    try {
+        fs.writeFileSync(logFile, JSON.stringify(logs, null, 2))
+    } catch (err) {
+        console.error('[LOGGER] Erro ao escrever arquivo de log:', err.message)
+    }
 }

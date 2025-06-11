@@ -1,9 +1,13 @@
 import { Worker } from 'bullmq'
-import { faker } from '@faker-js/faker'
 import IORedis from 'ioredis'
-import { chromium } from 'playwright'
-import axios from 'axios'
-import logJob from "../utils/logger.js"
+import logJob from '../utils/logger.js'
+import {
+    startSession,
+    stopSession,
+    connectToBrowser
+} from './helpers/adsPowerSession.js'
+import { simulateUserActions } from './helpers/simulatedActions.js'
+import { delay, randomBetween } from './utils/timer.js'
 
 const connection = new IORedis({
     host: process.env.REDIS_HOST || 'localhost',
@@ -11,48 +15,27 @@ const connection = new IORedis({
     maxRetriesPerRequest: null,
 })
 
-const ADSPOWER_URL = 'http://host.docker.internal:50325'
-
 console.log('[WORKER] Iniciando...')
 
-const simulateBehavior = async (profile) => {
-    let browser
+async function processProfile(profile) {
+    const start = Date.now()
+    let browser = null
 
     try {
-        // Requisição ao AdsPower para abrir o perfil
-        const response = await axios.get(`${ADSPOWER_URL}/api/v1/browser/start?user_id=${profile.user_id}`)
-        const { code, data } = response.data
+        const ws = await startSession(profile.user_id)
+        const { page, browser: b } = await connectToBrowser(ws.replace('127.0.0.1', 'host.docker.internal'))
+        browser = b
 
-        if (code !== 0 || !data.ws.puppeteer) {
-            throw new Error('Falha ao obter WebSocket do AdsPower.')
-        }
+        console.log(`[WORKER] Conectado via CDP: ${profile.email}`)
 
-        const wsEndpoint = data.ws.puppeteer.replace('127.0.0.1', 'host.docker.internal')
-
-        browser = await chromium.connectOverCDP(wsEndpoint)
-        const [page] = await browser.contexts()[0].pages()
-
-        console.log(`[WORKER] Navegador conectado via CDP para o perfil ${profile.email}`)
-
-        // Simula navegação
-        await page.goto('https://example.com')
-
-        for (let i = 0; i < 5; i++) {
-            await page.mouse.wheel(0, 500)
-            await delay(randomBetween(1000, 2000))
-        }
-
-        console.log(`[WORKER] Perfil: ${profile.email} finalizou simulação.`)
+        await simulateUserActions(page)
 
         await logJob({
             type: 'worker',
             profile,
             status: 'ok',
-            timestamp: new Date().toISOString(),
+            duration: Date.now() - start,
         })
-
-        await browser.close()
-
     } catch (err) {
         console.error('[WORKER] Erro:', err.message)
 
@@ -60,24 +43,23 @@ const simulateBehavior = async (profile) => {
             type: 'worker',
             profile,
             status: 'erro',
+            duration: Date.now() - start,
             error: err.message,
-            timestamp: new Date().toISOString(),
         })
-
+    } finally {
         if (browser) await browser.close()
+        await stopSession(profile.user_id)
     }
 }
-
-const delay = (ms) => new Promise((res) => setTimeout(res, ms))
-const randomBetween = (min, max) => Math.floor(Math.random() * (max - min + 1) + min)
 
 new Worker(
     'profile-jobs',
     async (job) => {
         console.log('[WORKER] Novo job recebido')
         const profiles = job.data.profiles || []
+
         for (const profile of profiles) {
-            await simulateBehavior(profile)
+            await processProfile(profile)
         }
     },
     { connection }
