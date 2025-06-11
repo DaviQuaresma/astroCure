@@ -49,9 +49,22 @@ services:
     depends_on:
       - api
     environment:
-      NEXT_PUBLIC_API_URL: http://localhost:5000
+      NEXT_PUBLIC_API_URL: http://localhost:4001
     volumes:
       - ./web:/app
+  
+  worker:
+    build:
+      context: .
+      dockerfile: Dockerfile.worker
+    container_name: worker
+    depends_on:
+      - redis
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+    volumes:
+      - ./api:/app
 
 volumes:
   pgdatacure:

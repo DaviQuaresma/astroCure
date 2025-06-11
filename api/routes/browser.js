@@ -1,6 +1,6 @@
-router.get("/browser/start", async (req, res) => {
+router.get("/browser/stop", async (req, res) => {
     const { user_id } = req.query;
-    const url = `http://local.adspower.com:50325/api/v1/browser/start?user_id=${user_id}`;
+    const url = `http://local.adspower.com:50325/api/v1/browser/stop?user_id=${user_id}`;
 
     try {
         const result = await axios.get(url);

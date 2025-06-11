@@ -1,7 +1,7 @@
 // scheduler/scheduler.js
 import { Queue } from 'bullmq'
 import { generateProfiles } from './jobs/generateProfiles.js'
-import { logJob } from './utils/logger.js'
+import logJob from './utils/logger.js'
 import IORedis from 'ioredis'
 
 const connection = new IORedis({

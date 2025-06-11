@@ -1,54 +1,112 @@
 ----- docker:
 
--resetar o docker forçado:
+# Força o shutdown do WSL (resolve travamentos do Docker Desktop)
 wsl --shutdown
 
--validar o se o docker ta rodando:
+# Verifica se o Docker está rodando
 docker info
 
--Checar os serviços docker rodando:
+# Lista os containers ativos
 docker ps
+
+# Lista todos os containers (ativos e parados)
 docker ps -a
 
--Iniciar os containers:
-docker-compose up -d
+# Inicia os containers em segundo plano
+docker compose up -d
 
--Chegar o log do docker:
-docker logs id(pego no docker ps)
+# Exibe os logs de um container
+docker logs <nome_ou_id_do_container>
 
--Subir/atualizar containers:
+# Subir e reconstruir os containers (mantém cache)
 docker compose up -d --build
 
--Atualizar em caso de estiver rodando:
+# Forçar rebuild total sem cache
+docker compose build --no-cache
+
+# Se precisar rebuildar com tudo parado
 docker compose down
 docker compose up -d --build
 
--Limpar cache:
+# Limpa tudo que não está mais sendo usado (⚠️ cuidado!)
 docker system prune -af
 
--Ver as variaveis de ambiente do docker:
-docker compose exec postgres env | Select-String POSTGRES
+# Remove volumes e containers órfãos
+docker compose down --volumes --remove-orphans
 
--Testar conexão manual:
-docker exec -it wernetech_app bash
+# Ver variável de ambiente de um container
+docker compose exec <serviço> env | grep VARIAVEL
 
--Após testar tente conectar ao banco:
-psql -U wernetech_admin -d empresa (troque as variaveis de acordo com o seu banco)
+# Entrar no container para testar
+docker exec -it <nome_do_container> bash
+
+# Dentro do container, conectar no banco PostgreSQL
+psql -U <usuario> -d <nome_do_banco>
+
+# Ver containers usando rede específica
+docker ps -a --filter network=<nome_da_rede>
+
+# Remover todos os containers forçando
+docker rm -f $(docker ps -aq)
+
+# Reset geral dentro da VPS
+docker compose down -v
+docker compose build --no-cache
+docker compose up -d
 
 
+----- NGINX:
+# Editar config default
+sudo nano /etc/nginx/sites-available/default
+
+# Exemplo de bloco server para proxy reverso:
+server {
+    listen 80;
+    server_name _;
+
+    location /api/ {
+        proxy_pass http://localhost:4000/;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+
+    location / {
+        proxy_pass http://localhost:3002/;
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+
+# Testa config
+sudo nginx -t
+
+# Reinicia o serviço
+sudo systemctl restart nginx
 
 
 
 ------ Redis:
 
--Lista todas as chaves do Redis:
+# Entra no cliente Redis (se tiver instalado)
+redis-cli
+
+# Lista todas as chaves (evite usar em produção!)
 KEYS *
 
--Ver conteúdo de uma chave:
-GET someKey
+# Ver o conteúdo de uma chave (string)
+GET nome_da_chave
 
--Ver lista de jobs na fila (chave lista):
+# Ver jobs pendentes na fila do BullMQ
 LRANGE bull:profile-jobs:wait 0 -1
 
--Remover tudo (cuidado!):
+# Remover tudo do Redis (⚠️ perigo em produção)
 FLUSHALL
+
+# Dica extra para inspeção visual via Docker
+docker exec -it redis redis-cli
