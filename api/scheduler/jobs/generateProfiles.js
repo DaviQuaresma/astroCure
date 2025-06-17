@@ -13,12 +13,7 @@ import { faker } from '@faker-js/faker'
 export function generateProfiles() {
   return [
     {
-      user_id: "kt4kg1b",
-      email: "Jedjdjdi123@outlook.com"
-    }
-    // {
-    //   user_id: "kt4kfdq",
-    //   email: "Dfhhg3432@outlook.com"
-    // }
+      user_id: "kynksw9",
+    },
   ]
 }

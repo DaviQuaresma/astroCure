@@ -3,6 +3,21 @@ import { chromium } from 'playwright'
 
 const ADSPOWER_URL = process.env.ADSPOWER_URL
 
+export async function getProfileInfo(user_id) {
+    try {
+        const res = await axios.get(`${ADSPOWER_URL}/api/v1/user/list?user_id=${user_id}`)
+        const { code, data } = res.data
+
+        if (code !== 0 || !data.list || data.list.length === 0) {
+            throw new Error(`Perfil '${user_id}' não encontrado`)
+        }
+
+        return data.list[0]
+    } catch (err) {
+        throw new Error(`Erro ao buscar dados do perfil: ${err.message}`)
+    }
+}
+
 export async function startSession(user_id) {
     try {
         const res = await axios.get(`${ADSPOWER_URL}/api/v1/browser/start?user_id=${user_id}`)

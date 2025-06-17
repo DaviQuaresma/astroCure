@@ -1,4 +1,4 @@
------ docker:
+----- Docker:
 
 # Força o shutdown do WSL (resolve travamentos do Docker Desktop)
 wsl --shutdown
