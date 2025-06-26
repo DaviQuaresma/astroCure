@@ -1,6 +1,5 @@
 [
   {
-<<<<<<< HEAD
     "timestamp": "2025-06-23T23:14:33.337Z",
     "type": "worker",
     "profile": {
@@ -443,18 +442,11 @@
     "1": "7",
     "2": "9",
     "timestamp": "2025-06-23T23:21:55.556Z"
-=======
-    "0": "1",
-    "1": "7",
-    "2": "9",
-    "timestamp": "2025-06-17T01:40:43.056Z"
->>>>>>> parent of aad1c49 (Mudança de escopo total, a partir de agora o codigo será orientado a dispositivos moveis)
   },
   {
     "0": "1",
     "1": "8",
     "2": "0",
-<<<<<<< HEAD
     "timestamp": "2025-06-23T23:22:04.244Z"
   },
   {
@@ -466,15 +458,11 @@
     "status": "erro",
     "duration": 312856,
     "error": "WebDriverError: A session is either terminated or not started when running \"actions\" with method \"POST\" and args \"{\"actions\":[{\"type\":\"pointer\",\"id\":\"finger1\",\"parameters\":{\"pointerType\":\"touch\"},\"actions\":[{\"type\":\"pointerMove\",\"duration\":0,\"x\":500,\"y\":1600},{\"type\":\"pointerDown\",\"button\":0},{\"type\":\"pause\",\"duration\":200},{\"type\":\"pointerMove\",\"duration\":300,\"x\":500,\"y\":400},{\"type\":\"pointerUp\",\"button\":0}]}]}\""
-=======
-    "timestamp": "2025-06-17T01:40:53.337Z"
->>>>>>> parent of aad1c49 (Mudança de escopo total, a partir de agora o codigo será orientado a dispositivos moveis)
   },
   {
     "0": "1",
     "1": "8",
     "2": "1",
-<<<<<<< HEAD
     "timestamp": "2025-06-23T23:22:14.277Z"
   },
   {
@@ -1916,8 +1904,5 @@
     "status": "erro",
     "duration": 1603,
     "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-=======
-    "timestamp": "2025-06-17T01:41:03.385Z"
->>>>>>> parent of aad1c49 (Mudança de escopo total, a partir de agora o codigo será orientado a dispositivos moveis)
   }
 ]
