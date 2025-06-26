@@ -1,1908 +1,378 @@
 [
   {
-    "timestamp": "2025-06-23T23:14:33.337Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1965,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:14:37.229Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 3265,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:14:39.179Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1890,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:14:40.942Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1723,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "1",
-    "1": "3",
-    "2": "6",
-    "timestamp": "2025-06-23T23:14:42.153Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:14:42.923Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1951,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:14:44.661Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1712,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "1",
-    "1": "3",
-    "2": "7",
-    "timestamp": "2025-06-23T23:14:52.139Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:14:53.765Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1622,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "1",
-    "1": "3",
-    "2": "8",
-    "timestamp": "2025-06-23T23:15:02.215Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:15:04.133Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1950,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "1",
-    "1": "3",
-    "2": "9",
-    "timestamp": "2025-06-23T23:15:12.152Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:15:13.905Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1732,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "1",
-    "1": "4",
-    "2": "0",
-    "timestamp": "2025-06-23T23:15:22.168Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:15:23.968Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1803,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "1",
-    "1": "4",
-    "2": "1",
-    "timestamp": "2025-06-23T23:15:32.148Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:15:34.005Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1806,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "1",
-    "1": "4",
-    "2": "2",
-    "timestamp": "2025-06-23T23:15:42.351Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:15:45.448Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 3187,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "1",
-    "1": "4",
-    "2": "3",
-    "timestamp": "2025-06-23T23:15:52.173Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:15:53.778Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1613,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "1",
-    "1": "4",
-    "2": "4",
-    "timestamp": "2025-06-23T23:16:02.160Z"
-  },
-  {
-    "0": "1",
-    "1": "4",
-    "2": "5",
-    "timestamp": "2025-06-23T23:16:12.158Z"
-  },
-  {
-    "0": "1",
-    "1": "4",
-    "2": "6",
-    "timestamp": "2025-06-23T23:16:22.180Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:16:23.973Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1814,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:16:25.627Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1628,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:16:27.248Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1601,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "1",
-    "1": "4",
-    "2": "7",
-    "timestamp": "2025-06-23T23:16:32.167Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:16:33.765Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1596,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "1",
-    "1": "4",
-    "2": "8",
-    "timestamp": "2025-06-23T23:16:42.177Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:16:43.779Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1599,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "1",
-    "1": "4",
-    "2": "9",
-    "timestamp": "2025-06-23T23:16:52.187Z"
-  },
-  {
-    "0": "1",
-    "1": "5",
-    "2": "0",
-    "timestamp": "2025-06-23T23:17:05.420Z"
-  },
-  {
-    "0": "1",
-    "1": "5",
-    "2": "1",
-    "timestamp": "2025-06-23T23:17:14.072Z"
-  },
-  {
-    "0": "1",
-    "1": "5",
-    "2": "2",
-    "timestamp": "2025-06-23T23:17:21.282Z"
-  },
-  {
-    "0": "1",
-    "1": "5",
-    "2": "3",
-    "timestamp": "2025-06-23T23:17:31.254Z"
-  },
-  {
-    "0": "1",
-    "1": "5",
-    "2": "4",
-    "timestamp": "2025-06-23T23:17:42.188Z"
-  },
-  {
-    "0": "1",
-    "1": "5",
-    "2": "5",
-    "timestamp": "2025-06-23T23:17:52.202Z"
-  },
-  {
-    "0": "1",
-    "1": "5",
-    "2": "6",
-    "timestamp": "2025-06-23T23:18:02.210Z"
-  },
-  {
-    "0": "1",
-    "1": "5",
-    "2": "7",
-    "timestamp": "2025-06-23T23:18:12.613Z"
-  },
-  {
-    "0": "1",
-    "1": "5",
-    "2": "8",
-    "timestamp": "2025-06-23T23:18:23.976Z"
-  },
-  {
-    "0": "1",
-    "1": "5",
-    "2": "9",
-    "timestamp": "2025-06-23T23:18:34.543Z"
-  },
-  {
-    "0": "1",
-    "1": "6",
-    "2": "0",
-    "timestamp": "2025-06-23T23:18:44.188Z"
-  },
-  {
-    "0": "1",
-    "1": "6",
-    "2": "1",
-    "timestamp": "2025-06-23T23:18:54.056Z"
-  },
-  {
-    "0": "1",
-    "1": "6",
-    "2": "2",
-    "timestamp": "2025-06-23T23:19:04.168Z"
-  },
-  {
-    "0": "1",
-    "1": "6",
-    "2": "3",
-    "timestamp": "2025-06-23T23:19:14.135Z"
-  },
-  {
-    "0": "1",
-    "1": "6",
-    "2": "4",
-    "timestamp": "2025-06-23T23:19:24.167Z"
-  },
-  {
-    "0": "1",
-    "1": "6",
-    "2": "5",
-    "timestamp": "2025-06-23T23:19:34.140Z"
-  },
-  {
-    "0": "1",
-    "1": "6",
-    "2": "6",
-    "timestamp": "2025-06-23T23:19:44.150Z"
-  },
-  {
-    "0": "1",
-    "1": "6",
-    "2": "7",
-    "timestamp": "2025-06-23T23:19:54.168Z"
-  },
-  {
-    "0": "1",
-    "1": "6",
-    "2": "8",
-    "timestamp": "2025-06-23T23:20:04.315Z"
-  },
-  {
-    "0": "1",
-    "1": "6",
-    "2": "9",
-    "timestamp": "2025-06-23T23:20:14.151Z"
-  },
-  {
-    "0": "1",
-    "1": "7",
-    "2": "0",
-    "timestamp": "2025-06-23T23:20:24.186Z"
-  },
-  {
-    "0": "1",
-    "1": "7",
-    "2": "1",
-    "timestamp": "2025-06-23T23:20:34.167Z"
-  },
-  {
-    "0": "1",
-    "1": "7",
-    "2": "2",
-    "timestamp": "2025-06-23T23:20:44.165Z"
-  },
-  {
-    "0": "1",
-    "1": "7",
-    "2": "3",
-    "timestamp": "2025-06-23T23:20:54.190Z"
-  },
-  {
-    "0": "1",
-    "1": "7",
-    "2": "4",
-    "timestamp": "2025-06-23T23:21:04.204Z"
-  },
-  {
-    "0": "1",
-    "1": "7",
-    "2": "5",
-    "timestamp": "2025-06-23T23:21:14.186Z"
-  },
-  {
-    "0": "1",
-    "1": "7",
-    "2": "6",
-    "timestamp": "2025-06-23T23:21:24.197Z"
-  },
-  {
-    "0": "1",
-    "1": "7",
-    "2": "7",
-    "timestamp": "2025-06-23T23:21:34.205Z"
-  },
-  {
-    "0": "1",
-    "1": "7",
-    "2": "8",
-    "timestamp": "2025-06-23T23:21:44.195Z"
-  },
-  {
     "0": "1",
     "1": "7",
     "2": "9",
-    "timestamp": "2025-06-23T23:21:55.556Z"
+    "timestamp": "2025-06-17T01:40:43.056Z"
   },
   {
     "0": "1",
     "1": "8",
     "2": "0",
-    "timestamp": "2025-06-23T23:22:04.244Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:22:05.063Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 312856,
-    "error": "WebDriverError: A session is either terminated or not started when running \"actions\" with method \"POST\" and args \"{\"actions\":[{\"type\":\"pointer\",\"id\":\"finger1\",\"parameters\":{\"pointerType\":\"touch\"},\"actions\":[{\"type\":\"pointerMove\",\"duration\":0,\"x\":500,\"y\":1600},{\"type\":\"pointerDown\",\"button\":0},{\"type\":\"pause\",\"duration\":200},{\"type\":\"pointerMove\",\"duration\":300,\"x\":500,\"y\":400},{\"type\":\"pointerUp\",\"button\":0}]}]}\""
+    "timestamp": "2025-06-17T01:40:53.337Z"
   },
   {
     "0": "1",
     "1": "8",
     "2": "1",
-    "timestamp": "2025-06-23T23:22:14.277Z"
+    "timestamp": "2025-06-17T01:41:03.385Z"
   },
   {
-    "timestamp": "2025-06-23T23:22:17.296Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 11994,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "0": "1",
+    "1": "7",
+    "2": "4",
+    "timestamp": "2025-06-17T02:17:10.141Z"
   },
   {
-    "timestamp": "2025-06-23T23:22:18.935Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1606,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "0": "1",
+    "1": "7",
+    "2": "5",
+    "timestamp": "2025-06-17T02:17:20.375Z"
   },
   {
-    "timestamp": "2025-06-23T23:22:20.643Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1670,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "0": "1",
+    "1": "7",
+    "2": "6",
+    "timestamp": "2025-06-17T02:17:30.277Z"
   },
   {
-    "timestamp": "2025-06-23T23:22:22.427Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1740,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "0": "1",
+    "1": "7",
+    "2": "7",
+    "timestamp": "2025-06-17T02:17:40.439Z"
   },
   {
-    "timestamp": "2025-06-23T23:22:24.025Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1579,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "0": "1",
+    "1": "7",
+    "2": "8",
+    "timestamp": "2025-06-17T02:17:50.889Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "9",
+    "timestamp": "2025-06-17T02:18:00.798Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "0",
+    "timestamp": "2025-06-17T02:18:10.270Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "1",
+    "timestamp": "2025-06-17T02:18:20.022Z"
   },
   {
     "0": "1",
     "1": "8",
     "2": "2",
-    "timestamp": "2025-06-23T23:22:24.210Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:22:25.633Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1591,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:27.228Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1578,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:28.829Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1584,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:30.430Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1583,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:32.022Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1565,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:33.654Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1613,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T02:18:30.290Z"
   },
   {
     "0": "1",
     "1": "8",
     "2": "3",
-    "timestamp": "2025-06-23T23:22:34.232Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:22:35.376Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1649,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:37.305Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1874,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:39.045Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1706,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:40.830Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1741,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:42.501Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1638,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:44.131Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1607,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T02:18:40.141Z"
   },
   {
     "0": "1",
     "1": "8",
     "2": "4",
-    "timestamp": "2025-06-23T23:22:44.220Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:22:45.783Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1628,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:47.394Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1589,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:48.976Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1569,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:50.579Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1586,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:52.206Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1609,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:53.795Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1568,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T02:18:50.156Z"
   },
   {
     "0": "1",
     "1": "8",
     "2": "5",
-    "timestamp": "2025-06-23T23:22:54.252Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:22:55.373Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1567,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:56.967Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1582,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:22:58.558Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1576,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:23:00.149Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1571,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:23:01.734Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1569,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:23:03.313Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1566,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T02:19:00.178Z"
   },
   {
     "0": "1",
     "1": "8",
     "2": "6",
-    "timestamp": "2025-06-23T23:23:04.239Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:23:04.933Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1599,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:23:06.541Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1581,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:23:08.116Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1560,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:23:09.707Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1576,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:23:11.280Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1559,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:23:12.856Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1563,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T02:19:10.179Z"
   },
   {
     "0": "1",
     "1": "8",
     "2": "7",
-    "timestamp": "2025-06-23T23:23:14.226Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:23:14.418Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1548,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:23:16.001Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1567,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "timestamp": "2025-06-23T23:23:17.594Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1572,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T02:19:20.182Z"
   },
   {
     "0": "1",
     "1": "8",
     "2": "8",
-    "timestamp": "2025-06-23T23:23:24.242Z"
+    "timestamp": "2025-06-17T02:19:30.188Z"
   },
   {
-    "timestamp": "2025-06-23T23:23:25.813Z",
+    "timestamp": "2025-06-17T02:19:37.737Z",
     "type": "worker",
     "profile": {
       "user_id": "kynksw9"
     },
     "status": "erro",
-    "duration": 1570,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "duration": 158392,
+    "error": "[TIKTOK] Erro ao logar ou simular: page.$: Target page, context or browser has been closed"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "4",
+    "timestamp": "2025-06-17T02:34:41.900Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "5",
+    "timestamp": "2025-06-17T02:34:51.855Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "6",
+    "timestamp": "2025-06-17T02:35:01.848Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "7",
+    "timestamp": "2025-06-17T02:35:11.940Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "8",
+    "timestamp": "2025-06-17T02:35:21.840Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "9",
+    "timestamp": "2025-06-17T02:35:31.846Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "0",
+    "timestamp": "2025-06-17T02:35:41.748Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "1",
+    "timestamp": "2025-06-17T02:35:51.885Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "2",
+    "timestamp": "2025-06-17T02:36:01.767Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "3",
+    "timestamp": "2025-06-17T02:36:11.867Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "4",
+    "timestamp": "2025-06-17T02:36:21.894Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "5",
+    "timestamp": "2025-06-17T02:36:31.886Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "6",
+    "timestamp": "2025-06-17T02:36:41.859Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "7",
+    "timestamp": "2025-06-17T02:36:51.903Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "8",
+    "timestamp": "2025-06-17T02:37:01.875Z"
   },
   {
     "0": "1",
     "1": "8",
     "2": "9",
-    "timestamp": "2025-06-23T23:23:34.258Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:23:35.843Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1587,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T02:37:11.932Z"
   },
   {
     "0": "1",
     "1": "9",
     "2": "0",
-    "timestamp": "2025-06-23T23:23:44.267Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:23:45.976Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1660,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T02:37:21.943Z"
   },
   {
     "0": "1",
     "1": "9",
     "2": "1",
-    "timestamp": "2025-06-23T23:23:54.348Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:23:56.389Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 2107,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T02:37:31.896Z"
   },
   {
     "0": "1",
     "1": "9",
     "2": "2",
-    "timestamp": "2025-06-23T23:24:04.337Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:24:06.398Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1999,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T02:37:41.997Z"
   },
   {
     "0": "1",
     "1": "9",
     "2": "3",
-    "timestamp": "2025-06-23T23:24:17.256Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:24:18.171Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 3532,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T02:37:51.904Z"
   },
   {
     "0": "1",
     "1": "9",
     "2": "4",
-    "timestamp": "2025-06-23T23:24:23.369Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:24:25.282Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1854,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T02:38:01.917Z"
   },
   {
     "0": "1",
-    "1": "9",
+    "1": "7",
+    "2": "4",
+    "timestamp": "2025-06-17T12:09:39.660Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
     "2": "5",
-    "timestamp": "2025-06-23T23:24:33.387Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:24:35.040Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1666,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T12:09:49.526Z"
   },
   {
     "0": "1",
-    "1": "9",
+    "1": "7",
     "2": "6",
-    "timestamp": "2025-06-23T23:24:43.384Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:24:45.003Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1624,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T12:09:59.246Z"
   },
   {
     "0": "1",
-    "1": "9",
+    "1": "7",
     "2": "7",
-    "timestamp": "2025-06-23T23:24:53.220Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:24:55.187Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1961,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T12:10:09.170Z"
   },
   {
     "0": "1",
-    "1": "9",
+    "1": "7",
     "2": "8",
-    "timestamp": "2025-06-23T23:25:03.228Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:25:04.831Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1597,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T12:10:19.172Z"
   },
   {
     "0": "1",
-    "1": "9",
+    "1": "7",
     "2": "9",
-    "timestamp": "2025-06-23T23:25:13.233Z"
+    "timestamp": "2025-06-17T12:10:29.246Z"
   },
   {
-    "timestamp": "2025-06-23T23:25:14.849Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1609,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "0",
+    "0": "1",
+    "1": "8",
     "2": "0",
-    "timestamp": "2025-06-23T23:25:23.422Z"
+    "timestamp": "2025-06-17T12:10:39.212Z"
   },
   {
-    "timestamp": "2025-06-23T23:25:24.992Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1568,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "0",
+    "0": "1",
+    "1": "8",
     "2": "1",
-    "timestamp": "2025-06-23T23:25:33.432Z"
+    "timestamp": "2025-06-17T12:10:49.243Z"
   },
   {
-    "timestamp": "2025-06-23T23:25:34.986Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1556,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "0",
+    "0": "1",
+    "1": "8",
     "2": "2",
-    "timestamp": "2025-06-23T23:25:43.430Z"
+    "timestamp": "2025-06-17T12:10:59.304Z"
   },
   {
-    "timestamp": "2025-06-23T23:25:44.990Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1557,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "0",
+    "0": "1",
+    "1": "8",
     "2": "3",
-    "timestamp": "2025-06-23T23:25:53.449Z"
+    "timestamp": "2025-06-17T12:11:09.234Z"
   },
   {
-    "timestamp": "2025-06-23T23:25:55.008Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1561,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "0",
+    "0": "1",
+    "1": "8",
     "2": "4",
-    "timestamp": "2025-06-23T23:26:03.458Z"
+    "timestamp": "2025-06-17T12:11:19.228Z"
   },
   {
-    "timestamp": "2025-06-23T23:26:05.024Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1561,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "0",
+    "0": "1",
+    "1": "8",
     "2": "5",
-    "timestamp": "2025-06-23T23:26:13.468Z"
+    "timestamp": "2025-06-17T12:11:29.234Z"
   },
   {
-    "timestamp": "2025-06-23T23:26:15.051Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1574,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "0",
+    "0": "1",
+    "1": "8",
     "2": "6",
-    "timestamp": "2025-06-23T23:26:23.481Z"
+    "timestamp": "2025-06-17T12:11:39.237Z"
   },
   {
-    "timestamp": "2025-06-23T23:26:25.052Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1573,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "0",
+    "0": "1",
+    "1": "8",
     "2": "7",
-    "timestamp": "2025-06-23T23:26:33.495Z"
+    "timestamp": "2025-06-17T12:11:49.260Z"
   },
   {
-    "timestamp": "2025-06-23T23:26:35.048Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1557,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "0",
+    "0": "1",
+    "1": "8",
     "2": "8",
-    "timestamp": "2025-06-23T23:26:43.504Z"
+    "timestamp": "2025-06-17T12:11:59.262Z"
   },
   {
-    "timestamp": "2025-06-23T23:26:45.074Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1569,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "0",
+    "0": "1",
+    "1": "8",
     "2": "9",
-    "timestamp": "2025-06-23T23:26:53.507Z"
+    "timestamp": "2025-06-17T12:12:09.280Z"
   },
   {
-    "timestamp": "2025-06-23T23:26:55.072Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1565,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "1",
+    "0": "1",
+    "1": "9",
     "2": "0",
-    "timestamp": "2025-06-23T23:27:03.523Z"
+    "timestamp": "2025-06-17T12:12:19.267Z"
   },
   {
-    "timestamp": "2025-06-23T23:27:05.074Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1558,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "1",
+    "0": "1",
+    "1": "9",
     "2": "1",
-    "timestamp": "2025-06-23T23:27:13.533Z"
+    "timestamp": "2025-06-17T12:12:29.271Z"
   },
   {
-    "timestamp": "2025-06-23T23:27:15.082Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1559,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "1",
+    "0": "1",
+    "1": "9",
     "2": "2",
-    "timestamp": "2025-06-23T23:27:23.536Z"
+    "timestamp": "2025-06-17T12:12:39.279Z"
   },
   {
-    "timestamp": "2025-06-23T23:27:25.096Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1565,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "1",
+    "0": "1",
+    "1": "9",
     "2": "3",
-    "timestamp": "2025-06-23T23:27:33.536Z"
+    "timestamp": "2025-06-17T12:12:49.386Z"
   },
   {
-    "timestamp": "2025-06-23T23:27:35.126Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1588,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "1",
+    "0": "1",
+    "1": "9",
     "2": "4",
-    "timestamp": "2025-06-23T23:27:43.549Z"
+    "timestamp": "2025-06-17T12:12:59.263Z"
   },
   {
-    "timestamp": "2025-06-23T23:27:45.111Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1562,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "1",
+    "0": "1",
+    "1": "9",
     "2": "5",
-    "timestamp": "2025-06-23T23:27:53.554Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:27:55.113Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1561,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "1",
-    "2": "6",
-    "timestamp": "2025-06-23T23:28:03.570Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:28:05.130Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1563,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "1",
-    "2": "7",
-    "timestamp": "2025-06-23T23:28:13.577Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:28:15.136Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1561,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "1",
-    "2": "8",
-    "timestamp": "2025-06-23T23:28:23.585Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:28:25.136Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1555,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "1",
-    "2": "9",
-    "timestamp": "2025-06-23T23:28:33.590Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:28:35.149Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1556,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "2",
-    "2": "0",
-    "timestamp": "2025-06-23T23:28:43.602Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:28:45.155Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1553,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "2",
-    "2": "1",
-    "timestamp": "2025-06-23T23:28:53.607Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:28:55.161Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1555,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "2",
-    "2": "2",
-    "timestamp": "2025-06-23T23:29:03.619Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:29:05.180Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1559,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "2",
-    "2": "3",
-    "timestamp": "2025-06-23T23:29:13.628Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:29:15.182Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1556,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "2",
-    "2": "4",
-    "timestamp": "2025-06-23T23:29:23.637Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:29:25.233Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1595,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "2",
-    "2": "5",
-    "timestamp": "2025-06-23T23:29:33.647Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:29:35.210Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1559,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "2",
-    "2": "6",
-    "timestamp": "2025-06-23T23:29:43.658Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:29:45.207Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1551,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "2",
-    "2": "7",
-    "timestamp": "2025-06-23T23:29:53.669Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:29:55.218Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1554,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "2",
-    "2": "8",
-    "timestamp": "2025-06-23T23:30:03.676Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:30:05.230Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1553,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "2",
-    "2": "9",
-    "timestamp": "2025-06-23T23:30:13.687Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:30:15.249Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1561,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "3",
-    "2": "0",
-    "timestamp": "2025-06-23T23:30:23.704Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:30:25.295Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1594,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "3",
-    "2": "1",
-    "timestamp": "2025-06-23T23:30:33.707Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:30:35.266Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1563,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "3",
-    "2": "2",
-    "timestamp": "2025-06-23T23:30:43.710Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:30:45.271Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1562,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "3",
-    "2": "3",
-    "timestamp": "2025-06-23T23:34:39.645Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:34:41.362Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1807,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "3",
-    "2": "4",
-    "timestamp": "2025-06-23T23:34:49.560Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:34:51.268Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1715,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "3",
-    "2": "5",
-    "timestamp": "2025-06-23T23:34:59.535Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:35:01.229Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1644,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "3",
-    "2": "6",
-    "timestamp": "2025-06-23T23:35:09.542Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:35:11.275Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1737,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "3",
-    "2": "7",
-    "timestamp": "2025-06-23T23:35:19.538Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:35:21.169Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1634,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "3",
-    "2": "8",
-    "timestamp": "2025-06-23T23:35:29.545Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:35:31.223Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1679,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "3",
-    "2": "9",
-    "timestamp": "2025-06-23T23:35:39.556Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:35:41.140Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1588,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "4",
-    "2": "0",
-    "timestamp": "2025-06-23T23:35:49.565Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:35:51.167Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1598,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "4",
-    "2": "1",
-    "timestamp": "2025-06-23T23:35:59.578Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:36:01.242Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1653,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "4",
-    "2": "2",
-    "timestamp": "2025-06-23T23:36:09.592Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:36:11.215Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1641,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "4",
-    "2": "3",
-    "timestamp": "2025-06-23T23:36:19.776Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:36:21.944Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 2240,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "4",
-    "2": "4",
-    "timestamp": "2025-06-23T23:36:29.608Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:36:31.262Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1664,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "4",
-    "2": "5",
-    "timestamp": "2025-06-23T23:36:39.590Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:36:41.174Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1585,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "4",
-    "2": "6",
-    "timestamp": "2025-06-23T23:36:49.682Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:36:51.289Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1666,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "4",
-    "2": "7",
-    "timestamp": "2025-06-23T23:36:59.634Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:37:01.256Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1635,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "4",
-    "2": "8",
-    "timestamp": "2025-06-23T23:37:09.625Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:37:11.189Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1603,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "4",
-    "2": "9",
-    "timestamp": "2025-06-23T23:37:19.598Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:37:21.209Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1593,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "5",
-    "2": "0",
-    "timestamp": "2025-06-23T23:37:29.601Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:37:31.185Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1588,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
-  },
-  {
-    "0": "2",
-    "1": "5",
-    "2": "1",
-    "timestamp": "2025-06-23T23:37:39.587Z"
-  },
-  {
-    "timestamp": "2025-06-23T23:37:41.206Z",
-    "type": "worker",
-    "profile": {
-      "user_id": "kynksw9"
-    },
-    "status": "erro",
-    "duration": 1603,
-    "error": "WebDriverError: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource when running \"http://host.docker.internal:4723/session\" with method \"POST\" and args \"{\"capabilities\":{\"alwaysMatch\":{\"platformName\":\"Android\",\"appium:deviceName\":\"emulator-5554\",\"appium:automationName\":\"UiAutomator2\",\"appium:appPackage\":\"com.android.settings\",\"appium:appActivity\":\".Settings\",\"appium:noReset\":true,\"appium:newCommandTimeout\":300},\"firstMatch\":[{}]}}\""
+    "timestamp": "2025-06-17T12:13:09.292Z"
   }
 ]

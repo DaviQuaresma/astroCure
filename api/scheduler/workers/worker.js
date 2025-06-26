@@ -1,14 +1,19 @@
 import { Worker } from 'bullmq'
 import IORedis from 'ioredis'
 import logJob from '../utils/logger.js'
-import { simulateUserActions } from './helpers/simulatedActionsMobile.js'
+import {
+    startSession,
+    stopSession,
+    connectToBrowser,
+    getProfileInfo,
+} from './helpers/adsPowerSession.js'
+import { simulateUserActions } from './helpers/simulatedActions.js'
 import { parseRemark } from '../utils/parseRemark.js'
 import { delay, randomBetween } from '../utils/timer.js'
-import { remote } from 'webdriverio'
 
 const connection = new IORedis({
-    host: process.env.REDIS_HOST,
-    port: process.env.REDIS_PORT,
+    host: process.env.REDIS_HOST || 'localhost',
+    port: process.env.REDIS_PORT || 6379,
     maxRetriesPerRequest: null,
 })
 
@@ -16,40 +21,36 @@ console.log('[WORKER] Iniciando...')
 
 async function processProfile(profile) {
     const start = Date.now()
-    let driver = null
+    let browser = null
 
     try {
-        const credentials = parseRemark(profile.observacao || '')
+        // Buscar info completa do AdsPower
+        const info = await getProfileInfo(profile.user_id)
+        const credentials = parseRemark(info?.remarks || '')
 
-        const caps = {
-            platformName: 'Android',
-            'appium:deviceName': 'emulator-5554',
-            'appium:automationName': 'UiAutomator2',
-            'appium:appPackage': 'com.android.settings',
-            'appium:appActivity': '.Settings',
-            'appium:noReset': true,
-            'appium:newCommandTimeout': 300
+        // Usar email do campo observação se existir
+        const fullProfile = {
+            ...profile,
+            email: credentials.login || profile.email || 'desconhecido',
         }
 
-        driver = await remote({
-            protocol: 'http',
-            hostname: process.env.APPIUM_HOST || 'localhost',
-            port: parseInt(process.env.APPIUM_PORT || '4723', 10),
-            path: '/',
-            capabilities: caps,
-        })
+        const ws = await startSession(profile.user_id)
+        const { page, browser: b } = await connectToBrowser(ws.replace('127.0.0.1', 'host.docker.internal'))
+        browser = b
 
-        console.log(`[WORKER] Iniciando simulação no dispositivo: ${profile.user_id}`)
-        await simulateUserActions(driver, credentials)
+        console.log(`[WORKER] Conectado via CDP: ${fullProfile.email}`)
+
+        await simulateUserActions(page, credentials)
 
         await logJob({
             type: 'worker',
-            profile,
+            profile: fullProfile,
             status: 'ok',
             duration: Date.now() - start,
         })
     } catch (err) {
         console.error('[WORKER] Erro:', err.message)
+
         await logJob({
             type: 'worker',
             profile,
@@ -58,7 +59,8 @@ async function processProfile(profile) {
             error: err.message,
         })
     } finally {
-        if (driver) await driver.deleteSession()
+        if (browser) await browser.close()
+        await stopSession(profile.user_id)
     }
 }
 
