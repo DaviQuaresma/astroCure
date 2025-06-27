@@ -14,6 +14,7 @@ export function generateProfiles() {
   return [
     {
       user_id: "kynksw9",
+      // user_id: "kynkngq",
     },
   ]
 }

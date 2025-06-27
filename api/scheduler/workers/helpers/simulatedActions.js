@@ -3,6 +3,7 @@ const randomBetween = (min, max) => Math.floor(Math.random() * (max - min + 1) +
 
 export async function simulateUserActions(page, credentials = {}) {
     console.log('[SIMULATION] Verificando se já está logado no feed do TikTok...');
+    console.log("teste 1")
 
     try {
         await page.goto('https://www.tiktok.com/foryou', { waitUntil: 'load' });
@@ -20,8 +21,10 @@ export async function simulateUserActions(page, credentials = {}) {
 
         await page.goto('https://www.tiktok.com/login', { waitUntil: 'load' });
         await delay(2000);
+
         await page.goto('https://www.tiktok.com/login/phone-or-email', { waitUntil: 'load' });
         await delay(2000);
+
         await page.goto('https://www.tiktok.com/login/phone-or-email/email', { waitUntil: 'load' });
         await delay(2000);
 
@@ -50,91 +53,81 @@ export async function simulateUserActions(page, credentials = {}) {
 async function executarSimulacoes(page) {
     console.log('[SIMULATION] Rodando simulação orgânica no feed...');
 
-    const totalPosts = randomBetween(30, 50);
     const frasesGenericas = [
-        'Legal!',
-        'Nada haver kkk',
-        'Gostei 😄',
-        '😂😂😂',
-        'Muito bom!',
-        'Vídeo top!',
-        'Interessante...',
-        '👀',
-        'hahaha',
-        'Kkkkk',
-        '👏👏👏'
+        'Legal!', 'Nada haver kkk', 'Gostei 😄', '😂😂😂',
+        'Muito bom!', 'Vídeo top!', 'Interessante...', '👀',
+        'hahaha', 'Kkkkk', '👏👏👏'
     ];
 
-    let currentUrl = page.url();
+    const processados = new Set(); // evita duplicar post
+    let scrollIndexAtual = 0;
 
-    for (let i = 0; i < totalPosts; i++) {
-        console.log(`[SIMULATION] Interagindo com post ${i + 1}/${totalPosts}`);
-        await delay(randomBetween(10000, 15000));
-
-        if (Math.random() < 0.4) {
-            const likeBtn = await page.$('span[data-e2e="like-icon"]');
-            if (likeBtn) await likeBtn.click().catch(() => { });
-            console.log('→ Curtido.');
+    while (processados.size < 50) {
+        const article = await page.$(`article[data-scroll-index="${scrollIndexAtual}"]`);
+        if (!article) {
+            // Scroll até carregar próximo post
+            await page.keyboard.press('ArrowDown');
+            await delay(randomBetween(1000, 2000));
+            continue;
         }
 
-        if (Math.random() < 0.2) {
-            const followBtn = await page.$('button:has-text("Follow")');
-            if (followBtn) await followBtn.click().catch(() => { });
-            console.log('→ Seguiu o perfil.');
+        // Ignorar se já processado
+        if (processados.has(scrollIndexAtual)) {
+            scrollIndexAtual++;
+            continue;
         }
 
-        if (Math.random() < 0.15) {
-            const saveBtn = await page.$('span[data-e2e="collect-icon"]');
-            if (saveBtn) await saveBtn.click().catch(() => { });
-            console.log('→ Salvo nos favoritos.');
-        }
+        console.log(`[SIMULATION] Interagindo com post #${scrollIndexAtual}`);
+        processados.add(scrollIndexAtual);
+        await delay(randomBetween(3000, 6000));
 
-        if (Math.random() < 0.1) {
-            try {
-                const commentBtn = await page.$('button[data-e2e="comment-button"]');
-                if (commentBtn) {
-                    await commentBtn.click();
-                    await delay(3000);
-
-                    const textarea = await page.$('div[data-e2e="comment-editor"] textarea');
-                    if (textarea) {
-                        const msg = frasesGenericas[randomBetween(0, frasesGenericas.length - 1)];
-                        await textarea.fill(msg);
-                        await delay(1000);
-
-                        const sendBtn = await page.$('button[data-e2e="comment-post-button"]');
-                        if (sendBtn) {
-                            await sendBtn.click();
-                            console.log(`→ Comentado: "${msg}"`);
-                        }
-                    }
-                }
-            } catch (err) {
-                console.warn('→ Falha ao comentar:', err.message);
+        // CURTIR
+        if (Math.random() < 0.5) {
+            const likeBtn = await article.$('button[aria-label="Curtir vídeo"][aria-pressed="false"]');
+            if (likeBtn) {
+                await likeBtn.click().catch(() => { });
+                console.log('→ Curtido.');
             }
         }
 
-        currentUrl = await scrollParaProximoVideo(page, currentUrl);
+        // SEGUIR
+        if (Math.random() < 0.3) {
+            const followBtn = await article.$('button[data-e2e="feed-follow"]');
+            if (followBtn) {
+                await followBtn.click().catch(() => { });
+                console.log('→ Seguiu o perfil.');
+            }
+        }
+
+        // SALVAR
+        if (Math.random() < 0.2) {
+            const saveBtn = await article.$('button[aria-label^="Adicionar aos favoritos"]');
+            if (saveBtn) {
+                await saveBtn.click().catch(() => { });
+                console.log('→ Salvo nos favoritos.');
+            }
+        }
+
+        // Scroll suave para o próximo post
+        await scrollParaProximoPost(page, scrollIndexAtual);
+        scrollIndexAtual++;
     }
 
     console.log('[SIMULATION] Simulação completa.');
 }
 
-async function scrollParaProximoVideo(page, ultimaUrl) {
-    try {
+async function scrollParaProximoPost(page, scrollIndexAtual) {
+    let tentativas = 0;
+    let novoArticle = null;
+
+    while (!novoArticle && tentativas < 5) {
         await page.keyboard.press('ArrowDown');
-        await delay(randomBetween(1500, 3000));
+        await delay(randomBetween(1000, 2000));
+        novoArticle = await page.$(`article[data-scroll-index="${scrollIndexAtual + 1}"]`);
+        tentativas++;
+    }
 
-        const novaUrl = page.url();
-        if (novaUrl === ultimaUrl) {
-            console.log('[SIMULATION] Vídeo não mudou, tentando novamente com PageDown...');
-            await page.keyboard.press('PageDown');
-            await delay(2000);
-        }
-
-        return page.url();
-    } catch (err) {
-        console.warn('[SIMULATION] Erro ao tentar avançar vídeo:', err.message);
-        return ultimaUrl;
+    if (!novoArticle) {
+        console.warn(`[SIMULATION] Não conseguiu carregar o post ${scrollIndexAtual + 1}`);
     }
 }
