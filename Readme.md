@@ -24,6 +24,9 @@ docker compose up -d --build
 # Forçar rebuild total sem cache
 docker compose build --no-cache
 
+# Comando pra rodar caso tenha mudado o arquivo e queira testar sem compilar:
+docker-compose restart worker
+
 # Se precisar rebuildar com tudo parado
 docker compose down
 docker compose up -d --build

@@ -19743,5 +19743,4429 @@
     "0": "4",
     "1": "5",
     "timestamp": "2025-06-27T14:53:02.947Z"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "timestamp": "2025-06-27T20:52:28.525Z"
+  },
+  {
+    "timestamp": "2025-06-27T20:52:42.319Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9",
+      "email": "desconhecido"
+    },
+    "status": "ok",
+    "duration": 77640
+  },
+  {
+    "0": "1",
+    "timestamp": "2025-06-27T21:08:33.699Z"
+  },
+  {
+    "0": "2",
+    "timestamp": "2025-06-27T21:08:43.729Z"
+  },
+  {
+    "0": "3",
+    "timestamp": "2025-06-27T21:08:53.672Z"
+  },
+  {
+    "0": "4",
+    "timestamp": "2025-06-27T21:09:03.680Z"
+  },
+  {
+    "0": "5",
+    "timestamp": "2025-06-27T21:09:13.692Z"
+  },
+  {
+    "0": "6",
+    "timestamp": "2025-06-27T21:09:23.694Z"
+  },
+  {
+    "0": "7",
+    "timestamp": "2025-06-27T21:09:33.707Z"
+  },
+  {
+    "0": "8",
+    "timestamp": "2025-06-27T21:09:43.714Z"
+  },
+  {
+    "0": "9",
+    "timestamp": "2025-06-27T21:09:53.723Z"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "timestamp": "2025-06-27T21:10:03.726Z"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "timestamp": "2025-06-27T21:10:13.736Z"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "timestamp": "2025-06-27T21:10:23.743Z"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "timestamp": "2025-06-27T21:10:33.748Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "timestamp": "2025-06-27T21:10:43.758Z"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "timestamp": "2025-06-27T21:10:53.765Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "timestamp": "2025-06-27T21:11:03.770Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "timestamp": "2025-06-27T21:11:13.780Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "timestamp": "2025-06-27T21:11:23.791Z"
+  },
+  {
+    "0": "1",
+    "1": "9",
+    "timestamp": "2025-06-27T21:11:33.799Z"
+  },
+  {
+    "0": "2",
+    "1": "0",
+    "timestamp": "2025-06-27T21:11:43.808Z"
+  },
+  {
+    "0": "2",
+    "1": "1",
+    "timestamp": "2025-06-27T21:11:53.810Z"
+  },
+  {
+    "0": "2",
+    "1": "2",
+    "timestamp": "2025-06-27T21:12:03.810Z"
+  },
+  {
+    "0": "2",
+    "1": "3",
+    "timestamp": "2025-06-27T21:12:13.821Z"
+  },
+  {
+    "0": "2",
+    "1": "4",
+    "timestamp": "2025-06-27T21:12:23.830Z"
+  },
+  {
+    "0": "2",
+    "1": "5",
+    "timestamp": "2025-06-27T21:12:33.830Z"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "timestamp": "2025-06-27T21:12:43.841Z"
+  },
+  {
+    "0": "2",
+    "1": "7",
+    "timestamp": "2025-06-27T21:12:53.848Z"
+  },
+  {
+    "0": "2",
+    "1": "8",
+    "timestamp": "2025-06-27T21:13:03.859Z"
+  },
+  {
+    "0": "2",
+    "1": "9",
+    "timestamp": "2025-06-27T21:13:13.876Z"
+  },
+  {
+    "0": "3",
+    "1": "0",
+    "timestamp": "2025-06-27T21:13:23.865Z"
+  },
+  {
+    "0": "3",
+    "1": "1",
+    "timestamp": "2025-06-27T21:13:33.872Z"
+  },
+  {
+    "0": "3",
+    "1": "2",
+    "timestamp": "2025-06-27T21:13:43.888Z"
+  },
+  {
+    "0": "3",
+    "1": "3",
+    "timestamp": "2025-06-27T21:13:53.888Z"
+  },
+  {
+    "0": "3",
+    "1": "4",
+    "timestamp": "2025-06-27T21:14:03.903Z"
+  },
+  {
+    "0": "3",
+    "1": "5",
+    "timestamp": "2025-06-27T21:14:13.913Z"
+  },
+  {
+    "0": "3",
+    "1": "6",
+    "timestamp": "2025-06-27T21:14:23.918Z"
+  },
+  {
+    "0": "3",
+    "1": "7",
+    "timestamp": "2025-06-27T21:14:33.930Z"
+  },
+  {
+    "0": "3",
+    "1": "8",
+    "timestamp": "2025-06-27T21:14:43.943Z"
+  },
+  {
+    "0": "3",
+    "1": "9",
+    "timestamp": "2025-06-27T21:14:53.944Z"
+  },
+  {
+    "0": "4",
+    "1": "0",
+    "timestamp": "2025-06-27T21:15:03.952Z"
+  },
+  {
+    "0": "4",
+    "1": "1",
+    "timestamp": "2025-06-27T21:15:13.961Z"
+  },
+  {
+    "0": "4",
+    "1": "2",
+    "timestamp": "2025-06-27T21:15:23.970Z"
+  },
+  {
+    "0": "4",
+    "1": "3",
+    "timestamp": "2025-06-27T21:15:33.979Z"
+  },
+  {
+    "0": "4",
+    "1": "4",
+    "timestamp": "2025-06-27T21:15:43.989Z"
+  },
+  {
+    "0": "4",
+    "1": "5",
+    "timestamp": "2025-06-27T21:15:53.996Z"
+  },
+  {
+    "0": "4",
+    "1": "6",
+    "timestamp": "2025-06-27T21:16:04.009Z"
+  },
+  {
+    "0": "4",
+    "1": "7",
+    "timestamp": "2025-06-27T21:16:14.027Z"
+  },
+  {
+    "0": "4",
+    "1": "8",
+    "timestamp": "2025-06-27T21:16:24.029Z"
+  },
+  {
+    "0": "4",
+    "1": "9",
+    "timestamp": "2025-06-27T21:16:34.039Z"
+  },
+  {
+    "timestamp": "2025-06-27T21:16:39.981Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 486271,
+    "error": "[TIKTOK] Erro ao logar ou simular: page.$: Target page, context or browser has been closed"
+  },
+  {
+    "0": "5",
+    "1": "0",
+    "timestamp": "2025-06-27T21:16:44.102Z"
+  },
+  {
+    "timestamp": "2025-06-27T21:16:46.966Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 6692,
+    "error": "[TIKTOK] Erro ao logar ou simular: page.goto: net::ERR_ABORTED at https://www.tiktok.com/foryou\nCall log:\n  - navigating to \"https://www.tiktok.com/foryou\", waiting until \"load\"\n"
+  },
+  {
+    "0": "1",
+    "timestamp": "2025-06-27T21:26:30.114Z"
+  },
+  {
+    "0": "2",
+    "timestamp": "2025-06-27T21:26:41.202Z"
+  },
+  {
+    "0": "3",
+    "timestamp": "2025-06-27T21:26:50.130Z"
+  },
+  {
+    "0": "4",
+    "timestamp": "2025-06-27T21:27:00.110Z"
+  },
+  {
+    "0": "5",
+    "timestamp": "2025-06-27T21:27:10.113Z"
+  },
+  {
+    "0": "6",
+    "timestamp": "2025-06-27T21:27:20.130Z"
+  },
+  {
+    "0": "7",
+    "timestamp": "2025-06-27T21:27:30.130Z"
+  },
+  {
+    "0": "8",
+    "timestamp": "2025-06-27T21:27:40.141Z"
+  },
+  {
+    "0": "9",
+    "timestamp": "2025-06-27T21:27:50.162Z"
+  },
+  {
+    "timestamp": "2025-06-27T21:27:56.244Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 86150,
+    "error": "[TIKTOK] Erro ao logar ou simular: keyboard.press: Target page, context or browser has been closed"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "timestamp": "2025-06-27T21:28:00.215Z"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "timestamp": "2025-06-27T21:28:10.202Z"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "timestamp": "2025-06-27T21:28:20.186Z"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "timestamp": "2025-06-27T21:28:30.201Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "timestamp": "2025-06-27T21:28:40.197Z"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "timestamp": "2025-06-27T21:28:50.209Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "timestamp": "2025-06-27T21:29:00.216Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "timestamp": "2025-06-27T21:29:10.229Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "timestamp": "2025-06-27T21:29:20.238Z"
+  },
+  {
+    "0": "1",
+    "1": "9",
+    "timestamp": "2025-06-27T21:29:30.243Z"
+  },
+  {
+    "0": "2",
+    "1": "0",
+    "timestamp": "2025-06-27T21:29:40.252Z"
+  },
+  {
+    "0": "2",
+    "1": "1",
+    "timestamp": "2025-06-27T21:29:50.264Z"
+  },
+  {
+    "0": "2",
+    "1": "2",
+    "timestamp": "2025-06-27T21:30:00.270Z"
+  },
+  {
+    "0": "2",
+    "1": "3",
+    "timestamp": "2025-06-27T21:30:10.301Z"
+  },
+  {
+    "0": "2",
+    "1": "4",
+    "timestamp": "2025-06-27T21:30:20.291Z"
+  },
+  {
+    "0": "2",
+    "1": "5",
+    "timestamp": "2025-06-27T21:30:30.386Z"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "timestamp": "2025-06-27T21:30:40.501Z"
+  },
+  {
+    "0": "2",
+    "1": "7",
+    "timestamp": "2025-06-27T21:30:50.323Z"
+  },
+  {
+    "0": "2",
+    "1": "8",
+    "timestamp": "2025-06-27T21:31:00.345Z"
+  },
+  {
+    "0": "2",
+    "1": "9",
+    "timestamp": "2025-06-27T21:31:10.337Z"
+  },
+  {
+    "0": "3",
+    "1": "0",
+    "timestamp": "2025-06-27T21:31:20.335Z"
+  },
+  {
+    "0": "3",
+    "1": "1",
+    "timestamp": "2025-06-27T21:31:30.344Z"
+  },
+  {
+    "0": "3",
+    "1": "2",
+    "timestamp": "2025-06-27T21:31:40.355Z"
+  },
+  {
+    "0": "3",
+    "1": "3",
+    "timestamp": "2025-06-27T21:31:50.384Z"
+  },
+  {
+    "0": "3",
+    "1": "4",
+    "timestamp": "2025-06-27T21:32:00.371Z"
+  },
+  {
+    "0": "3",
+    "1": "5",
+    "timestamp": "2025-06-27T21:32:10.385Z"
+  },
+  {
+    "timestamp": "2025-06-27T21:32:18.202Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 261760,
+    "error": "[TIKTOK] Erro ao logar ou simular: page.$: Execution context was destroyed, most likely because of a navigation"
+  },
+  {
+    "0": "3",
+    "1": "6",
+    "timestamp": "2025-06-27T21:32:20.398Z"
+  },
+  {
+    "0": "3",
+    "1": "7",
+    "timestamp": "2025-06-27T21:32:30.530Z"
+  },
+  {
+    "0": "1",
+    "timestamp": "2025-06-30T12:42:41.304Z"
+  },
+  {
+    "0": "2",
+    "timestamp": "2025-06-30T12:42:51.532Z"
+  },
+  {
+    "timestamp": "2025-06-30T12:43:00.919Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 18088,
+    "error": "Erro ao abrir perfil kynksw9: Falha ao iniciar perfil no AdsPower: desconhecido"
+  },
+  {
+    "0": "4",
+    "timestamp": "2025-06-30T12:43:11.361Z"
+  },
+  {
+    "timestamp": "2025-06-30T12:43:15.349Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 12536,
+    "error": "[TIKTOK] Erro ao logar ou simular: page.goto: net::ERR_PROXY_CONNECTION_FAILED at https://www.tiktok.com/foryou\nCall log:\n  - navigating to \"https://www.tiktok.com/foryou\", waiting until \"load\"\n"
+  },
+  {
+    "0": "5",
+    "timestamp": "2025-06-30T12:43:21.383Z"
+  },
+  {
+    "0": "1",
+    "timestamp": "2025-07-02T14:58:35.915Z"
+  },
+  {
+    "timestamp": "2025-07-02T14:58:36.469Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 646,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "0": "2",
+    "timestamp": "2025-07-02T14:58:45.823Z"
+  },
+  {
+    "timestamp": "2025-07-02T14:58:46.211Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 376,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "0": "3",
+    "timestamp": "2025-07-02T14:58:55.946Z"
+  },
+  {
+    "timestamp": "2025-07-02T14:58:56.708Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 608,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "0": "4",
+    "timestamp": "2025-07-02T14:59:05.854Z"
+  },
+  {
+    "timestamp": "2025-07-02T14:59:06.217Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 371,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "0": "5",
+    "timestamp": "2025-07-02T14:59:16.066Z"
+  },
+  {
+    "timestamp": "2025-07-02T14:59:16.388Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 550,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "0": "6",
+    "timestamp": "2025-07-02T14:59:25.810Z"
+  },
+  {
+    "0": "7",
+    "timestamp": "2025-07-02T14:59:36.101Z"
+  },
+  {
+    "0": "8",
+    "timestamp": "2025-07-02T14:59:47.486Z"
+  },
+  {
+    "0": "9",
+    "timestamp": "2025-07-02T14:59:56.622Z"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "timestamp": "2025-07-02T15:00:06.653Z"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "timestamp": "2025-07-02T15:00:16.251Z"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "timestamp": "2025-07-02T15:00:27.000Z"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "timestamp": "2025-07-02T15:00:35.841Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "timestamp": "2025-07-02T15:00:45.908Z"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "timestamp": "2025-07-02T15:00:55.890Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "timestamp": "2025-07-02T15:01:05.923Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "timestamp": "2025-07-02T15:01:15.882Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "timestamp": "2025-07-02T15:01:25.911Z"
+  },
+  {
+    "0": "1",
+    "1": "9",
+    "timestamp": "2025-07-02T15:01:35.981Z"
+  },
+  {
+    "0": "2",
+    "1": "0",
+    "timestamp": "2025-07-02T15:01:45.941Z"
+  },
+  {
+    "0": "2",
+    "1": "1",
+    "timestamp": "2025-07-02T15:01:55.907Z"
+  },
+  {
+    "0": "2",
+    "1": "2",
+    "timestamp": "2025-07-02T15:02:05.923Z"
+  },
+  {
+    "0": "2",
+    "1": "3",
+    "timestamp": "2025-07-02T15:02:16.059Z"
+  },
+  {
+    "0": "2",
+    "1": "4",
+    "timestamp": "2025-07-02T15:02:26.870Z"
+  },
+  {
+    "0": "2",
+    "1": "5",
+    "timestamp": "2025-07-02T15:02:36.017Z"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "timestamp": "2025-07-02T15:02:46.010Z"
+  },
+  {
+    "0": "2",
+    "1": "7",
+    "timestamp": "2025-07-02T15:02:56.039Z"
+  },
+  {
+    "0": "2",
+    "1": "8",
+    "timestamp": "2025-07-02T15:03:06.041Z"
+  },
+  {
+    "0": "2",
+    "1": "9",
+    "timestamp": "2025-07-02T15:03:16.320Z"
+  },
+  {
+    "0": "1",
+    "timestamp": "2025-07-02T15:46:38.174Z"
+  },
+  {
+    "timestamp": "2025-07-02T15:46:38.784Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 626,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "0": "2",
+    "timestamp": "2025-07-02T15:46:49.070Z"
+  },
+  {
+    "timestamp": "2025-07-02T15:46:49.640Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 1308,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "0": "3",
+    "timestamp": "2025-07-02T15:46:58.117Z"
+  },
+  {
+    "timestamp": "2025-07-02T15:46:58.492Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 383,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "0": "4",
+    "timestamp": "2025-07-02T15:47:08.260Z"
+  },
+  {
+    "timestamp": "2025-07-02T15:47:08.830Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 648,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "0": "5",
+    "timestamp": "2025-07-02T15:47:18.140Z"
+  },
+  {
+    "timestamp": "2025-07-02T15:47:18.524Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 391,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "0": "6",
+    "timestamp": "2025-07-02T15:47:28.133Z"
+  },
+  {
+    "timestamp": "2025-07-02T15:47:28.534Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 391,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "0": "7",
+    "timestamp": "2025-07-02T15:47:38.531Z"
+  },
+  {
+    "timestamp": "2025-07-02T15:47:39.038Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 660,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "0": "8",
+    "timestamp": "2025-07-02T15:47:48.205Z"
+  },
+  {
+    "0": "9",
+    "timestamp": "2025-07-02T15:47:58.325Z"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "timestamp": "2025-07-02T15:48:14.702Z"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "timestamp": "2025-07-02T15:48:19.260Z"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "timestamp": "2025-07-02T15:48:29.360Z"
+  },
+  {
+    "timestamp": "2025-07-02T15:48:38.026Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 49641,
+    "error": "[TIKTOK] Erro ao logar ou simular: seguirChance is not defined"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "timestamp": "2025-07-02T15:48:39.726Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "timestamp": "2025-07-02T15:48:49.287Z"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "timestamp": "2025-07-02T15:48:59.430Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "timestamp": "2025-07-02T15:49:09.299Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "timestamp": "2025-07-02T15:49:19.290Z"
+  },
+  {
+    "timestamp": "2025-07-02T15:49:27.877Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 39283,
+    "error": "[TIKTOK] Erro ao logar ou simular: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.tiktok.com/foryou\", waiting until \"load\"\n"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "timestamp": "2025-07-02T15:49:29.995Z"
+  },
+  {
+    "0": "1",
+    "timestamp": "2025-07-02T15:50:12.113Z"
+  },
+  {
+    "0": "2",
+    "timestamp": "2025-07-02T15:50:25.946Z"
+  },
+  {
+    "0": "3",
+    "timestamp": "2025-07-02T15:50:35.572Z"
+  },
+  {
+    "0": "4",
+    "timestamp": "2025-07-02T15:50:41.432Z"
+  },
+  {
+    "timestamp": "2025-07-02T15:50:50.658Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 38353,
+    "error": "Erro ao conectar via CDP: browserType.connectOverCDP: Timeout 30000ms exceeded.\nCall log:\n  - <ws connecting> ws://host.docker.internal:52785/devtools/browser/bc2e03e4-e714-412d-b677-735232ba3cd8\n  - <ws connected> ws://host.docker.internal:52785/devtools/browser/bc2e03e4-e714-412d-b677-735232ba3cd8\n"
+  },
+  {
+    "0": "6",
+    "timestamp": "2025-07-02T15:51:02.066Z"
+  },
+  {
+    "timestamp": "2025-07-02T15:51:08.756Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 361,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "timestamp": "2025-07-02T15:51:08.831Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 12,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "timestamp": "2025-07-02T15:51:08.895Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 6,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "timestamp": "2025-07-02T15:51:08.957Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 6,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "timestamp": "2025-07-02T15:51:09.012Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 7,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "0": "7",
+    "timestamp": "2025-07-02T15:51:12.004Z"
+  },
+  {
+    "timestamp": "2025-07-02T15:51:12.376Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 374,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "0": "8",
+    "timestamp": "2025-07-02T15:51:22.069Z"
+  },
+  {
+    "timestamp": "2025-07-02T15:51:22.497Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 419,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "0": "1",
+    "timestamp": "2025-07-02T17:40:11.596Z"
+  },
+  {
+    "0": "2",
+    "timestamp": "2025-07-02T17:40:23.191Z"
+  },
+  {
+    "0": "3",
+    "timestamp": "2025-07-02T17:40:30.979Z"
+  },
+  {
+    "0": "4",
+    "timestamp": "2025-07-02T17:40:41.194Z"
+  },
+  {
+    "0": "5",
+    "timestamp": "2025-07-02T17:40:50.970Z"
+  },
+  {
+    "0": "6",
+    "timestamp": "2025-07-02T17:41:01.499Z"
+  },
+  {
+    "timestamp": "2025-07-02T17:41:03.472Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 50815,
+    "error": "[TIKTOK] Erro ao logar ou simular: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.tiktok.com/foryou\", waiting until \"load\"\n"
+  },
+  {
+    "0": "7",
+    "timestamp": "2025-07-02T17:41:10.771Z"
+  },
+  {
+    "timestamp": "2025-07-02T17:41:15.421Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 771,
+    "error": "Erro ao conectar via CDP: browserType.connectOverCDP: WebSocket error: connect ECONNREFUSED 192.168.65.254:54603\nCall log:\n  - <ws connecting> ws://host.docker.internal:54603/devtools/browser/bc16a4ab-5d8f-43ac-8191-9c687efdec98\n  - <ws error> ws://host.docker.internal:54603/devtools/browser/bc16a4ab-5d8f-43ac-8191-9c687efdec98 error connect ECONNREFUSED 192.168.65.254:54603\n  - <ws connect error> ws://host.docker.internal:54603/devtools/browser/bc16a4ab-5d8f-43ac-8191-9c687efdec98 connect ECONNREFUSED 192.168.65.254:54603\n  - <ws disconnected> ws://host.docker.internal:54603/devtools/browser/bc16a4ab-5d8f-43ac-8191-9c687efdec98 code=1006 reason=\n"
+  },
+  {
+    "timestamp": "2025-07-02T17:41:15.534Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 11,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "timestamp": "2025-07-02T17:41:16.470Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 756,
+    "error": "Erro ao conectar via CDP: browserType.connectOverCDP: WebSocket error: connect ECONNREFUSED 192.168.65.254:54603\nCall log:\n  - <ws connecting> ws://host.docker.internal:54603/devtools/browser/bc16a4ab-5d8f-43ac-8191-9c687efdec98\n  - <ws error> ws://host.docker.internal:54603/devtools/browser/bc16a4ab-5d8f-43ac-8191-9c687efdec98 error connect ECONNREFUSED 192.168.65.254:54603\n  - <ws connect error> ws://host.docker.internal:54603/devtools/browser/bc16a4ab-5d8f-43ac-8191-9c687efdec98 connect ECONNREFUSED 192.168.65.254:54603\n  - <ws disconnected> ws://host.docker.internal:54603/devtools/browser/bc16a4ab-5d8f-43ac-8191-9c687efdec98 code=1006 reason=\n"
+  },
+  {
+    "timestamp": "2025-07-02T17:41:16.572Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 12,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "timestamp": "2025-07-02T17:41:16.700Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 16,
+    "error": "Erro ao buscar dados do perfil: Perfil 'kynksw9' não encontrado"
+  },
+  {
+    "timestamp": "2025-07-02T17:41:17.489Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 719,
+    "error": "Erro ao conectar via CDP: browserType.connectOverCDP: WebSocket error: connect ECONNREFUSED 192.168.65.254:54603\nCall log:\n  - <ws connecting> ws://host.docker.internal:54603/devtools/browser/bc16a4ab-5d8f-43ac-8191-9c687efdec98\n  - <ws error> ws://host.docker.internal:54603/devtools/browser/bc16a4ab-5d8f-43ac-8191-9c687efdec98 error connect ECONNREFUSED 192.168.65.254:54603\n  - <ws connect error> ws://host.docker.internal:54603/devtools/browser/bc16a4ab-5d8f-43ac-8191-9c687efdec98 connect ECONNREFUSED 192.168.65.254:54603\n  - <ws disconnected> ws://host.docker.internal:54603/devtools/browser/bc16a4ab-5d8f-43ac-8191-9c687efdec98 code=1006 reason=\n"
+  },
+  {
+    "0": "8",
+    "timestamp": "2025-07-02T17:41:20.279Z"
+  },
+  {
+    "0": "9",
+    "timestamp": "2025-07-02T17:41:31.649Z"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "timestamp": "2025-07-02T17:41:40.496Z"
+  },
+  {
+    "timestamp": "2025-07-02T17:41:48.935Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 28399,
+    "error": "[TIKTOK] Erro ao logar ou simular: page.$: Target page, context or browser has been closed"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "timestamp": "2025-07-02T17:41:50.704Z"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "timestamp": "2025-07-02T17:42:00.324Z"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "timestamp": "2025-07-02T17:42:10.381Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "timestamp": "2025-07-02T17:42:20.662Z"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "timestamp": "2025-07-02T17:42:30.570Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "timestamp": "2025-07-02T17:42:41.595Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "timestamp": "2025-07-02T17:42:49.885Z"
+  },
+  {
+    "timestamp": "2025-07-02T17:42:50.157Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 52251,
+    "error": "[TIKTOK] Erro ao logar ou simular: elementHandle.$: Target page, context or browser has been closed"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "timestamp": "2025-07-02T17:42:59.754Z"
+  },
+  {
+    "0": "1",
+    "1": "9",
+    "timestamp": "2025-07-02T17:43:10.025Z"
+  },
+  {
+    "0": "2",
+    "1": "0",
+    "timestamp": "2025-07-02T17:43:19.792Z"
+  },
+  {
+    "0": "2",
+    "1": "1",
+    "timestamp": "2025-07-02T17:43:29.813Z"
+  },
+  {
+    "0": "2",
+    "1": "2",
+    "timestamp": "2025-07-02T17:43:39.785Z"
+  },
+  {
+    "0": "2",
+    "1": "3",
+    "timestamp": "2025-07-02T17:43:49.715Z"
+  },
+  {
+    "0": "2",
+    "1": "4",
+    "timestamp": "2025-07-02T17:43:59.716Z"
+  },
+  {
+    "0": "2",
+    "1": "5",
+    "timestamp": "2025-07-02T17:44:09.780Z"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "timestamp": "2025-07-02T17:44:19.955Z"
+  },
+  {
+    "0": "2",
+    "1": "7",
+    "timestamp": "2025-07-02T17:44:29.794Z"
+  },
+  {
+    "0": "2",
+    "1": "8",
+    "timestamp": "2025-07-02T17:44:39.978Z"
+  },
+  {
+    "0": "2",
+    "1": "9",
+    "timestamp": "2025-07-02T17:44:49.697Z"
+  },
+  {
+    "0": "3",
+    "1": "0",
+    "timestamp": "2025-07-02T17:44:59.702Z"
+  },
+  {
+    "0": "3",
+    "1": "1",
+    "timestamp": "2025-07-02T17:45:09.715Z"
+  },
+  {
+    "0": "3",
+    "1": "2",
+    "timestamp": "2025-07-02T17:45:19.714Z"
+  },
+  {
+    "0": "3",
+    "1": "3",
+    "timestamp": "2025-07-02T17:45:29.742Z"
+  },
+  {
+    "timestamp": "2025-07-02T17:45:33.480Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 154503,
+    "error": "[TIKTOK] Erro ao logar ou simular: page.reload: Target page, context or browser has been closed\nCall log:\n  - waiting for navigation until \"load\"\n    - navigated to \"https://www.tiktok.com/foryou\"\n"
+  },
+  {
+    "0": "3",
+    "1": "4",
+    "timestamp": "2025-07-02T17:45:39.738Z"
+  },
+  {
+    "0": "1",
+    "timestamp": "2025-07-02T18:31:35.806Z"
+  },
+  {
+    "0": "2",
+    "timestamp": "2025-07-02T18:31:45.628Z"
+  },
+  {
+    "0": "3",
+    "timestamp": "2025-07-02T18:31:55.759Z"
+  },
+  {
+    "0": "4",
+    "timestamp": "2025-07-02T18:32:07.967Z"
+  },
+  {
+    "0": "5",
+    "timestamp": "2025-07-02T18:32:15.803Z"
+  },
+  {
+    "0": "6",
+    "timestamp": "2025-07-02T18:32:25.641Z"
+  },
+  {
+    "0": "7",
+    "timestamp": "2025-07-02T18:32:35.870Z"
+  },
+  {
+    "0": "8",
+    "timestamp": "2025-07-02T18:32:45.835Z"
+  },
+  {
+    "0": "9",
+    "timestamp": "2025-07-02T18:32:55.914Z"
+  },
+  {
+    "timestamp": "2025-07-02T18:33:05.502Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 85326,
+    "error": "[TIKTOK] Erro ao logar ou simular: keyboard.press: Target page, context or browser has been closed"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "timestamp": "2025-07-02T18:33:05.722Z"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "timestamp": "2025-07-02T18:33:15.725Z"
+  },
+  {
+    "timestamp": "2025-07-02T18:33:22.354Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 8421,
+    "error": "[TIKTOK] Erro ao logar ou simular: page.goto: Target page, context or browser has been closed\nCall log:\n  - navigating to \"https://www.tiktok.com/foryou\", waiting until \"load\"\n"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "timestamp": "2025-07-02T18:33:25.728Z"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "timestamp": "2025-07-02T18:33:35.732Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "timestamp": "2025-07-02T18:33:45.739Z"
+  },
+  {
+    "timestamp": "2025-07-02T18:33:54.557Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 10193,
+    "error": "[TIKTOK] Erro ao logar ou simular: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.tiktok.com/foryou\nCall log:\n  - navigating to \"https://www.tiktok.com/foryou\", waiting until \"load\"\n"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "timestamp": "2025-07-02T18:33:55.761Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "timestamp": "2025-07-02T18:34:05.778Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "timestamp": "2025-07-02T18:34:16.830Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "timestamp": "2025-07-02T18:34:26.667Z"
+  },
+  {
+    "0": "1",
+    "1": "9",
+    "timestamp": "2025-07-02T18:34:36.241Z"
+  },
+  {
+    "0": "2",
+    "1": "0",
+    "timestamp": "2025-07-02T18:34:46.133Z"
+  },
+  {
+    "0": "2",
+    "1": "1",
+    "timestamp": "2025-07-02T18:34:56.088Z"
+  },
+  {
+    "0": "2",
+    "1": "2",
+    "timestamp": "2025-07-02T18:35:06.036Z"
+  },
+  {
+    "0": "2",
+    "1": "3",
+    "timestamp": "2025-07-02T18:35:16.024Z"
+  },
+  {
+    "0": "2",
+    "1": "4",
+    "timestamp": "2025-07-02T18:35:25.997Z"
+  },
+  {
+    "0": "2",
+    "1": "5",
+    "timestamp": "2025-07-02T18:35:36.007Z"
+  },
+  {
+    "timestamp": "2025-07-02T18:35:41.726Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 98958,
+    "error": "[TIKTOK] Erro ao logar ou simular: elementHandle.$: Target page, context or browser has been closed"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "timestamp": "2025-07-02T18:35:46.046Z"
+  },
+  {
+    "0": "2",
+    "1": "7",
+    "timestamp": "2025-07-02T18:35:56.304Z"
+  },
+  {
+    "0": "2",
+    "1": "8",
+    "timestamp": "2025-07-02T18:36:06.072Z"
+  },
+  {
+    "0": "2",
+    "1": "9",
+    "timestamp": "2025-07-02T18:36:16.086Z"
+  },
+  {
+    "0": "3",
+    "1": "0",
+    "timestamp": "2025-07-02T18:36:26.058Z"
+  },
+  {
+    "0": "3",
+    "1": "1",
+    "timestamp": "2025-07-02T18:36:36.060Z"
+  },
+  {
+    "0": "3",
+    "1": "2",
+    "timestamp": "2025-07-02T18:36:46.072Z"
+  },
+  {
+    "0": "3",
+    "1": "3",
+    "timestamp": "2025-07-02T18:36:56.063Z"
+  },
+  {
+    "0": "3",
+    "1": "4",
+    "timestamp": "2025-07-02T18:37:06.076Z"
+  },
+  {
+    "0": "3",
+    "1": "5",
+    "timestamp": "2025-07-02T18:37:16.088Z"
+  },
+  {
+    "0": "3",
+    "1": "6",
+    "timestamp": "2025-07-02T18:37:26.089Z"
+  },
+  {
+    "0": "3",
+    "1": "7",
+    "timestamp": "2025-07-02T18:37:36.097Z"
+  },
+  {
+    "0": "3",
+    "1": "8",
+    "timestamp": "2025-07-02T18:37:46.103Z"
+  },
+  {
+    "0": "3",
+    "1": "9",
+    "timestamp": "2025-07-02T18:37:56.114Z"
+  },
+  {
+    "0": "4",
+    "1": "0",
+    "timestamp": "2025-07-02T18:38:06.124Z"
+  },
+  {
+    "0": "4",
+    "1": "1",
+    "timestamp": "2025-07-02T18:38:16.211Z"
+  },
+  {
+    "0": "4",
+    "1": "2",
+    "timestamp": "2025-07-02T18:38:26.148Z"
+  },
+  {
+    "0": "4",
+    "1": "3",
+    "timestamp": "2025-07-02T18:38:36.206Z"
+  },
+  {
+    "0": "4",
+    "1": "4",
+    "timestamp": "2025-07-02T18:38:46.174Z"
+  },
+  {
+    "0": "4",
+    "1": "5",
+    "timestamp": "2025-07-02T18:38:56.200Z"
+  },
+  {
+    "0": "4",
+    "1": "6",
+    "timestamp": "2025-07-02T18:39:06.190Z"
+  },
+  {
+    "0": "4",
+    "1": "7",
+    "timestamp": "2025-07-02T18:39:16.211Z"
+  },
+  {
+    "0": "4",
+    "1": "8",
+    "timestamp": "2025-07-02T18:39:26.186Z"
+  },
+  {
+    "0": "4",
+    "1": "9",
+    "timestamp": "2025-07-02T18:39:36.268Z"
+  },
+  {
+    "0": "5",
+    "1": "0",
+    "timestamp": "2025-07-02T18:39:46.247Z"
+  },
+  {
+    "0": "5",
+    "1": "1",
+    "timestamp": "2025-07-02T18:39:56.182Z"
+  },
+  {
+    "0": "5",
+    "1": "2",
+    "timestamp": "2025-07-02T18:40:06.286Z"
+  },
+  {
+    "0": "5",
+    "1": "3",
+    "timestamp": "2025-07-02T18:40:17.869Z"
+  },
+  {
+    "0": "5",
+    "1": "4",
+    "timestamp": "2025-07-02T18:40:25.854Z"
+  },
+  {
+    "0": "5",
+    "1": "5",
+    "timestamp": "2025-07-02T18:40:35.833Z"
+  },
+  {
+    "0": "5",
+    "1": "6",
+    "timestamp": "2025-07-02T18:40:45.971Z"
+  },
+  {
+    "0": "5",
+    "1": "7",
+    "timestamp": "2025-07-02T18:40:56.845Z"
+  },
+  {
+    "0": "5",
+    "1": "8",
+    "timestamp": "2025-07-02T18:41:08.237Z"
+  },
+  {
+    "0": "5",
+    "1": "9",
+    "timestamp": "2025-07-02T18:41:16.830Z"
+  },
+  {
+    "0": "6",
+    "1": "0",
+    "timestamp": "2025-07-02T18:41:26.219Z"
+  },
+  {
+    "0": "6",
+    "1": "1",
+    "timestamp": "2025-07-02T18:41:36.240Z"
+  },
+  {
+    "0": "6",
+    "1": "2",
+    "timestamp": "2025-07-02T18:41:46.986Z"
+  },
+  {
+    "0": "6",
+    "1": "3",
+    "timestamp": "2025-07-02T18:41:56.122Z"
+  },
+  {
+    "0": "6",
+    "1": "4",
+    "timestamp": "2025-07-02T18:42:06.106Z"
+  },
+  {
+    "0": "6",
+    "1": "5",
+    "timestamp": "2025-07-02T18:42:16.161Z"
+  },
+  {
+    "0": "6",
+    "1": "6",
+    "timestamp": "2025-07-02T18:42:26.114Z"
+  },
+  {
+    "0": "6",
+    "1": "7",
+    "timestamp": "2025-07-02T18:42:36.134Z"
+  },
+  {
+    "0": "6",
+    "1": "8",
+    "timestamp": "2025-07-02T18:42:46.140Z"
+  },
+  {
+    "0": "6",
+    "1": "9",
+    "timestamp": "2025-07-02T18:42:56.127Z"
+  },
+  {
+    "0": "7",
+    "1": "0",
+    "timestamp": "2025-07-02T18:43:06.142Z"
+  },
+  {
+    "0": "7",
+    "1": "1",
+    "timestamp": "2025-07-02T18:43:16.150Z"
+  },
+  {
+    "0": "7",
+    "1": "2",
+    "timestamp": "2025-07-02T18:43:27.333Z"
+  },
+  {
+    "0": "7",
+    "1": "3",
+    "timestamp": "2025-07-02T18:43:36.158Z"
+  },
+  {
+    "0": "7",
+    "1": "4",
+    "timestamp": "2025-07-02T18:43:46.166Z"
+  },
+  {
+    "0": "7",
+    "1": "5",
+    "timestamp": "2025-07-02T18:43:56.172Z"
+  },
+  {
+    "0": "7",
+    "1": "6",
+    "timestamp": "2025-07-02T18:44:06.283Z"
+  },
+  {
+    "0": "7",
+    "1": "7",
+    "timestamp": "2025-07-02T18:44:17.522Z"
+  },
+  {
+    "0": "7",
+    "1": "8",
+    "timestamp": "2025-07-02T18:44:26.183Z"
+  },
+  {
+    "0": "7",
+    "1": "9",
+    "timestamp": "2025-07-02T18:44:36.201Z"
+  },
+  {
+    "0": "8",
+    "1": "0",
+    "timestamp": "2025-07-02T18:44:46.208Z"
+  },
+  {
+    "0": "8",
+    "1": "1",
+    "timestamp": "2025-07-02T18:44:56.434Z"
+  },
+  {
+    "0": "8",
+    "1": "2",
+    "timestamp": "2025-07-02T18:45:06.522Z"
+  },
+  {
+    "0": "8",
+    "1": "3",
+    "timestamp": "2025-07-02T18:45:16.178Z"
+  },
+  {
+    "0": "8",
+    "1": "4",
+    "timestamp": "2025-07-02T18:45:26.174Z"
+  },
+  {
+    "0": "8",
+    "1": "5",
+    "timestamp": "2025-07-02T18:45:36.189Z"
+  },
+  {
+    "0": "8",
+    "1": "6",
+    "timestamp": "2025-07-02T18:45:46.205Z"
+  },
+  {
+    "0": "8",
+    "1": "7",
+    "timestamp": "2025-07-02T18:45:56.195Z"
+  },
+  {
+    "0": "8",
+    "1": "8",
+    "timestamp": "2025-07-02T18:46:06.214Z"
+  },
+  {
+    "0": "8",
+    "1": "9",
+    "timestamp": "2025-07-02T18:46:16.219Z"
+  },
+  {
+    "0": "9",
+    "1": "0",
+    "timestamp": "2025-07-02T18:46:26.405Z"
+  },
+  {
+    "0": "9",
+    "1": "1",
+    "timestamp": "2025-07-02T18:46:36.197Z"
+  },
+  {
+    "0": "9",
+    "1": "2",
+    "timestamp": "2025-07-02T18:46:46.213Z"
+  },
+  {
+    "0": "9",
+    "1": "3",
+    "timestamp": "2025-07-02T18:46:56.209Z"
+  },
+  {
+    "0": "9",
+    "1": "4",
+    "timestamp": "2025-07-02T18:47:06.257Z"
+  },
+  {
+    "0": "9",
+    "1": "5",
+    "timestamp": "2025-07-02T18:47:16.221Z"
+  },
+  {
+    "0": "9",
+    "1": "6",
+    "timestamp": "2025-07-02T18:47:26.238Z"
+  },
+  {
+    "0": "9",
+    "1": "7",
+    "timestamp": "2025-07-02T18:47:36.222Z"
+  },
+  {
+    "0": "9",
+    "1": "8",
+    "timestamp": "2025-07-02T18:47:46.246Z"
+  },
+  {
+    "0": "9",
+    "1": "9",
+    "timestamp": "2025-07-02T18:47:56.547Z"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "2": "0",
+    "timestamp": "2025-07-02T18:48:06.176Z"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "2": "1",
+    "timestamp": "2025-07-02T18:48:16.177Z"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "2": "2",
+    "timestamp": "2025-07-02T18:48:26.189Z"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "2": "3",
+    "timestamp": "2025-07-02T18:48:36.291Z"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "2": "4",
+    "timestamp": "2025-07-02T18:48:46.244Z"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "2": "5",
+    "timestamp": "2025-07-02T18:48:56.247Z"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "2": "6",
+    "timestamp": "2025-07-02T18:49:06.308Z"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "2": "7",
+    "timestamp": "2025-07-02T18:49:16.730Z"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "2": "8",
+    "timestamp": "2025-07-02T18:49:26.314Z"
+  },
+  {
+    "0": "1",
+    "1": "0",
+    "2": "9",
+    "timestamp": "2025-07-02T18:49:37.632Z"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "2": "0",
+    "timestamp": "2025-07-02T18:49:46.671Z"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "2": "1",
+    "timestamp": "2025-07-02T18:49:56.272Z"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "2": "2",
+    "timestamp": "2025-07-02T18:50:06.280Z"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "2": "3",
+    "timestamp": "2025-07-02T18:50:16.291Z"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "2": "4",
+    "timestamp": "2025-07-02T18:50:26.337Z"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "2": "5",
+    "timestamp": "2025-07-02T18:50:36.264Z"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "2": "6",
+    "timestamp": "2025-07-02T18:50:47.623Z"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "2": "7",
+    "timestamp": "2025-07-02T18:50:56.578Z"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "2": "8",
+    "timestamp": "2025-07-02T18:51:06.700Z"
+  },
+  {
+    "0": "1",
+    "1": "1",
+    "2": "9",
+    "timestamp": "2025-07-02T18:51:16.390Z"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "2": "0",
+    "timestamp": "2025-07-02T18:51:26.632Z"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "2": "1",
+    "timestamp": "2025-07-02T18:51:36.360Z"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "2": "2",
+    "timestamp": "2025-07-02T18:51:46.370Z"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "2": "3",
+    "timestamp": "2025-07-02T18:51:56.359Z"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "2": "4",
+    "timestamp": "2025-07-02T18:52:06.382Z"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "2": "5",
+    "timestamp": "2025-07-02T18:52:16.398Z"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "2": "6",
+    "timestamp": "2025-07-02T18:52:26.393Z"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "2": "7",
+    "timestamp": "2025-07-02T18:52:36.407Z"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "2": "8",
+    "timestamp": "2025-07-02T18:52:46.706Z"
+  },
+  {
+    "0": "1",
+    "1": "2",
+    "2": "9",
+    "timestamp": "2025-07-02T18:52:56.428Z"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "2": "0",
+    "timestamp": "2025-07-02T18:53:06.440Z"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "2": "1",
+    "timestamp": "2025-07-02T18:53:16.483Z"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "2": "2",
+    "timestamp": "2025-07-02T18:53:26.720Z"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "2": "3",
+    "timestamp": "2025-07-02T18:53:36.766Z"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "2": "4",
+    "timestamp": "2025-07-02T18:53:46.449Z"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "2": "5",
+    "timestamp": "2025-07-02T18:53:56.570Z"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "2": "6",
+    "timestamp": "2025-07-02T18:54:07.779Z"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "2": "7",
+    "timestamp": "2025-07-02T18:54:16.375Z"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "2": "8",
+    "timestamp": "2025-07-02T18:54:27.062Z"
+  },
+  {
+    "0": "1",
+    "1": "3",
+    "2": "9",
+    "timestamp": "2025-07-02T18:54:36.342Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "2": "0",
+    "timestamp": "2025-07-02T18:54:46.351Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "2": "1",
+    "timestamp": "2025-07-02T18:54:56.379Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "2": "2",
+    "timestamp": "2025-07-02T18:55:06.343Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "2": "3",
+    "timestamp": "2025-07-02T18:55:16.357Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "2": "4",
+    "timestamp": "2025-07-02T18:55:26.365Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "2": "5",
+    "timestamp": "2025-07-02T18:55:36.609Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "2": "6",
+    "timestamp": "2025-07-02T18:55:46.376Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "2": "7",
+    "timestamp": "2025-07-02T18:55:56.381Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "2": "8",
+    "timestamp": "2025-07-02T18:56:06.373Z"
+  },
+  {
+    "0": "1",
+    "1": "4",
+    "2": "9",
+    "timestamp": "2025-07-02T18:56:16.392Z"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "2": "0",
+    "timestamp": "2025-07-02T18:56:26.416Z"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "2": "1",
+    "timestamp": "2025-07-02T18:56:36.404Z"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "2": "2",
+    "timestamp": "2025-07-02T18:56:47.793Z"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "2": "3",
+    "timestamp": "2025-07-02T18:56:56.481Z"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "2": "4",
+    "timestamp": "2025-07-02T18:57:06.440Z"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "2": "5",
+    "timestamp": "2025-07-02T18:57:16.446Z"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "2": "6",
+    "timestamp": "2025-07-02T18:57:26.459Z"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "2": "7",
+    "timestamp": "2025-07-02T18:57:36.491Z"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "2": "8",
+    "timestamp": "2025-07-02T18:57:46.473Z"
+  },
+  {
+    "0": "1",
+    "1": "5",
+    "2": "9",
+    "timestamp": "2025-07-02T18:57:56.482Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "2": "0",
+    "timestamp": "2025-07-02T18:58:06.481Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "2": "1",
+    "timestamp": "2025-07-02T18:58:16.486Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "2": "2",
+    "timestamp": "2025-07-02T18:58:26.494Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "2": "3",
+    "timestamp": "2025-07-02T18:58:36.489Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "2": "4",
+    "timestamp": "2025-07-02T18:58:46.496Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "2": "5",
+    "timestamp": "2025-07-02T18:58:56.512Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "2": "6",
+    "timestamp": "2025-07-02T18:59:06.513Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "2": "7",
+    "timestamp": "2025-07-02T18:59:16.557Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "2": "8",
+    "timestamp": "2025-07-02T18:59:26.553Z"
+  },
+  {
+    "0": "1",
+    "1": "6",
+    "2": "9",
+    "timestamp": "2025-07-02T18:59:36.535Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "0",
+    "timestamp": "2025-07-02T18:59:46.545Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "1",
+    "timestamp": "2025-07-02T18:59:56.547Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "2",
+    "timestamp": "2025-07-02T19:00:06.565Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "3",
+    "timestamp": "2025-07-02T19:00:16.571Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "4",
+    "timestamp": "2025-07-02T19:00:26.613Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "5",
+    "timestamp": "2025-07-02T19:00:36.581Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "6",
+    "timestamp": "2025-07-02T19:00:46.594Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "7",
+    "timestamp": "2025-07-02T19:00:56.599Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "8",
+    "timestamp": "2025-07-02T19:01:06.607Z"
+  },
+  {
+    "0": "1",
+    "1": "7",
+    "2": "9",
+    "timestamp": "2025-07-02T19:01:16.636Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "0",
+    "timestamp": "2025-07-02T19:01:26.637Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "1",
+    "timestamp": "2025-07-02T19:01:36.640Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "2",
+    "timestamp": "2025-07-02T19:01:46.644Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "3",
+    "timestamp": "2025-07-02T19:01:57.086Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "4",
+    "timestamp": "2025-07-02T19:02:06.758Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "5",
+    "timestamp": "2025-07-02T19:02:16.665Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "6",
+    "timestamp": "2025-07-02T19:02:26.681Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "7",
+    "timestamp": "2025-07-02T19:02:36.708Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "8",
+    "timestamp": "2025-07-02T19:02:46.697Z"
+  },
+  {
+    "0": "1",
+    "1": "8",
+    "2": "9",
+    "timestamp": "2025-07-02T19:02:56.697Z"
+  },
+  {
+    "0": "1",
+    "1": "9",
+    "2": "0",
+    "timestamp": "2025-07-02T19:03:06.786Z"
+  },
+  {
+    "0": "1",
+    "1": "9",
+    "2": "1",
+    "timestamp": "2025-07-02T19:03:16.708Z"
+  },
+  {
+    "0": "1",
+    "1": "9",
+    "2": "2",
+    "timestamp": "2025-07-02T19:03:26.725Z"
+  },
+  {
+    "0": "1",
+    "1": "9",
+    "2": "3",
+    "timestamp": "2025-07-02T19:03:36.739Z"
+  },
+  {
+    "0": "1",
+    "1": "9",
+    "2": "4",
+    "timestamp": "2025-07-02T19:03:46.743Z"
+  },
+  {
+    "0": "1",
+    "1": "9",
+    "2": "5",
+    "timestamp": "2025-07-02T19:03:56.744Z"
+  },
+  {
+    "0": "1",
+    "1": "9",
+    "2": "6",
+    "timestamp": "2025-07-02T19:04:06.755Z"
+  },
+  {
+    "0": "1",
+    "1": "9",
+    "2": "7",
+    "timestamp": "2025-07-02T19:04:16.747Z"
+  },
+  {
+    "0": "1",
+    "1": "9",
+    "2": "8",
+    "timestamp": "2025-07-02T19:04:26.751Z"
+  },
+  {
+    "0": "1",
+    "1": "9",
+    "2": "9",
+    "timestamp": "2025-07-02T19:04:36.766Z"
+  },
+  {
+    "0": "2",
+    "1": "0",
+    "2": "0",
+    "timestamp": "2025-07-02T19:04:46.808Z"
+  },
+  {
+    "0": "2",
+    "1": "0",
+    "2": "1",
+    "timestamp": "2025-07-02T19:04:56.783Z"
+  },
+  {
+    "0": "2",
+    "1": "0",
+    "2": "2",
+    "timestamp": "2025-07-02T19:05:06.823Z"
+  },
+  {
+    "0": "2",
+    "1": "0",
+    "2": "3",
+    "timestamp": "2025-07-02T19:05:16.811Z"
+  },
+  {
+    "0": "2",
+    "1": "0",
+    "2": "4",
+    "timestamp": "2025-07-02T19:05:27.535Z"
+  },
+  {
+    "0": "2",
+    "1": "0",
+    "2": "5",
+    "timestamp": "2025-07-02T19:05:36.794Z"
+  },
+  {
+    "0": "2",
+    "1": "0",
+    "2": "6",
+    "timestamp": "2025-07-02T19:05:46.813Z"
+  },
+  {
+    "0": "2",
+    "1": "0",
+    "2": "7",
+    "timestamp": "2025-07-02T19:05:56.831Z"
+  },
+  {
+    "0": "2",
+    "1": "0",
+    "2": "8",
+    "timestamp": "2025-07-02T19:06:06.823Z"
+  },
+  {
+    "0": "2",
+    "1": "0",
+    "2": "9",
+    "timestamp": "2025-07-02T19:06:16.836Z"
+  },
+  {
+    "0": "2",
+    "1": "1",
+    "2": "0",
+    "timestamp": "2025-07-02T19:06:26.840Z"
+  },
+  {
+    "0": "2",
+    "1": "1",
+    "2": "1",
+    "timestamp": "2025-07-02T19:06:36.850Z"
+  },
+  {
+    "0": "2",
+    "1": "1",
+    "2": "2",
+    "timestamp": "2025-07-02T19:06:46.845Z"
+  },
+  {
+    "0": "2",
+    "1": "1",
+    "2": "3",
+    "timestamp": "2025-07-02T19:06:56.858Z"
+  },
+  {
+    "0": "2",
+    "1": "1",
+    "2": "4",
+    "timestamp": "2025-07-02T19:07:06.866Z"
+  },
+  {
+    "0": "2",
+    "1": "1",
+    "2": "5",
+    "timestamp": "2025-07-02T19:07:16.883Z"
+  },
+  {
+    "0": "2",
+    "1": "1",
+    "2": "6",
+    "timestamp": "2025-07-02T19:07:26.890Z"
+  },
+  {
+    "0": "2",
+    "1": "1",
+    "2": "7",
+    "timestamp": "2025-07-02T19:07:36.882Z"
+  },
+  {
+    "0": "2",
+    "1": "1",
+    "2": "8",
+    "timestamp": "2025-07-02T19:07:46.901Z"
+  },
+  {
+    "0": "2",
+    "1": "1",
+    "2": "9",
+    "timestamp": "2025-07-02T19:07:56.913Z"
+  },
+  {
+    "0": "2",
+    "1": "2",
+    "2": "0",
+    "timestamp": "2025-07-02T19:08:06.917Z"
+  },
+  {
+    "0": "2",
+    "1": "2",
+    "2": "1",
+    "timestamp": "2025-07-02T19:08:16.930Z"
+  },
+  {
+    "0": "2",
+    "1": "2",
+    "2": "2",
+    "timestamp": "2025-07-02T19:08:26.943Z"
+  },
+  {
+    "0": "2",
+    "1": "2",
+    "2": "3",
+    "timestamp": "2025-07-02T19:08:36.956Z"
+  },
+  {
+    "0": "2",
+    "1": "2",
+    "2": "4",
+    "timestamp": "2025-07-02T19:08:46.950Z"
+  },
+  {
+    "0": "2",
+    "1": "2",
+    "2": "5",
+    "timestamp": "2025-07-02T19:08:56.969Z"
+  },
+  {
+    "0": "2",
+    "1": "2",
+    "2": "6",
+    "timestamp": "2025-07-02T19:09:06.965Z"
+  },
+  {
+    "0": "2",
+    "1": "2",
+    "2": "7",
+    "timestamp": "2025-07-02T19:09:16.980Z"
+  },
+  {
+    "0": "2",
+    "1": "2",
+    "2": "8",
+    "timestamp": "2025-07-02T19:09:27.000Z"
+  },
+  {
+    "0": "2",
+    "1": "2",
+    "2": "9",
+    "timestamp": "2025-07-02T19:09:36.982Z"
+  },
+  {
+    "0": "2",
+    "1": "3",
+    "2": "0",
+    "timestamp": "2025-07-02T19:09:47.019Z"
+  },
+  {
+    "0": "2",
+    "1": "3",
+    "2": "1",
+    "timestamp": "2025-07-02T19:09:57.018Z"
+  },
+  {
+    "0": "2",
+    "1": "3",
+    "2": "2",
+    "timestamp": "2025-07-02T19:10:07.025Z"
+  },
+  {
+    "0": "2",
+    "1": "3",
+    "2": "3",
+    "timestamp": "2025-07-02T19:10:17.018Z"
+  },
+  {
+    "0": "2",
+    "1": "3",
+    "2": "4",
+    "timestamp": "2025-07-02T19:10:27.028Z"
+  },
+  {
+    "0": "2",
+    "1": "3",
+    "2": "5",
+    "timestamp": "2025-07-02T19:10:37.026Z"
+  },
+  {
+    "0": "2",
+    "1": "3",
+    "2": "6",
+    "timestamp": "2025-07-02T19:10:47.030Z"
+  },
+  {
+    "0": "2",
+    "1": "3",
+    "2": "7",
+    "timestamp": "2025-07-02T19:10:57.043Z"
+  },
+  {
+    "0": "2",
+    "1": "3",
+    "2": "8",
+    "timestamp": "2025-07-02T19:11:07.039Z"
+  },
+  {
+    "0": "2",
+    "1": "3",
+    "2": "9",
+    "timestamp": "2025-07-02T19:11:17.041Z"
+  },
+  {
+    "0": "2",
+    "1": "4",
+    "2": "0",
+    "timestamp": "2025-07-02T19:11:27.075Z"
+  },
+  {
+    "0": "2",
+    "1": "4",
+    "2": "1",
+    "timestamp": "2025-07-02T19:11:37.044Z"
+  },
+  {
+    "0": "2",
+    "1": "4",
+    "2": "2",
+    "timestamp": "2025-07-02T19:11:47.087Z"
+  },
+  {
+    "0": "2",
+    "1": "4",
+    "2": "3",
+    "timestamp": "2025-07-02T19:11:57.077Z"
+  },
+  {
+    "0": "2",
+    "1": "4",
+    "2": "4",
+    "timestamp": "2025-07-02T19:12:07.074Z"
+  },
+  {
+    "0": "2",
+    "1": "4",
+    "2": "5",
+    "timestamp": "2025-07-02T19:12:17.080Z"
+  },
+  {
+    "0": "2",
+    "1": "4",
+    "2": "6",
+    "timestamp": "2025-07-02T19:12:27.089Z"
+  },
+  {
+    "0": "2",
+    "1": "4",
+    "2": "7",
+    "timestamp": "2025-07-02T19:12:37.106Z"
+  },
+  {
+    "0": "2",
+    "1": "4",
+    "2": "8",
+    "timestamp": "2025-07-02T19:12:47.102Z"
+  },
+  {
+    "0": "2",
+    "1": "4",
+    "2": "9",
+    "timestamp": "2025-07-02T19:12:57.108Z"
+  },
+  {
+    "0": "2",
+    "1": "5",
+    "2": "0",
+    "timestamp": "2025-07-02T19:13:07.116Z"
+  },
+  {
+    "0": "2",
+    "1": "5",
+    "2": "1",
+    "timestamp": "2025-07-02T19:13:17.140Z"
+  },
+  {
+    "0": "2",
+    "1": "5",
+    "2": "2",
+    "timestamp": "2025-07-02T19:13:27.144Z"
+  },
+  {
+    "0": "2",
+    "1": "5",
+    "2": "3",
+    "timestamp": "2025-07-02T19:13:37.156Z"
+  },
+  {
+    "0": "2",
+    "1": "5",
+    "2": "4",
+    "timestamp": "2025-07-02T19:13:47.149Z"
+  },
+  {
+    "0": "2",
+    "1": "5",
+    "2": "5",
+    "timestamp": "2025-07-02T19:13:57.157Z"
+  },
+  {
+    "0": "2",
+    "1": "5",
+    "2": "6",
+    "timestamp": "2025-07-02T19:14:07.164Z"
+  },
+  {
+    "0": "2",
+    "1": "5",
+    "2": "7",
+    "timestamp": "2025-07-02T19:14:17.150Z"
+  },
+  {
+    "0": "2",
+    "1": "5",
+    "2": "8",
+    "timestamp": "2025-07-02T19:14:27.159Z"
+  },
+  {
+    "0": "2",
+    "1": "5",
+    "2": "9",
+    "timestamp": "2025-07-02T19:14:37.192Z"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "2": "0",
+    "timestamp": "2025-07-02T19:14:47.281Z"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "2": "1",
+    "timestamp": "2025-07-02T19:14:57.176Z"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "2": "2",
+    "timestamp": "2025-07-02T19:15:07.212Z"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "2": "3",
+    "timestamp": "2025-07-02T19:15:17.775Z"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "2": "4",
+    "timestamp": "2025-07-02T19:15:27.221Z"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "2": "5",
+    "timestamp": "2025-07-02T19:15:37.124Z"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "2": "6",
+    "timestamp": "2025-07-02T19:15:47.137Z"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "2": "7",
+    "timestamp": "2025-07-02T19:15:57.139Z"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "2": "8",
+    "timestamp": "2025-07-02T19:16:07.230Z"
+  },
+  {
+    "0": "2",
+    "1": "6",
+    "2": "9",
+    "timestamp": "2025-07-02T19:16:17.252Z"
+  },
+  {
+    "0": "2",
+    "1": "7",
+    "2": "0",
+    "timestamp": "2025-07-02T19:16:27.256Z"
+  },
+  {
+    "0": "2",
+    "1": "7",
+    "2": "1",
+    "timestamp": "2025-07-02T19:16:37.284Z"
+  },
+  {
+    "0": "2",
+    "1": "7",
+    "2": "2",
+    "timestamp": "2025-07-02T19:16:47.251Z"
+  },
+  {
+    "0": "2",
+    "1": "7",
+    "2": "3",
+    "timestamp": "2025-07-02T19:16:57.264Z"
+  },
+  {
+    "0": "2",
+    "1": "7",
+    "2": "4",
+    "timestamp": "2025-07-02T19:17:07.270Z"
+  },
+  {
+    "0": "2",
+    "1": "7",
+    "2": "5",
+    "timestamp": "2025-07-02T19:17:17.283Z"
+  },
+  {
+    "0": "2",
+    "1": "7",
+    "2": "6",
+    "timestamp": "2025-07-02T19:17:27.292Z"
+  },
+  {
+    "0": "2",
+    "1": "7",
+    "2": "7",
+    "timestamp": "2025-07-02T19:17:37.276Z"
+  },
+  {
+    "0": "2",
+    "1": "7",
+    "2": "8",
+    "timestamp": "2025-07-02T19:17:47.389Z"
+  },
+  {
+    "0": "2",
+    "1": "7",
+    "2": "9",
+    "timestamp": "2025-07-02T19:17:57.295Z"
+  },
+  {
+    "0": "2",
+    "1": "8",
+    "2": "0",
+    "timestamp": "2025-07-02T19:18:07.299Z"
+  },
+  {
+    "0": "2",
+    "1": "8",
+    "2": "1",
+    "timestamp": "2025-07-02T19:18:17.321Z"
+  },
+  {
+    "0": "2",
+    "1": "8",
+    "2": "2",
+    "timestamp": "2025-07-02T19:18:27.329Z"
+  },
+  {
+    "0": "2",
+    "1": "8",
+    "2": "3",
+    "timestamp": "2025-07-02T19:18:37.370Z"
+  },
+  {
+    "0": "2",
+    "1": "8",
+    "2": "4",
+    "timestamp": "2025-07-02T19:18:47.330Z"
+  },
+  {
+    "0": "2",
+    "1": "8",
+    "2": "5",
+    "timestamp": "2025-07-02T19:18:57.342Z"
+  },
+  {
+    "0": "2",
+    "1": "8",
+    "2": "6",
+    "timestamp": "2025-07-02T19:19:07.352Z"
+  },
+  {
+    "0": "2",
+    "1": "8",
+    "2": "7",
+    "timestamp": "2025-07-02T19:19:17.355Z"
+  },
+  {
+    "0": "2",
+    "1": "8",
+    "2": "8",
+    "timestamp": "2025-07-02T19:19:27.367Z"
+  },
+  {
+    "0": "2",
+    "1": "8",
+    "2": "9",
+    "timestamp": "2025-07-02T19:19:37.377Z"
+  },
+  {
+    "0": "2",
+    "1": "9",
+    "2": "0",
+    "timestamp": "2025-07-02T19:19:47.387Z"
+  },
+  {
+    "0": "2",
+    "1": "9",
+    "2": "1",
+    "timestamp": "2025-07-02T19:19:57.390Z"
+  },
+  {
+    "0": "2",
+    "1": "9",
+    "2": "2",
+    "timestamp": "2025-07-02T19:20:07.392Z"
+  },
+  {
+    "0": "2",
+    "1": "9",
+    "2": "3",
+    "timestamp": "2025-07-02T19:20:17.399Z"
+  },
+  {
+    "0": "2",
+    "1": "9",
+    "2": "4",
+    "timestamp": "2025-07-02T19:20:27.405Z"
+  },
+  {
+    "0": "2",
+    "1": "9",
+    "2": "5",
+    "timestamp": "2025-07-02T19:20:37.408Z"
+  },
+  {
+    "0": "2",
+    "1": "9",
+    "2": "6",
+    "timestamp": "2025-07-02T19:20:47.418Z"
+  },
+  {
+    "0": "2",
+    "1": "9",
+    "2": "7",
+    "timestamp": "2025-07-02T19:20:57.450Z"
+  },
+  {
+    "0": "2",
+    "1": "9",
+    "2": "8",
+    "timestamp": "2025-07-02T19:21:07.442Z"
+  },
+  {
+    "0": "2",
+    "1": "9",
+    "2": "9",
+    "timestamp": "2025-07-02T19:21:17.456Z"
+  },
+  {
+    "0": "3",
+    "1": "0",
+    "2": "0",
+    "timestamp": "2025-07-02T19:21:27.460Z"
+  },
+  {
+    "0": "3",
+    "1": "0",
+    "2": "1",
+    "timestamp": "2025-07-02T19:21:37.542Z"
+  },
+  {
+    "0": "3",
+    "1": "0",
+    "2": "2",
+    "timestamp": "2025-07-02T19:21:47.467Z"
+  },
+  {
+    "0": "3",
+    "1": "0",
+    "2": "3",
+    "timestamp": "2025-07-02T19:21:57.485Z"
+  },
+  {
+    "0": "3",
+    "1": "0",
+    "2": "4",
+    "timestamp": "2025-07-02T19:22:07.493Z"
+  },
+  {
+    "0": "3",
+    "1": "0",
+    "2": "5",
+    "timestamp": "2025-07-02T19:22:17.489Z"
+  },
+  {
+    "0": "3",
+    "1": "0",
+    "2": "6",
+    "timestamp": "2025-07-02T19:22:27.506Z"
+  },
+  {
+    "0": "3",
+    "1": "0",
+    "2": "7",
+    "timestamp": "2025-07-02T19:22:37.502Z"
+  },
+  {
+    "0": "3",
+    "1": "0",
+    "2": "8",
+    "timestamp": "2025-07-02T19:22:47.516Z"
+  },
+  {
+    "0": "3",
+    "1": "0",
+    "2": "9",
+    "timestamp": "2025-07-02T19:22:57.533Z"
+  },
+  {
+    "0": "3",
+    "1": "1",
+    "2": "0",
+    "timestamp": "2025-07-02T19:23:07.536Z"
+  },
+  {
+    "0": "3",
+    "1": "1",
+    "2": "1",
+    "timestamp": "2025-07-02T19:23:17.546Z"
+  },
+  {
+    "0": "3",
+    "1": "1",
+    "2": "2",
+    "timestamp": "2025-07-02T19:23:27.620Z"
+  },
+  {
+    "0": "3",
+    "1": "1",
+    "2": "3",
+    "timestamp": "2025-07-02T19:23:37.561Z"
+  },
+  {
+    "0": "3",
+    "1": "1",
+    "2": "4",
+    "timestamp": "2025-07-02T19:23:47.596Z"
+  },
+  {
+    "0": "3",
+    "1": "1",
+    "2": "5",
+    "timestamp": "2025-07-02T19:23:58.348Z"
+  },
+  {
+    "0": "3",
+    "1": "1",
+    "2": "6",
+    "timestamp": "2025-07-02T19:24:08.023Z"
+  },
+  {
+    "0": "3",
+    "1": "1",
+    "2": "7",
+    "timestamp": "2025-07-02T19:24:17.618Z"
+  },
+  {
+    "0": "3",
+    "1": "1",
+    "2": "8",
+    "timestamp": "2025-07-02T19:24:27.632Z"
+  },
+  {
+    "0": "3",
+    "1": "1",
+    "2": "9",
+    "timestamp": "2025-07-02T19:24:37.645Z"
+  },
+  {
+    "0": "3",
+    "1": "2",
+    "2": "0",
+    "timestamp": "2025-07-02T19:24:47.646Z"
+  },
+  {
+    "0": "3",
+    "1": "2",
+    "2": "1",
+    "timestamp": "2025-07-02T19:24:57.650Z"
+  },
+  {
+    "0": "3",
+    "1": "2",
+    "2": "2",
+    "timestamp": "2025-07-02T19:25:07.728Z"
+  },
+  {
+    "0": "3",
+    "1": "2",
+    "2": "3",
+    "timestamp": "2025-07-02T19:25:17.670Z"
+  },
+  {
+    "0": "3",
+    "1": "2",
+    "2": "4",
+    "timestamp": "2025-07-02T19:25:27.667Z"
+  },
+  {
+    "0": "3",
+    "1": "2",
+    "2": "5",
+    "timestamp": "2025-07-02T19:25:37.671Z"
+  },
+  {
+    "0": "3",
+    "1": "2",
+    "2": "6",
+    "timestamp": "2025-07-02T19:25:47.681Z"
+  },
+  {
+    "0": "3",
+    "1": "2",
+    "2": "7",
+    "timestamp": "2025-07-02T19:25:57.694Z"
+  },
+  {
+    "0": "3",
+    "1": "2",
+    "2": "8",
+    "timestamp": "2025-07-02T19:26:07.690Z"
+  },
+  {
+    "0": "3",
+    "1": "2",
+    "2": "9",
+    "timestamp": "2025-07-02T19:26:17.713Z"
+  },
+  {
+    "0": "3",
+    "1": "3",
+    "2": "0",
+    "timestamp": "2025-07-02T19:26:27.714Z"
+  },
+  {
+    "0": "3",
+    "1": "3",
+    "2": "1",
+    "timestamp": "2025-07-02T19:26:37.711Z"
+  },
+  {
+    "0": "3",
+    "1": "3",
+    "2": "2",
+    "timestamp": "2025-07-02T19:26:47.731Z"
+  },
+  {
+    "0": "3",
+    "1": "3",
+    "2": "3",
+    "timestamp": "2025-07-02T19:26:57.738Z"
+  },
+  {
+    "0": "3",
+    "1": "3",
+    "2": "4",
+    "timestamp": "2025-07-02T19:27:07.746Z"
+  },
+  {
+    "0": "3",
+    "1": "3",
+    "2": "5",
+    "timestamp": "2025-07-02T19:27:17.748Z"
+  },
+  {
+    "0": "3",
+    "1": "3",
+    "2": "6",
+    "timestamp": "2025-07-02T19:27:27.764Z"
+  },
+  {
+    "0": "3",
+    "1": "3",
+    "2": "7",
+    "timestamp": "2025-07-02T19:27:37.761Z"
+  },
+  {
+    "0": "3",
+    "1": "3",
+    "2": "8",
+    "timestamp": "2025-07-02T19:27:47.775Z"
+  },
+  {
+    "0": "3",
+    "1": "3",
+    "2": "9",
+    "timestamp": "2025-07-02T19:27:57.786Z"
+  },
+  {
+    "0": "3",
+    "1": "4",
+    "2": "0",
+    "timestamp": "2025-07-02T19:28:07.779Z"
+  },
+  {
+    "0": "3",
+    "1": "4",
+    "2": "1",
+    "timestamp": "2025-07-02T19:28:17.830Z"
+  },
+  {
+    "0": "3",
+    "1": "4",
+    "2": "2",
+    "timestamp": "2025-07-02T19:28:28.164Z"
+  },
+  {
+    "0": "3",
+    "1": "4",
+    "2": "3",
+    "timestamp": "2025-07-02T19:28:37.872Z"
+  },
+  {
+    "0": "3",
+    "1": "4",
+    "2": "4",
+    "timestamp": "2025-07-02T19:28:47.964Z"
+  },
+  {
+    "0": "3",
+    "1": "4",
+    "2": "5",
+    "timestamp": "2025-07-02T19:28:58.147Z"
+  },
+  {
+    "0": "3",
+    "1": "4",
+    "2": "6",
+    "timestamp": "2025-07-02T19:29:08.016Z"
+  },
+  {
+    "0": "3",
+    "1": "4",
+    "2": "7",
+    "timestamp": "2025-07-02T19:29:17.841Z"
+  },
+  {
+    "0": "3",
+    "1": "4",
+    "2": "8",
+    "timestamp": "2025-07-02T19:29:27.841Z"
+  },
+  {
+    "0": "3",
+    "1": "4",
+    "2": "9",
+    "timestamp": "2025-07-02T19:29:37.908Z"
+  },
+  {
+    "0": "3",
+    "1": "5",
+    "2": "0",
+    "timestamp": "2025-07-02T19:29:47.880Z"
+  },
+  {
+    "0": "3",
+    "1": "5",
+    "2": "1",
+    "timestamp": "2025-07-02T19:29:57.885Z"
+  },
+  {
+    "0": "3",
+    "1": "5",
+    "2": "2",
+    "timestamp": "2025-07-02T19:30:07.966Z"
+  },
+  {
+    "0": "3",
+    "1": "5",
+    "2": "3",
+    "timestamp": "2025-07-02T19:30:17.928Z"
+  },
+  {
+    "0": "3",
+    "1": "5",
+    "2": "4",
+    "timestamp": "2025-07-02T19:30:28.273Z"
+  },
+  {
+    "0": "3",
+    "1": "5",
+    "2": "5",
+    "timestamp": "2025-07-02T19:30:37.915Z"
+  },
+  {
+    "0": "3",
+    "1": "5",
+    "2": "6",
+    "timestamp": "2025-07-02T19:30:47.898Z"
+  },
+  {
+    "0": "3",
+    "1": "5",
+    "2": "7",
+    "timestamp": "2025-07-02T19:30:57.907Z"
+  },
+  {
+    "0": "3",
+    "1": "5",
+    "2": "8",
+    "timestamp": "2025-07-02T19:31:07.996Z"
+  },
+  {
+    "0": "3",
+    "1": "5",
+    "2": "9",
+    "timestamp": "2025-07-02T19:31:17.925Z"
+  },
+  {
+    "0": "3",
+    "1": "6",
+    "2": "0",
+    "timestamp": "2025-07-02T19:31:28.237Z"
+  },
+  {
+    "0": "3",
+    "1": "6",
+    "2": "1",
+    "timestamp": "2025-07-02T19:31:37.911Z"
+  },
+  {
+    "0": "3",
+    "1": "6",
+    "2": "2",
+    "timestamp": "2025-07-02T19:31:47.956Z"
+  },
+  {
+    "0": "3",
+    "1": "6",
+    "2": "3",
+    "timestamp": "2025-07-02T19:31:59.357Z"
+  },
+  {
+    "0": "3",
+    "1": "6",
+    "2": "4",
+    "timestamp": "2025-07-02T19:32:08.178Z"
+  },
+  {
+    "0": "3",
+    "1": "6",
+    "2": "5",
+    "timestamp": "2025-07-02T19:32:18.140Z"
+  },
+  {
+    "0": "3",
+    "1": "6",
+    "2": "6",
+    "timestamp": "2025-07-02T19:32:28.152Z"
+  },
+  {
+    "0": "3",
+    "1": "6",
+    "2": "7",
+    "timestamp": "2025-07-02T19:32:38.147Z"
+  },
+  {
+    "0": "3",
+    "1": "6",
+    "2": "8",
+    "timestamp": "2025-07-02T19:32:48.177Z"
+  },
+  {
+    "0": "3",
+    "1": "6",
+    "2": "9",
+    "timestamp": "2025-07-02T19:32:58.178Z"
+  },
+  {
+    "0": "3",
+    "1": "7",
+    "2": "0",
+    "timestamp": "2025-07-02T19:33:08.212Z"
+  },
+  {
+    "0": "3",
+    "1": "7",
+    "2": "1",
+    "timestamp": "2025-07-02T19:33:18.195Z"
+  },
+  {
+    "0": "3",
+    "1": "7",
+    "2": "2",
+    "timestamp": "2025-07-02T19:33:28.196Z"
+  },
+  {
+    "0": "3",
+    "1": "7",
+    "2": "3",
+    "timestamp": "2025-07-02T19:33:38.192Z"
+  },
+  {
+    "0": "3",
+    "1": "7",
+    "2": "4",
+    "timestamp": "2025-07-02T19:33:48.199Z"
+  },
+  {
+    "0": "3",
+    "1": "7",
+    "2": "5",
+    "timestamp": "2025-07-02T19:33:58.215Z"
+  },
+  {
+    "0": "3",
+    "1": "7",
+    "2": "6",
+    "timestamp": "2025-07-02T19:34:08.225Z"
+  },
+  {
+    "0": "3",
+    "1": "7",
+    "2": "7",
+    "timestamp": "2025-07-02T19:34:18.222Z"
+  },
+  {
+    "0": "3",
+    "1": "7",
+    "2": "8",
+    "timestamp": "2025-07-02T19:34:28.289Z"
+  },
+  {
+    "0": "3",
+    "1": "7",
+    "2": "9",
+    "timestamp": "2025-07-02T19:34:38.236Z"
+  },
+  {
+    "0": "3",
+    "1": "8",
+    "2": "0",
+    "timestamp": "2025-07-02T19:34:48.300Z"
+  },
+  {
+    "0": "3",
+    "1": "8",
+    "2": "1",
+    "timestamp": "2025-07-02T19:34:58.259Z"
+  },
+  {
+    "0": "3",
+    "1": "8",
+    "2": "2",
+    "timestamp": "2025-07-02T19:35:08.263Z"
+  },
+  {
+    "0": "3",
+    "1": "8",
+    "2": "3",
+    "timestamp": "2025-07-02T19:35:18.276Z"
+  },
+  {
+    "0": "3",
+    "1": "8",
+    "2": "4",
+    "timestamp": "2025-07-02T19:35:28.284Z"
+  },
+  {
+    "0": "3",
+    "1": "8",
+    "2": "5",
+    "timestamp": "2025-07-02T19:35:38.291Z"
+  },
+  {
+    "0": "3",
+    "1": "8",
+    "2": "6",
+    "timestamp": "2025-07-02T19:35:48.312Z"
+  },
+  {
+    "0": "3",
+    "1": "8",
+    "2": "7",
+    "timestamp": "2025-07-02T19:35:58.310Z"
+  },
+  {
+    "0": "3",
+    "1": "8",
+    "2": "8",
+    "timestamp": "2025-07-02T19:36:08.311Z"
+  },
+  {
+    "0": "3",
+    "1": "8",
+    "2": "9",
+    "timestamp": "2025-07-02T19:36:18.322Z"
+  },
+  {
+    "0": "3",
+    "1": "9",
+    "2": "0",
+    "timestamp": "2025-07-02T19:36:28.403Z"
+  },
+  {
+    "0": "3",
+    "1": "9",
+    "2": "1",
+    "timestamp": "2025-07-02T19:36:38.347Z"
+  },
+  {
+    "0": "3",
+    "1": "9",
+    "2": "2",
+    "timestamp": "2025-07-02T19:36:48.371Z"
+  },
+  {
+    "0": "3",
+    "1": "9",
+    "2": "3",
+    "timestamp": "2025-07-02T19:36:58.369Z"
+  },
+  {
+    "0": "3",
+    "1": "9",
+    "2": "4",
+    "timestamp": "2025-07-02T19:37:08.386Z"
+  },
+  {
+    "0": "3",
+    "1": "9",
+    "2": "5",
+    "timestamp": "2025-07-02T19:37:18.368Z"
+  },
+  {
+    "0": "3",
+    "1": "9",
+    "2": "6",
+    "timestamp": "2025-07-02T19:37:28.408Z"
+  },
+  {
+    "0": "3",
+    "1": "9",
+    "2": "7",
+    "timestamp": "2025-07-02T19:37:38.401Z"
+  },
+  {
+    "0": "3",
+    "1": "9",
+    "2": "8",
+    "timestamp": "2025-07-02T19:37:48.394Z"
+  },
+  {
+    "0": "3",
+    "1": "9",
+    "2": "9",
+    "timestamp": "2025-07-02T19:37:58.389Z"
+  },
+  {
+    "0": "4",
+    "1": "0",
+    "2": "0",
+    "timestamp": "2025-07-02T19:38:08.415Z"
+  },
+  {
+    "0": "4",
+    "1": "0",
+    "2": "1",
+    "timestamp": "2025-07-02T19:38:18.435Z"
+  },
+  {
+    "0": "4",
+    "1": "0",
+    "2": "2",
+    "timestamp": "2025-07-02T19:38:28.439Z"
+  },
+  {
+    "0": "4",
+    "1": "0",
+    "2": "3",
+    "timestamp": "2025-07-02T19:38:38.435Z"
+  },
+  {
+    "0": "4",
+    "1": "0",
+    "2": "4",
+    "timestamp": "2025-07-02T19:38:48.437Z"
+  },
+  {
+    "0": "4",
+    "1": "0",
+    "2": "5",
+    "timestamp": "2025-07-02T19:38:58.432Z"
+  },
+  {
+    "0": "4",
+    "1": "0",
+    "2": "6",
+    "timestamp": "2025-07-02T19:39:08.460Z"
+  },
+  {
+    "0": "4",
+    "1": "0",
+    "2": "7",
+    "timestamp": "2025-07-02T19:39:18.433Z"
+  },
+  {
+    "0": "4",
+    "1": "0",
+    "2": "8",
+    "timestamp": "2025-07-02T19:39:28.456Z"
+  },
+  {
+    "0": "4",
+    "1": "0",
+    "2": "9",
+    "timestamp": "2025-07-02T19:39:38.485Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:39:43.122Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 7439,
+    "error": "[TIKTOK] Erro ao logar ou simular: page.goto: net::ERR_ABORTED at https://www.tiktok.com/foryou\nCall log:\n  - navigating to \"https://www.tiktok.com/foryou\", waiting until \"load\"\n"
+  },
+  {
+    "0": "4",
+    "1": "1",
+    "2": "0",
+    "timestamp": "2025-07-02T19:39:48.440Z"
+  },
+  {
+    "0": "4",
+    "1": "1",
+    "2": "1",
+    "timestamp": "2025-07-02T19:39:58.541Z"
+  },
+  {
+    "0": "4",
+    "1": "1",
+    "2": "2",
+    "timestamp": "2025-07-02T19:40:08.472Z"
+  },
+  {
+    "0": "4",
+    "1": "1",
+    "2": "3",
+    "timestamp": "2025-07-02T19:40:18.395Z"
+  },
+  {
+    "0": "4",
+    "1": "1",
+    "2": "4",
+    "timestamp": "2025-07-02T19:40:28.390Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:40:28.883Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 37215,
+    "error": "[TIKTOK] Erro ao logar ou simular: page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.tiktok.com/foryou\", waiting until \"load\"\n"
+  },
+  {
+    "0": "4",
+    "1": "1",
+    "2": "5",
+    "timestamp": "2025-07-02T19:40:38.466Z"
+  },
+  {
+    "0": "4",
+    "1": "1",
+    "2": "6",
+    "timestamp": "2025-07-02T19:40:48.685Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:40:49.359Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 12027,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "1",
+    "2": "7",
+    "timestamp": "2025-07-02T19:40:58.474Z"
+  },
+  {
+    "0": "4",
+    "1": "1",
+    "2": "8",
+    "timestamp": "2025-07-02T19:41:08.599Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:41:11.165Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 12938,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "1",
+    "2": "9",
+    "timestamp": "2025-07-02T19:41:18.478Z"
+  },
+  {
+    "0": "4",
+    "1": "2",
+    "2": "0",
+    "timestamp": "2025-07-02T19:41:29.377Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:41:31.279Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 11838,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "2",
+    "2": "1",
+    "timestamp": "2025-07-02T19:41:38.482Z"
+  },
+  {
+    "0": "4",
+    "1": "2",
+    "2": "2",
+    "timestamp": "2025-07-02T19:41:50.142Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:41:55.087Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 15463,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "2",
+    "2": "3",
+    "timestamp": "2025-07-02T19:41:58.507Z"
+  },
+  {
+    "0": "4",
+    "1": "2",
+    "2": "4",
+    "timestamp": "2025-07-02T19:42:08.874Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:42:14.250Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 10804,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "2",
+    "2": "5",
+    "timestamp": "2025-07-02T19:42:18.520Z"
+  },
+  {
+    "0": "4",
+    "1": "2",
+    "2": "6",
+    "timestamp": "2025-07-02T19:42:28.701Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:42:37.288Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 12339,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "2",
+    "2": "7",
+    "timestamp": "2025-07-02T19:42:38.582Z"
+  },
+  {
+    "0": "4",
+    "1": "2",
+    "2": "8",
+    "timestamp": "2025-07-02T19:42:48.576Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:42:56.902Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 11265,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "2",
+    "2": "9",
+    "timestamp": "2025-07-02T19:42:58.612Z"
+  },
+  {
+    "0": "4",
+    "1": "3",
+    "2": "0",
+    "timestamp": "2025-07-02T19:43:08.552Z"
+  },
+  {
+    "0": "4",
+    "1": "3",
+    "2": "1",
+    "timestamp": "2025-07-02T19:43:19.056Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:43:20.232Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 14908,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "3",
+    "2": "2",
+    "timestamp": "2025-07-02T19:43:28.596Z"
+  },
+  {
+    "0": "4",
+    "1": "3",
+    "2": "3",
+    "timestamp": "2025-07-02T19:43:39.404Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:43:43.443Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 14702,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "3",
+    "2": "4",
+    "timestamp": "2025-07-02T19:43:48.641Z"
+  },
+  {
+    "0": "4",
+    "1": "3",
+    "2": "5",
+    "timestamp": "2025-07-02T19:43:58.667Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:44:05.047Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 13095,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "3",
+    "2": "6",
+    "timestamp": "2025-07-02T19:44:08.658Z"
+  },
+  {
+    "0": "4",
+    "1": "3",
+    "2": "7",
+    "timestamp": "2025-07-02T19:44:18.868Z"
+  },
+  {
+    "0": "4",
+    "1": "3",
+    "2": "8",
+    "timestamp": "2025-07-02T19:44:28.747Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:44:29.556Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 16172,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "3",
+    "2": "9",
+    "timestamp": "2025-07-02T19:44:38.677Z"
+  },
+  {
+    "0": "4",
+    "1": "4",
+    "2": "0",
+    "timestamp": "2025-07-02T19:44:49.634Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:44:50.295Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 12335,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "4",
+    "2": "1",
+    "timestamp": "2025-07-02T19:44:58.787Z"
+  },
+  {
+    "0": "4",
+    "1": "4",
+    "2": "2",
+    "timestamp": "2025-07-02T19:45:08.802Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:45:15.927Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 17208,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "4",
+    "2": "3",
+    "timestamp": "2025-07-02T19:45:18.826Z"
+  },
+  {
+    "0": "4",
+    "1": "4",
+    "2": "4",
+    "timestamp": "2025-07-02T19:45:28.850Z"
+  },
+  {
+    "0": "4",
+    "1": "4",
+    "2": "5",
+    "timestamp": "2025-07-02T19:45:38.972Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:45:39.832Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 15366,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "4",
+    "2": "6",
+    "timestamp": "2025-07-02T19:45:48.801Z"
+  },
+  {
+    "0": "4",
+    "1": "4",
+    "2": "7",
+    "timestamp": "2025-07-02T19:45:59.074Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:46:03.115Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 14872,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "4",
+    "2": "8",
+    "timestamp": "2025-07-02T19:46:08.802Z"
+  },
+  {
+    "0": "4",
+    "1": "4",
+    "2": "9",
+    "timestamp": "2025-07-02T19:46:18.835Z"
+  },
+  {
+    "0": "4",
+    "1": "5",
+    "2": "0",
+    "timestamp": "2025-07-02T19:46:29.480Z"
+  },
+  {
+    "timestamp": "2025-07-02T19:46:30.933Z",
+    "type": "worker",
+    "profile": {
+      "user_id": "kynksw9"
+    },
+    "status": "erro",
+    "duration": 18932,
+    "error": "[TIKTOK] Erro ao logar ou simular: browser.pages is not a function"
+  },
+  {
+    "0": "4",
+    "1": "5",
+    "2": "1",
+    "timestamp": "2025-07-02T19:46:38.987Z"
+  },
+  {
+    "0": "4",
+    "1": "5",
+    "2": "2",
+    "timestamp": "2025-07-02T19:46:49.184Z"
+  },
+  {
+    "0": "4",
+    "1": "5",
+    "2": "3",
+    "timestamp": "2025-07-02T19:46:59.139Z"
+  },
+  {
+    "0": "4",
+    "1": "5",
+    "2": "4",
+    "timestamp": "2025-07-02T19:47:10.129Z"
+  },
+  {
+    "0": "4",
+    "1": "5",
+    "2": "5",
+    "timestamp": "2025-07-02T19:47:19.446Z"
+  },
+  {
+    "0": "4",
+    "1": "5",
+    "2": "6",
+    "timestamp": "2025-07-02T19:47:29.101Z"
+  },
+  {
+    "0": "4",
+    "1": "5",
+    "2": "7",
+    "timestamp": "2025-07-02T19:47:39.091Z"
+  },
+  {
+    "0": "4",
+    "1": "5",
+    "2": "8",
+    "timestamp": "2025-07-02T19:47:49.192Z"
+  },
+  {
+    "0": "4",
+    "1": "5",
+    "2": "9",
+    "timestamp": "2025-07-02T19:48:01.045Z"
+  },
+  {
+    "0": "4",
+    "1": "6",
+    "2": "0",
+    "timestamp": "2025-07-02T19:48:08.941Z"
+  },
+  {
+    "0": "4",
+    "1": "6",
+    "2": "1",
+    "timestamp": "2025-07-02T19:48:19.033Z"
+  },
+  {
+    "0": "4",
+    "1": "6",
+    "2": "2",
+    "timestamp": "2025-07-02T19:48:28.968Z"
+  },
+  {
+    "0": "4",
+    "1": "6",
+    "2": "3",
+    "timestamp": "2025-07-02T19:48:38.942Z"
+  },
+  {
+    "0": "4",
+    "1": "6",
+    "2": "4",
+    "timestamp": "2025-07-02T19:48:48.986Z"
+  },
+  {
+    "0": "4",
+    "1": "6",
+    "2": "5",
+    "timestamp": "2025-07-02T19:48:58.980Z"
+  },
+  {
+    "0": "4",
+    "1": "6",
+    "2": "6",
+    "timestamp": "2025-07-02T19:49:08.954Z"
+  },
+  {
+    "0": "4",
+    "1": "6",
+    "2": "7",
+    "timestamp": "2025-07-02T19:49:19.125Z"
+  },
+  {
+    "0": "4",
+    "1": "6",
+    "2": "8",
+    "timestamp": "2025-07-02T19:49:28.988Z"
+  },
+  {
+    "0": "4",
+    "1": "6",
+    "2": "9",
+    "timestamp": "2025-07-02T19:49:38.978Z"
+  },
+  {
+    "0": "4",
+    "1": "7",
+    "2": "0",
+    "timestamp": "2025-07-02T19:49:48.987Z"
+  },
+  {
+    "0": "4",
+    "1": "7",
+    "2": "1",
+    "timestamp": "2025-07-02T19:49:58.990Z"
+  },
+  {
+    "0": "4",
+    "1": "7",
+    "2": "2",
+    "timestamp": "2025-07-02T19:50:09.017Z"
+  },
+  {
+    "0": "4",
+    "1": "7",
+    "2": "3",
+    "timestamp": "2025-07-02T19:50:19.018Z"
+  },
+  {
+    "0": "4",
+    "1": "7",
+    "2": "4",
+    "timestamp": "2025-07-02T19:50:29.059Z"
+  },
+  {
+    "0": "4",
+    "1": "7",
+    "2": "5",
+    "timestamp": "2025-07-02T19:50:39.016Z"
+  },
+  {
+    "0": "4",
+    "1": "7",
+    "2": "6",
+    "timestamp": "2025-07-02T19:50:49.050Z"
+  },
+  {
+    "0": "4",
+    "1": "7",
+    "2": "7",
+    "timestamp": "2025-07-02T19:50:59.048Z"
+  },
+  {
+    "0": "4",
+    "1": "7",
+    "2": "8",
+    "timestamp": "2025-07-02T19:51:09.036Z"
+  },
+  {
+    "0": "4",
+    "1": "7",
+    "2": "9",
+    "timestamp": "2025-07-02T19:51:19.053Z"
+  },
+  {
+    "0": "4",
+    "1": "8",
+    "2": "0",
+    "timestamp": "2025-07-02T19:51:29.746Z"
+  },
+  {
+    "0": "4",
+    "1": "8",
+    "2": "1",
+    "timestamp": "2025-07-02T19:51:39.059Z"
+  },
+  {
+    "0": "4",
+    "1": "8",
+    "2": "2",
+    "timestamp": "2025-07-02T19:51:49.064Z"
+  },
+  {
+    "0": "4",
+    "1": "8",
+    "2": "3",
+    "timestamp": "2025-07-02T19:51:59.061Z"
+  },
+  {
+    "0": "4",
+    "1": "8",
+    "2": "4",
+    "timestamp": "2025-07-02T19:52:09.076Z"
+  },
+  {
+    "0": "4",
+    "1": "8",
+    "2": "5",
+    "timestamp": "2025-07-02T19:52:19.079Z"
+  },
+  {
+    "0": "4",
+    "1": "8",
+    "2": "6",
+    "timestamp": "2025-07-02T19:52:29.126Z"
+  },
+  {
+    "0": "4",
+    "1": "8",
+    "2": "7",
+    "timestamp": "2025-07-02T19:52:39.098Z"
+  },
+  {
+    "0": "4",
+    "1": "8",
+    "2": "8",
+    "timestamp": "2025-07-02T19:52:49.095Z"
+  },
+  {
+    "0": "4",
+    "1": "8",
+    "2": "9",
+    "timestamp": "2025-07-02T19:52:59.117Z"
+  },
+  {
+    "0": "4",
+    "1": "9",
+    "2": "0",
+    "timestamp": "2025-07-02T19:53:09.113Z"
+  },
+  {
+    "0": "4",
+    "1": "9",
+    "2": "1",
+    "timestamp": "2025-07-02T19:53:19.153Z"
+  },
+  {
+    "0": "4",
+    "1": "9",
+    "2": "2",
+    "timestamp": "2025-07-02T19:53:29.141Z"
+  },
+  {
+    "0": "4",
+    "1": "9",
+    "2": "3",
+    "timestamp": "2025-07-02T19:53:39.141Z"
+  },
+  {
+    "0": "4",
+    "1": "9",
+    "2": "4",
+    "timestamp": "2025-07-02T19:53:49.215Z"
+  },
+  {
+    "0": "4",
+    "1": "9",
+    "2": "5",
+    "timestamp": "2025-07-02T19:53:59.146Z"
+  },
+  {
+    "0": "4",
+    "1": "9",
+    "2": "6",
+    "timestamp": "2025-07-02T19:54:09.155Z"
+  },
+  {
+    "0": "4",
+    "1": "9",
+    "2": "7",
+    "timestamp": "2025-07-02T19:54:19.148Z"
+  },
+  {
+    "0": "4",
+    "1": "9",
+    "2": "8",
+    "timestamp": "2025-07-02T19:54:29.140Z"
+  },
+  {
+    "0": "4",
+    "1": "9",
+    "2": "9",
+    "timestamp": "2025-07-02T19:54:39.139Z"
+  },
+  {
+    "0": "5",
+    "1": "0",
+    "2": "0",
+    "timestamp": "2025-07-02T19:54:49.156Z"
+  },
+  {
+    "0": "5",
+    "1": "0",
+    "2": "1",
+    "timestamp": "2025-07-02T19:54:59.193Z"
+  },
+  {
+    "0": "5",
+    "1": "0",
+    "2": "2",
+    "timestamp": "2025-07-02T19:55:09.186Z"
+  },
+  {
+    "0": "5",
+    "1": "0",
+    "2": "3",
+    "timestamp": "2025-07-02T19:55:19.185Z"
+  },
+  {
+    "0": "5",
+    "1": "0",
+    "2": "4",
+    "timestamp": "2025-07-02T19:55:29.186Z"
+  },
+  {
+    "0": "5",
+    "1": "0",
+    "2": "5",
+    "timestamp": "2025-07-02T19:55:39.186Z"
+  },
+  {
+    "0": "5",
+    "1": "0",
+    "2": "6",
+    "timestamp": "2025-07-02T19:55:49.287Z"
+  },
+  {
+    "0": "5",
+    "1": "0",
+    "2": "7",
+    "timestamp": "2025-07-02T19:55:59.214Z"
+  },
+  {
+    "0": "5",
+    "1": "0",
+    "2": "8",
+    "timestamp": "2025-07-02T19:56:09.216Z"
+  },
+  {
+    "0": "5",
+    "1": "0",
+    "2": "9",
+    "timestamp": "2025-07-02T19:56:19.205Z"
+  },
+  {
+    "0": "5",
+    "1": "1",
+    "2": "0",
+    "timestamp": "2025-07-02T19:56:29.238Z"
+  },
+  {
+    "0": "5",
+    "1": "1",
+    "2": "1",
+    "timestamp": "2025-07-02T19:56:39.223Z"
+  },
+  {
+    "0": "5",
+    "1": "1",
+    "2": "2",
+    "timestamp": "2025-07-02T19:56:49.239Z"
+  },
+  {
+    "0": "5",
+    "1": "1",
+    "2": "3",
+    "timestamp": "2025-07-02T19:56:59.595Z"
   }
 ]

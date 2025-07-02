@@ -1,12 +1,29 @@
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 const randomBetween = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 
+// Função para fechar outras abas do TikTok
+const fecharOutrasPaginasTikTok = async (context, pageAtual) => {
+    const pages = context.pages();
+    for (const pg of pages) {
+        if (pg !== pageAtual && pg.url().includes('tiktok.com')) {
+            console.log(`[CLEANUP] Fechando aba extra do TikTok: ${pg.url()}`);
+            try {
+                await pg.close();
+            } catch (err) {
+                console.warn(`[CLEANUP] Falha ao fechar aba: ${err.message}`);
+            }
+        }
+    }
+};
+
 export async function simulateUserActions(page, credentials = {}) {
     console.log('[SIMULATION] Verificando se já está logado no feed do TikTok...');
-    console.log("teste 1")
 
     try {
         await page.goto('https://www.tiktok.com/foryou', { waitUntil: 'load' });
+
+        await fecharOutrasPaginasTikTok(page.context(), page);
+
         const isAlreadyLogged = await page.waitForURL('**/foryou?lang=pt-BR', { timeout: 10000 }).catch(() => false);
 
         if (isAlreadyLogged || page.url().includes('/foryou')) {
@@ -16,15 +33,13 @@ export async function simulateUserActions(page, credentials = {}) {
 
         console.log('[SIMULATION] Não está logado, iniciando login...');
 
-        const email = credentials.login || 'Jedjdjdi123@outlook.com';
-        const password = credentials.password || 'jddjdj233@';
+        const email = credentials.login || 'mariliaquinazperalta@gmail.com';
+        const password = credentials.password || 'Jade_2021';
 
         await page.goto('https://www.tiktok.com/login', { waitUntil: 'load' });
         await delay(2000);
-
         await page.goto('https://www.tiktok.com/login/phone-or-email', { waitUntil: 'load' });
         await delay(2000);
-
         await page.goto('https://www.tiktok.com/login/phone-or-email/email', { waitUntil: 'load' });
         await delay(2000);
 
@@ -40,7 +55,7 @@ export async function simulateUserActions(page, credentials = {}) {
         }
 
         await delay(8000);
-        await page.goto('https://www.tiktok.com/foryou', { waitUntil: 'load' }).catch(() => { });
+        await page.goto('https://www.tiktok.com/foryou', { waitUntil: 'load' });
         await page.waitForSelector('div[data-e2e="recommend-list-item-container"]', { timeout: 15000 });
 
         console.log('[TIKTOK] Login bem-sucedido. Iniciando simulação...');
@@ -49,6 +64,7 @@ export async function simulateUserActions(page, credentials = {}) {
         throw new Error(`[TIKTOK] Erro ao logar ou simular: ${err.message}`);
     }
 }
+
 
 async function executarSimulacoes(page) {
     console.log('[SIMULATION] Rodando simulação orgânica no feed...');
@@ -59,56 +75,108 @@ async function executarSimulacoes(page) {
         'hahaha', 'Kkkkk', '👏👏👏'
     ];
 
-    const processados = new Set(); // evita duplicar post
+    const processados = new Set();
     let scrollIndexAtual = 0;
 
     while (processados.size < 50) {
-        const article = await page.$(`article[data-scroll-index="${scrollIndexAtual}"]`);
+        const timeoutMs = 15000;
+        const startTime = Date.now();
+        let article = null;
+
+        while (!article && (Date.now() - startTime) < timeoutMs) {
+            article = await page.$(`article[data-scroll-index="${scrollIndexAtual}"]`);
+            if (!article) {
+                await page.keyboard.press('ArrowDown');
+                await delay(1500);
+            }
+        }
+
         if (!article) {
-            // Scroll até carregar próximo post
-            await page.keyboard.press('ArrowDown');
-            await delay(randomBetween(1000, 2000));
+            console.warn(`[SIMULATION] Post #${scrollIndexAtual} travou. Fazendo refresh...`);
+            await page.reload({ waitUntil: 'load' });
+            await page.waitForSelector('article[data-scroll-index="0"]', { timeout: 15000 });
+            scrollIndexAtual = 0;
             continue;
         }
 
-        // Ignorar se já processado
         if (processados.has(scrollIndexAtual)) {
+            scrollIndexAtual++;
+            continue;
+        }
+
+        const isPublicidade = await article.$('div:has-text("Pub")');
+        if (isPublicidade) {
+            console.log(`[SIMULATION] Post #${scrollIndexAtual} é publicidade. Pulando...`);
             scrollIndexAtual++;
             continue;
         }
 
         console.log(`[SIMULATION] Interagindo com post #${scrollIndexAtual}`);
         processados.add(scrollIndexAtual);
-        await delay(randomBetween(3000, 6000));
+        await delay(randomBetween(4000, 8000));
 
-        // CURTIR
-        if (Math.random() < 0.5) {
-            const likeBtn = await article.$('button[aria-label="Curtir vídeo"][aria-pressed="false"]');
-            if (likeBtn) {
-                await likeBtn.click().catch(() => { });
-                console.log('→ Curtido.');
+        // SORTEIO MULTI-AÇÕES COM PESOS
+        const sorteios = [
+            {
+                nome: 'Curtir', chance: 85, acao: async () => {
+                    const likeButton = await article.$('span[data-e2e="like-icon"]');
+                    if (likeButton) {
+                        const btn = await likeButton.evaluateHandle(el => el.closest('button[aria-pressed="false"]'));
+                        if (btn) {
+                            await btn.click().catch(() => { });
+                            console.log('→ Curtido.');
+                        }
+                    }
+                }
+            },
+            {
+                nome: 'Seguir', chance: 5, acao: async () => {
+                    const btn = await article.$('button[data-e2e="feed-follow"]');
+                    if (btn) {
+                        await btn.click().catch(() => { });
+                        console.log('→ Seguiu o perfil.');
+                    }
+                }
+            },
+            {
+                nome: 'Salvar', chance: 10, acao: async () => {
+                    const btn = await article.$('button[aria-label^="Adicionar aos favoritos"]');
+                    if (btn) {
+                        await btn.click().catch(() => { });
+                        console.log('→ Salvo nos favoritos.');
+                    }
+                }
+            },
+        ];
+
+        // Função para escolher ações com base na chance
+        function escolherAcoesComChance(lista, quantidade) {
+            const escolhidas = [];
+
+            for (let i = 0; i < quantidade; i++) {
+                const total = lista.reduce((acc, a) => acc + a.chance, 0);
+                let rand = Math.random() * total;
+                for (const item of lista) {
+                    if (rand < item.chance) {
+                        escolhidas.push(item);
+                        break;
+                    }
+                    rand -= item.chance;
+                }
             }
+
+            // Remove duplicadas e retorna
+            return [...new Set(escolhidas)];
         }
 
-        // SEGUIR
-        if (Math.random() < 0.3) {
-            const followBtn = await article.$('button[data-e2e="feed-follow"]');
-            if (followBtn) {
-                await followBtn.click().catch(() => { });
-                console.log('→ Seguiu o perfil.');
-            }
+        // Executa 1 ou 2 ações com base nas chances
+        const acoesAleatorias = escolherAcoesComChance(sorteios, randomBetween(1, 2));
+        for (const acao of acoesAleatorias) {
+            console.log(`[DEBUG] Executando ação: ${acao.nome}`);
+            await acao.acao();
+            await delay(randomBetween(1000, 3000));
         }
 
-        // SALVAR
-        if (Math.random() < 0.2) {
-            const saveBtn = await article.$('button[aria-label^="Adicionar aos favoritos"]');
-            if (saveBtn) {
-                await saveBtn.click().catch(() => { });
-                console.log('→ Salvo nos favoritos.');
-            }
-        }
-
-        // Scroll suave para o próximo post
         await scrollParaProximoPost(page, scrollIndexAtual);
         scrollIndexAtual++;
     }
