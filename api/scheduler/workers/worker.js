@@ -8,8 +8,8 @@ import {
     getProfileInfo,
 } from './helpers/adsPowerSession.js'
 import { simulateUserActions } from './helpers/simulatedActions.js'
-import { parseRemark } from '../utils/parseRemark.js'
 import { delay, randomBetween } from '../utils/timer.js'
+import { generateProfiles } from '../jobs/generateProfiles.js'
 
 const connection = new IORedis({
     host: process.env.REDIS_HOST || 'localhost',
@@ -24,14 +24,18 @@ async function processProfile(profile) {
     let browser = null
 
     try {
-        // Buscar info completa do AdsPower
-        const info = await getProfileInfo(profile.user_id)
-        const credentials = parseRemark(info?.remarks || '')
+        // Busca o perfil completo no generateProfiles
+        const allProfiles = generateProfiles()
+        const match = allProfiles.find((p) => p.data.user_id === profile.user_id)
 
-        // Usar email do campo observação se existir
+        if (!match) {
+            throw new Error(`Perfil ${profile.user_id} não encontrado no generateProfiles`)
+        }
+
+        const auth = match.data.tiktok || {}
         const fullProfile = {
             ...profile,
-            email: credentials.login || profile.email || 'desconhecido',
+            email: auth.email || 'desconhecido',
         }
 
         const ws = await startSession(profile.user_id)
@@ -40,7 +44,10 @@ async function processProfile(profile) {
 
         console.log(`[WORKER] Conectado via CDP: ${fullProfile.email}`)
 
-        await simulateUserActions(page, credentials)
+        await simulateUserActions(page, {
+            email: auth.email,
+            password: auth.password
+        })
 
         await logJob({
             type: 'worker',
@@ -74,5 +81,8 @@ new Worker(
             await processProfile(profile)
         }
     },
-    { connection }
+    {
+        connection,
+        concurrency: 1,
+    }
 )

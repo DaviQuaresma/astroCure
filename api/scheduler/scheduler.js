@@ -1,12 +1,12 @@
-// scheduler/scheduler.js
 import { Queue } from 'bullmq'
 import { generateProfiles } from './jobs/generateProfiles.js'
-import logJob from './utils/logger.js'
 import IORedis from 'ioredis'
+import logJob from './utils/logger.js'
 
 const connection = new IORedis({
-  host: 'redis',
-  port: 6379,
+  host: process.env.REDIS_HOST || 'localhost',
+  port: process.env.REDIS_PORT || 6379,
+  maxRetriesPerRequest: null,
 })
 
 const queue = new Queue('profile-jobs', { connection })
@@ -14,13 +14,23 @@ const queue = new Queue('profile-jobs', { connection })
 async function startScheduler() {
   console.log('[SCHEDULER] Iniciando...')
 
-  // Simula a criação de lotes a cada 10 segundos
   setInterval(async () => {
-    const profiles = generateProfiles(5) // 5 perfis mock por vez
+    const profiles = generateProfiles()
 
-    const job = await queue.add('generate-profiles', { profiles })
+    if (!profiles.length) {
+      console.log('[SCHEDULER] Nenhum perfil encontrado, pulando...')
+      return
+    }
 
-    logJob(job.id, profiles)
+    const data = profiles.map((p) => p.data)
+    const job = await queue.add('generate-profiles', { profiles: data })
+
+    logJob({
+      type: 'scheduler',
+      jobId: job.id,
+      status: 'enqueued',
+      total: data.length,
+    })
 
     console.log(`[SCHEDULER] Novo job enviado: ${job.id}`)
   }, 10000)

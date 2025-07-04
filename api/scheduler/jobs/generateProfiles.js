@@ -13,8 +13,74 @@ import { faker } from '@faker-js/faker'
 export function generateProfiles() {
   return [
     {
-      user_id: "kynksw9",
-      // user_id: "kynkngq",
+      id: 135,
+      data: {
+        user_id: "kynksw9",
+        tiktok: {
+          email: "mariliaquinazperalta@gmail.com",
+          password: "Jade_2021"
+        },
+        instagram: {
+          email: "",
+          password: ""
+        }
+      }
     },
+    // {
+    //   id: 134,
+    //   data: {
+    //     user_id: "kynkngq",
+    //     tiktok: {
+    //       email: "joann32kummklt@hotmail.com",
+    //       password: "DEDEDE3$"
+    //     },
+    //     instagram: {
+    //       email: "",
+    //       password: ""
+    //     }
+    //   }
+    // },
+    // {
+    //   id: 133,
+    //   data: {
+    //     user_id: "kynkdje",
+    //     tiktok: {
+    //       email: "dennis72englerdqb@hotmail.com",
+    //       password: "HOTHOT6-"
+    //     },
+    //     instagram: {
+    //       email: "",
+    //       password: ""
+    //     }
+    //   }
+    // },
+    // {
+    //   id: 132,
+    //   data: {
+    //     user_id: "kynk78o",
+    //     tiktok: {
+    //       email: "anthony73williamshwe@hotmail.com",
+    //       password: "dswsaw3_"
+    //     },
+    //     instagram: {
+    //       email: "",
+    //       password: ""
+    //     }
+    //   }
+    // },
+    // {
+    //   id: 131,
+    //   data: {
+    //     user_id: "kynjwf6",
+    //     tiktok: {
+    //       email: "laragottino@gmail.com",
+    //       password: "35623562leo@"
+    //     },
+    //     instagram: {
+    //       email: "",
+    //       password: ""
+    //     }
+    //   }
+    // },
   ]
 }

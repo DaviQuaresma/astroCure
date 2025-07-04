@@ -20,7 +20,12 @@ export async function simulateUserActions(page, credentials = {}) {
     console.log('[SIMULATION] Verificando se já está logado no feed do TikTok...');
 
     try {
-        await page.goto('https://www.tiktok.com/foryou', { waitUntil: 'load' });
+        try {
+            await page.goto('https://www.tiktok.com/foryou', { waitUntil: 'domcontentloaded', timeout: 30000 })
+        } catch (e) {
+            console.warn('[TIKTOK] Timeout no goto, tentando forçar reload...')
+            await page.reload({ waitUntil: 'domcontentloaded', timeout: 30000 })
+        }
 
         await fecharOutrasPaginasTikTok(page.context(), page);
 
@@ -33,8 +38,8 @@ export async function simulateUserActions(page, credentials = {}) {
 
         console.log('[SIMULATION] Não está logado, iniciando login...');
 
-        const email = credentials.login || 'mariliaquinazperalta@gmail.com';
-        const password = credentials.password || 'Jade_2021';
+        const email = credentials.login;
+        const password = credentials.password;
 
         await page.goto('https://www.tiktok.com/login', { waitUntil: 'load' });
         await delay(2000);
@@ -55,7 +60,12 @@ export async function simulateUserActions(page, credentials = {}) {
         }
 
         await delay(8000);
-        await page.goto('https://www.tiktok.com/foryou', { waitUntil: 'load' });
+        try {
+            await page.goto('https://www.tiktok.com/foryou', { waitUntil: 'domcontentloaded', timeout: 30000 })
+        } catch (e) {
+            console.warn('[TIKTOK] Timeout no goto, tentando forçar reload...')
+            await page.reload({ waitUntil: 'domcontentloaded', timeout: 30000 })
+        }
         await page.waitForSelector('div[data-e2e="recommend-list-item-container"]', { timeout: 15000 });
 
         console.log('[TIKTOK] Login bem-sucedido. Iniciando simulação...');
@@ -64,7 +74,6 @@ export async function simulateUserActions(page, credentials = {}) {
         throw new Error(`[TIKTOK] Erro ao logar ou simular: ${err.message}`);
     }
 }
-
 
 async function executarSimulacoes(page) {
     console.log('[SIMULATION] Rodando simulação orgânica no feed...');
@@ -77,6 +86,8 @@ async function executarSimulacoes(page) {
 
     const processados = new Set();
     let scrollIndexAtual = 0;
+    let consecutiveFailures = 0;
+    const maxFailuresBeforeRestart = 3;
 
     while (processados.size < 50) {
         const timeoutMs = 15000;
@@ -93,11 +104,21 @@ async function executarSimulacoes(page) {
 
         if (!article) {
             console.warn(`[SIMULATION] Post #${scrollIndexAtual} travou. Fazendo refresh...`);
+            consecutiveFailures++;
+
+            if (consecutiveFailures >= maxFailuresBeforeRestart) {
+                console.error(`[SIMULATION] ${consecutiveFailures} falhas seguidas. Reiniciando navegador...`);
+                throw new Error('restart-session');
+            }
+
             await page.reload({ waitUntil: 'load' });
             await page.waitForSelector('article[data-scroll-index="0"]', { timeout: 15000 });
             scrollIndexAtual = 0;
             continue;
         }
+
+        // Reset de falhas após sucesso
+        consecutiveFailures = 0;
 
         if (processados.has(scrollIndexAtual)) {
             scrollIndexAtual++;
@@ -115,7 +136,7 @@ async function executarSimulacoes(page) {
         processados.add(scrollIndexAtual);
         await delay(randomBetween(4000, 8000));
 
-        // SORTEIO MULTI-AÇÕES COM PESOS
+        // Ações sorteadas
         const sorteios = [
             {
                 nome: 'Curtir', chance: 85, acao: async () => {
@@ -149,8 +170,7 @@ async function executarSimulacoes(page) {
             },
         ];
 
-        // Função para escolher ações com base na chance
-        function escolherAcoesComChance(lista, quantidade) {
+        const escolherAcoesComChance = (lista, quantidade) => {
             const escolhidas = [];
 
             for (let i = 0; i < quantidade; i++) {
@@ -165,11 +185,9 @@ async function executarSimulacoes(page) {
                 }
             }
 
-            // Remove duplicadas e retorna
             return [...new Set(escolhidas)];
-        }
+        };
 
-        // Executa 1 ou 2 ações com base nas chances
         const acoesAleatorias = escolherAcoesComChance(sorteios, randomBetween(1, 2));
         for (const acao of acoesAleatorias) {
             console.log(`[DEBUG] Executando ação: ${acao.nome}`);

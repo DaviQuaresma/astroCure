@@ -34,7 +34,7 @@ services:
       PG_USER: astrocure
       PG_PASSWORD: supersecreto
       PG_DB: cura
-      ADSPOWER_URL: http://host.docker.internal:50380
+      ADSPOWER_URL: http://host.docker.internal:50325
     volumes:
       - ./api:/app
 
@@ -62,7 +62,20 @@ services:
     environment:
       REDIS_HOST: redis
       REDIS_PORT: 6379
-      ADSPOWER_URL: http://host.docker.internal:50380
+      ADSPOWER_URL: http://host.docker.internal:50325
+    volumes:
+      - ./api:/app
+
+  scheduler:
+    build:
+      context: .
+      dockerfile: Dockerfile.scheduler
+    container_name: scheduler
+    depends_on:
+      - redis
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
     volumes:
       - ./api:/app
 

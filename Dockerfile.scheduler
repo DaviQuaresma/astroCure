@@ -1,0 +1,10 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+COPY ./api/package*.json ./
+RUN npm install
+
+COPY ./api .
+
+CMD ["node", "scheduler/scheduler.js"]
