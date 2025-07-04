@@ -14,6 +14,7 @@ export function generateProfiles() {
   return [
     {
       id: 135,
+      group: 1,
       data: {
         user_id: "kynksw9",
         tiktok: {
@@ -26,61 +27,65 @@ export function generateProfiles() {
         }
       }
     },
-    // {
-    //   id: 134,
-    //   data: {
-    //     user_id: "kynkngq",
-    //     tiktok: {
-    //       email: "joann32kummklt@hotmail.com",
-    //       password: "DEDEDE3$"
-    //     },
-    //     instagram: {
-    //       email: "",
-    //       password: ""
-    //     }
-    //   }
-    // },
-    // {
-    //   id: 133,
-    //   data: {
-    //     user_id: "kynkdje",
-    //     tiktok: {
-    //       email: "dennis72englerdqb@hotmail.com",
-    //       password: "HOTHOT6-"
-    //     },
-    //     instagram: {
-    //       email: "",
-    //       password: ""
-    //     }
-    //   }
-    // },
-    // {
-    //   id: 132,
-    //   data: {
-    //     user_id: "kynk78o",
-    //     tiktok: {
-    //       email: "anthony73williamshwe@hotmail.com",
-    //       password: "dswsaw3_"
-    //     },
-    //     instagram: {
-    //       email: "",
-    //       password: ""
-    //     }
-    //   }
-    // },
-    // {
-    //   id: 131,
-    //   data: {
-    //     user_id: "kynjwf6",
-    //     tiktok: {
-    //       email: "laragottino@gmail.com",
-    //       password: "35623562leo@"
-    //     },
-    //     instagram: {
-    //       email: "",
-    //       password: ""
-    //     }
-    //   }
-    // },
+    {
+      id: 134,
+      group: 1,
+      data: {
+        user_id: "kynkngq",
+        tiktok: {
+          email: "joann32kummklt@hotmail.com",
+          password: "DEDEDE3$"
+        },
+        instagram: {
+          email: "",
+          password: ""
+        }
+      }
+    },
+    {
+      id: 133,
+      group: 1,
+      data: {
+        user_id: "kynkdje",
+        tiktok: {
+          email: "dennis72englerdqb@hotmail.com",
+          password: "HOTHOT6-"
+        },
+        instagram: {
+          email: "",
+          password: ""
+        }
+      }
+    },
+    {
+      id: 132,
+      group: 1,
+      data: {
+        user_id: "kynk78o",
+        tiktok: {
+          email: "anthony73williamshwe@hotmail.com",
+          password: "dswsaw3_"
+        },
+        instagram: {
+          email: "",
+          password: ""
+        }
+      }
+    },
+    {
+      id: 131,
+      group: 1,
+      data: {
+        user_id: "kynjwf6",
+        tiktok: {
+          email: "laragottino@gmail.com",
+          password: "35623562leo@"
+        },
+        instagram: {
+          email: "",
+          password: ""
+        }
+      }
+    },
   ]
 }

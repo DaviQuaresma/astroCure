@@ -22,17 +22,41 @@ async function startScheduler() {
       return
     }
 
-    const data = profiles.map((p) => p.data)
-    const job = await queue.add('generate-profiles', { profiles: data })
+    // Agrupar perfis por grupo
+    const grupos = {}
+    for (const perfil of profiles) {
+      const grupo = perfil.group || 'default'
+      if (!grupos[grupo]) grupos[grupo] = []
+      grupos[grupo].push(perfil)
+    }
 
-    logJob({
-      type: 'scheduler',
-      jobId: job.id,
-      status: 'enqueued',
-      total: data.length,
-    })
+    // Criar um job por grupo
+    for (const grupo in grupos) {
+      const groupProfiles = grupos[grupo]
 
-    console.log(`[SCHEDULER] Novo job enviado: ${job.id}`)
+      if (groupProfiles.length === 0) continue
+
+      const job = await queue.add(
+        `group-${grupo}`,
+        {
+          profiles: groupProfiles.map(p => ({ ...p }))
+        },
+        {
+          jobId: `group-${grupo}-${Date.now()}`
+        }
+      )
+
+      logJob({
+        type: 'scheduler',
+        jobId: job.id,
+        status: 'enqueued',
+        total: groupProfiles.length,
+        group: grupo,
+      })
+
+      console.log(`[SCHEDULER] Job criado para grupo ${grupo}: ${job.id}`)
+    }
+
   }, 10000)
 }
 

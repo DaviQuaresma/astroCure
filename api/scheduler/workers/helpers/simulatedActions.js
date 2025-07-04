@@ -38,8 +38,12 @@ export async function simulateUserActions(page, credentials = {}) {
 
         console.log('[SIMULATION] Não está logado, iniciando login...');
 
-        const email = credentials.login;
+        const email = credentials.email;
         const password = credentials.password;
+
+        if (!email || !password) {
+            throw new Error('Credenciais ausentes: email ou senha não definidos.')
+        }
 
         await page.goto('https://www.tiktok.com/login', { waitUntil: 'load' });
         await delay(2000);
@@ -66,7 +70,7 @@ export async function simulateUserActions(page, credentials = {}) {
             console.warn('[TIKTOK] Timeout no goto, tentando forçar reload...')
             await page.reload({ waitUntil: 'domcontentloaded', timeout: 30000 })
         }
-        await page.waitForSelector('div[data-e2e="recommend-list-item-container"]', { timeout: 15000 });
+        await page.waitForSelector('div[data-e2e="recommend-list-item-container"]', { timeout: 60000 });
 
         console.log('[TIKTOK] Login bem-sucedido. Iniciando simulação...');
         await executarSimulacoes(page);
@@ -77,6 +81,14 @@ export async function simulateUserActions(page, credentials = {}) {
 
 async function executarSimulacoes(page) {
     console.log('[SIMULATION] Rodando simulação orgânica no feed...');
+
+    // Verifica e fecha popup de recarga de coins se existir
+    const botaoAgoraNao = await page.$('button:has-text("Agora não")');
+    if (botaoAgoraNao) {
+        console.log('[SIMULATION] Popup de recarga detectado. Fechando...');
+        await botaoAgoraNao.click().catch(() => { });
+        await delay(1000);
+    }
 
     const frasesGenericas = [
         'Legal!', 'Nada haver kkk', 'Gostei 😄', '😂😂😂',
@@ -89,7 +101,7 @@ async function executarSimulacoes(page) {
     let consecutiveFailures = 0;
     const maxFailuresBeforeRestart = 3;
 
-    while (processados.size < 50) {
+    while (processados.size < 2) {
         const timeoutMs = 15000;
         const startTime = Date.now();
         let article = null;
@@ -107,13 +119,15 @@ async function executarSimulacoes(page) {
             consecutiveFailures++;
 
             if (consecutiveFailures >= maxFailuresBeforeRestart) {
-                console.error(`[SIMULATION] ${consecutiveFailures} falhas seguidas. Reiniciando navegador...`);
+                console.error(`[SIMULATION] ${consecutiveFailures} falhas consecutivas. Abortando simulação.`);
                 throw new Error('restart-session');
             }
 
-            await page.reload({ waitUntil: 'load' });
-            await page.waitForSelector('article[data-scroll-index="0"]', { timeout: 15000 });
-            scrollIndexAtual = 0;
+            scrollIndexAtual++;
+
+            // Faz reload e espera carregar ao menos 1 post
+            await page.reload({ waitUntil: 'domcontentloaded' });
+            await delay(3000);
             continue;
         }
 
