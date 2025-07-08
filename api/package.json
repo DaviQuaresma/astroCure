@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"nodemon index.js\" \"node scheduler/scheduler.js\"",
+    "dev": "nodemon index.js",
     "worker": "node scheduler/workers/worker.js"
   },
   "keywords": [],

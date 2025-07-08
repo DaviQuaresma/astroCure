@@ -16,6 +16,7 @@ const logFile = path.join(logsDir, 'logs.jsonl') // formato .jsonl: um JSON por 
  *   error: 'Descrição do erro (se houver)'
  * }
  */
+
 export default function logJob(entry) {
     try {
         if (!fs.existsSync(logsDir)) {
