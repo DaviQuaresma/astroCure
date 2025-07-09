@@ -8,7 +8,7 @@ import readline from 'readline';
 // GET /api/profiles
 export const listarProfiles = async (req, res) => {
     try {
-        const profiles = generateProfiles(); // sem await porque não é async
+        const profiles = generateProfiles();
         res.status(200).json(profiles);
     } catch (error) {
         logJob({

@@ -7,7 +7,7 @@ const connection = new IORedis({
     maxRetriesPerRequest: null,
 })
 
-const queue = new Queue('profile-jobs', { connection })
+export const queue = new Queue('profile-jobs', { connection })
 
 export const addProfileToQueue = async (profiles) => {
     const payload = Array.isArray(profiles) ? profiles : [profiles]
@@ -22,3 +22,19 @@ export const addProfileToQueue = async (profiles) => {
         }
     )
 }
+
+export const addPostToQueue = async ({ profileId, videoPath, description }) => {
+    return await queue.add(
+        'video-post',
+        {
+            profileId,
+            videoPath,
+            description,
+        },
+        {
+            attempts: 3,
+            removeOnComplete: true,
+            removeOnFail: false,
+        }
+    );
+};

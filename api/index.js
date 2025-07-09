@@ -2,6 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import profileRoutes from "./routes/profile.js";
 import schedulerRoutes from "./routes/scheduler.js";
+import videoRoutes from "./routes/video.js";
 
 dotenv.config();
 
@@ -10,6 +11,7 @@ app.use(express.json());
 
 app.use("/api", profileRoutes);
 app.use("/api", schedulerRoutes);
+app.use("/api", videoRoutes);
 
 app.get("/health", (req, res) => {
   res.status(200).send("API Middleware online");

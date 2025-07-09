@@ -1,3 +1,5 @@
+version: "3.8"
+
 services:
   redis:
     image: redis:alpine
@@ -7,6 +9,7 @@ services:
 
   postgres:
     image: bitnami/postgresql:latest
+    container_name: astrocure-postgres-1
     ports:
       - "5433:5432"
     environment:
@@ -37,6 +40,7 @@ services:
       ADSPOWER_URL: http://host.docker.internal:50325
     volumes:
       - ./api:/app
+      - shared-videos:/videos # Volume compartilhado para salvar vídeos
 
   web:
     build:
@@ -51,7 +55,7 @@ services:
       NEXT_PUBLIC_API_URL: http://localhost:4001
     volumes:
       - ./web:/app
-  
+
   worker:
     build:
       context: .
@@ -65,6 +69,7 @@ services:
       ADSPOWER_URL: http://host.docker.internal:50325
     volumes:
       - ./api:/app
+      - shared-videos:/videos # Volume compartilhado para ler vídeos
 
   # scheduler:
   #   build:
@@ -81,3 +86,4 @@ services:
 
 volumes:
   pgdatacure:
+  shared-videos:
