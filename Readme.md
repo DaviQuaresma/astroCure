@@ -113,3 +113,43 @@ FLUSHALL
 
 # Dica extra para inspeção visual via Docker
 docker exec -it redis redis-cli
+
+------ Prisma:
+
+# Instalar Prisma (caso esteja começando)
+npm install prisma --save-dev
+npm install @prisma/client
+npx prisma init
+
+# Gerar cliente Prisma após alteração no schema
+npx prisma generate
+
+# Criar ou atualizar migração
+npx prisma migrate dev --name nome_da_migracao
+
+# Ver status atual das migrações
+npx prisma migrate status
+
+# Executar seed de dados (se configurado no package.json)
+npx prisma db seed
+
+# Aplicar todas as migrações em produção
+npx prisma migrate deploy
+
+# Resetar banco e recriar tudo (⚠️ deleta dados!)
+npx prisma migrate reset
+
+# Rodar comandos Prisma com uma URL customizada
+DATABASE_URL="postgresql://user:senha@host:porta/db" npx prisma migrate deploy
+
+# Rodar o Prisma Studio (visualizador de dados)
+npx prisma studio
+
+# Inspecionar estrutura de banco existente (reverse engineering)
+npx prisma db pull
+
+# Diagnóstico (verifica problemas na config do schema)
+npx prisma validate
+
+# Formatador automático do schema
+npx prisma format
