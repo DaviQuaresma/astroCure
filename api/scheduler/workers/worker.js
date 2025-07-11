@@ -1,81 +1,79 @@
-import { Worker } from 'bullmq'
-import IORedis from 'ioredis'
-import logJob from '../utils/logger.js'
+import { Worker } from 'bullmq';
+import IORedis from 'ioredis';
+import logJob from '../utils/logger.js';
 import {
     startSession,
     stopSession,
     connectToBrowser,
-} from './helpers/adsPowerSession.js'
-import { simulateUserActions } from './helpers/simulatedActions.js'
-import { generateProfiles } from '../jobs/generateProfiles.js'
-import { queue } from '../../services/jobQueue.js'
-import { postVideo } from './helpers/postVideoActions.js'
+} from './helpers/adsPowerSession.js';
+import { simulateUserActions } from './helpers/simulatedActions.js';
+import { queue } from '../utils/jobQueue.js';
+import { postVideo } from './helpers/postVideoActions.js';
+import { PrismaClient } from '@prisma/client';
 
+const prisma = new PrismaClient();
 const connection = new IORedis({
     host: process.env.REDIS_HOST || 'localhost',
     port: process.env.REDIS_PORT || 6379,
     maxRetriesPerRequest: null,
-})
+});
 
-console.log('[WORKER] Iniciando...')
+console.log('[WORKER] Iniciando...');
 
 async function processProfile(profile) {
-    const start = Date.now()
-    let browser = null
+    const start = Date.now();
+    let browser = null;
 
-    const userId = profile?.user_id || profile?.data?.user_id
+    const userId = profile?.user_id;
     if (!userId) {
-        console.error('[WORKER] Perfil inválido recebido no job:', profile)
-        return
+        console.error('[WORKER] Perfil inválido recebido no job:', profile);
+        return;
     }
 
-    const allProfiles = generateProfiles()
-    const match = allProfiles.find(p => p.data?.user_id === userId)
-    if (!match) {
-        console.error(`[WORKER] Perfil ${userId} não encontrado no generateProfiles()`)
-        return
+    const dbProfile = await prisma.profile.findUnique({ where: { user_id: userId } });
+    if (!dbProfile) {
+        console.error(`[WORKER] Perfil ${userId} não encontrado no banco de dados`);
+        return;
     }
 
-    const { email, password } = match.data?.tiktok || {}
+    const { email, password } = dbProfile.tiktok || {};
     if (!email || !password) {
-        console.error(`[WORKER] Credenciais ausentes para o perfil ${userId}`)
-        return
+        console.error(`[WORKER] Credenciais ausentes para o perfil ${userId}`);
+        return;
     }
 
     const fullProfile = {
         ...profile,
         email,
-    }
+    };
 
-    let tentativas = 0
-    const maxTentativas = 2
+    let tentativas = 0;
+    const maxTentativas = 2;
 
     while (tentativas < maxTentativas) {
         try {
             if (browser) {
-                await browser.close().catch(() => { })
-                browser = null
+                await browser.close().catch(() => { });
+                browser = null;
             }
 
-            const ws = await startSession(userId)
-            const { page, browser: b } = await connectToBrowser(ws.replace('127.0.0.1', 'host.docker.internal'))
-            browser = b
+            const ws = await startSession(userId);
+            const { page, browser: b } = await connectToBrowser(ws.replace('127.0.0.1', 'host.docker.internal'));
+            browser = b;
 
-            console.log(`[WORKER] Conectado via CDP: ${email} (tentativa ${tentativas + 1})`)
+            console.log(`[WORKER] Conectado via CDP: ${email} (tentativa ${tentativas + 1})`);
 
-            // Executa simulação
-            await simulateUserActions(page, { email, password })
+            await simulateUserActions(page, { email, password });
 
-            // Processa fila de postagens pendentes
-            const jobs = await queue.getJobs(['waiting', 'delayed'])
-            const postJobs = jobs.filter(j => j.name === 'video-post' && j.data.profileId === userId)
+            const jobs = await queue.getJobs(['waiting', 'delayed']);
+            const postJobs = jobs.filter(j => j.name === 'video-post' && j.data.profileId === userId);
 
             for (const job of postJobs) {
-                const { videoPath, description } = job.data
-                console.log(`[QUEUE] Postando vídeo do job ${job.id} para profile ${userId}`)
-                const success = await postVideo(page, { email, password }, videoPath, description)
-                if (success) await job.moveToCompleted()
-                else await job.moveToFailed({ message: 'Erro no postVideo' })
+                const { videoPath, description } = job.data;
+                console.log(`[QUEUE] Postando vídeo do job ${job.id} para profile ${userId}`);
+                const success = await postVideo(page, { email, password }, videoPath, description);
+                if (success) await job.moveToCompleted();
+                else await job.moveToFailed({ message: 'Erro no postVideo' });
             }
 
             await logJob({
@@ -83,14 +81,14 @@ async function processProfile(profile) {
                 profile: fullProfile,
                 status: 'ok',
                 duration: Date.now() - start,
-            })
+            });
 
-            break
+            break;
 
         } catch (err) {
-            tentativas++
-            const shouldRestart = err.message === 'restart-session'
-            console.warn(`[WORKER] Tentativa ${tentativas} falhou: ${err.message}`)
+            tentativas++;
+            const shouldRestart = err.message === 'restart-session';
+            console.warn(`[WORKER] Tentativa ${tentativas} falhou: ${err.message}`);
 
             if (!shouldRestart || tentativas >= maxTentativas) {
                 await logJob({
@@ -99,18 +97,18 @@ async function processProfile(profile) {
                     status: 'erro',
                     duration: Date.now() - start,
                     error: err.message,
-                })
-                break
+                });
+                break;
             }
 
-            console.log('[WORKER] Reiniciando sessão...')
+            console.log('[WORKER] Reiniciando sessão...');
         } finally {
             if (browser) {
-                await browser.close().catch(() => { })
-                browser = null
+                await browser.close().catch(() => { });
+                browser = null;
             }
 
-            await stopSession(userId)
+            await stopSession(userId);
         }
     }
 }
@@ -122,15 +120,15 @@ new Worker(
 
         if (job.name === 'video-post') {
             const { profileId, videoPath, description } = job.data;
-            const allProfiles = generateProfiles();
-            const match = allProfiles.find(p => p.data?.user_id === profileId);
 
-            if (!match) {
+            const dbProfile = await prisma.profile.findUnique({ where: { user_id: profileId } });
+
+            if (!dbProfile) {
                 console.error(`[WORKER] Perfil ${profileId} não encontrado`);
                 return await job.moveToFailed({ message: 'Perfil não encontrado' });
             }
 
-            const { email, password } = match.data?.tiktok || {};
+            const { email, password } = dbProfile.tiktok || {};
             if (!email || !password) {
                 console.error(`[WORKER] Credenciais ausentes para o perfil ${profileId}`);
                 return await job.moveToFailed({ message: 'Credenciais ausentes' });
@@ -159,10 +157,9 @@ new Worker(
             return;
         }
 
-        // fallback para jobs orgânicos
         try {
             const profiles = job.data.profiles || [];
-            console.log('[DEBUG] Perfis recebidos no job:', profiles.map(p => p?.user_id || p?.data?.user_id || 'undefined'));
+            console.log('[DEBUG] Perfis recebidos no job:', profiles.map(p => p?.user_id || 'undefined'));
 
             for (const profile of profiles) {
                 await processProfile(profile);

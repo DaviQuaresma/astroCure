@@ -1,0 +1,53 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  password  String
+  name      String?
+  admin     Boolean  @default(false)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Upload {
+  id                Int          @id @default(autoincrement())
+  filepath          String
+  description       String
+  assignedProfileId Int?
+  status            UploadStatus @default(PENDING)
+
+  createdAt         DateTime     @default(now())
+  updatedAt         DateTime     @updatedAt
+
+  assignedProfile Profile? @relation(fields: [assignedProfileId], references: [id])
+}
+
+model Profile {
+  id        Int      @id @default(autoincrement())
+  group     Int
+  user_id   String   @unique
+  tiktok    Json
+  instagram Json
+  youtube   Json
+  kwai      Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  uploads Upload[]
+}
+
+enum UploadStatus {
+  PENDING
+  POSTED
+  FAILED
+}

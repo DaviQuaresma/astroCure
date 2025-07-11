@@ -1,6 +1,6 @@
 import { Queue } from 'bullmq';
 import IORedis from 'ioredis';
-import { generateProfiles } from '../scheduler/jobs/generateProfiles.js';
+import { PrismaClient } from '@prisma/client';
 import logJob from '../scheduler/utils/logger.js';
 
 const connection = new IORedis({
@@ -10,10 +10,12 @@ const connection = new IORedis({
 });
 
 const queue = new Queue('profile-jobs', { connection });
+const prisma = new PrismaClient();
 
 export const runSchedulerNow = async (req, res) => {
     try {
-        const profiles = generateProfiles();
+        const profiles = await prisma.profile.findMany();
+
         if (!profiles.length) return res.status(204).send();
 
         const grupos = {};
