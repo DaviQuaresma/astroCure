@@ -59,7 +59,7 @@ export function generateProfiles() {
     },
     {
       id: 132,
-      group: 1,
+      group: 2,
       data: {
         user_id: "kynk78o",
         tiktok: {
@@ -74,7 +74,7 @@ export function generateProfiles() {
     },
     {
       id: 131,
-      group: 1,
+      group: 2,
       data: {
         user_id: "kynjwf6",
         tiktok: {
