@@ -1,5 +1,9 @@
 import fs from 'fs';
-import path from 'path';
+import path from "path";
+import { fileURLToPath } from "url";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
 import { addProfileToQueue } from '../scheduler/utils/jobQueue.js';
 import { PrismaClient } from '@prisma/client';
 import logJob from '../scheduler/utils/logger.js';
@@ -44,6 +48,13 @@ export const criarProfile = async (req, res) => {
             },
         });
 
+        logJob({
+            type: 'controller',
+            status: 'ok',
+            context: 'Perfil criado com sucesso',
+            profile: { user_id: profile.user_id }
+        });
+
         return res.status(201).json({ message: 'Perfil criado com sucesso', profile });
     } catch (error) {
         if (error.name === 'ZodError') {
@@ -55,10 +66,17 @@ export const criarProfile = async (req, res) => {
     }
 };
 
-// GET /api/profiles
 export const listarProfiles = async (req, res) => {
     try {
         const profiles = await prisma.profile.findMany();
+
+        logJob({
+            type: 'controller',
+            status: 'ok',
+            context: 'Listagem de perfis realizada',
+            count: profiles.length
+        });
+
         res.status(200).json(profiles);
     } catch (error) {
         logJob({
@@ -71,7 +89,6 @@ export const listarProfiles = async (req, res) => {
     }
 };
 
-// POST /api/profiles/:id/start
 export const startProfile = async (req, res) => {
     const { id } = req.params;
 
@@ -84,11 +101,18 @@ export const startProfile = async (req, res) => {
             return res.status(404).json({ error: `Perfil com user_id ${id} não encontrado` });
         }
 
-        const result = await addProfileToQueue(profile); // envia o objeto inteiro
-        res.status(200).json({ message: `Perfil ${id} adicionado à fila`, result });
+        const result = await addProfileToQueue(profile);
 
+        logJob({
+            type: 'controller',
+            status: 'ok',
+            context: `Perfil ${id} adicionado à fila com sucesso`,
+            profile: { user_id: id },
+        });
+
+        res.status(200).json({ message: `Perfil ${id} adicionado à fila`, result });
     } catch (error) {
-        console.error('[startProfile ERROR]', error); // log extra
+        console.error('[startProfile ERROR]', error);
         logJob({
             type: 'controller',
             status: 'erro',
@@ -99,7 +123,6 @@ export const startProfile = async (req, res) => {
     }
 };
 
-// PUT /api/profiles/:id
 export const atualizarProfile = async (req, res) => {
     const { id } = req.params;
 
@@ -118,6 +141,13 @@ export const atualizarProfile = async (req, res) => {
             },
         });
 
+        logJob({
+            type: 'controller',
+            status: 'ok',
+            context: `Perfil ${id} atualizado com sucesso`,
+            profile: { user_id: profile.user_id }
+        });
+
         return res.status(200).json({ message: 'Perfil atualizado com sucesso', profile });
     } catch (error) {
         if (error.name === 'ZodError') {
@@ -133,13 +163,19 @@ export const atualizarProfile = async (req, res) => {
     }
 };
 
-// DELETE /api/profiles/:id
 export const deletarProfile = async (req, res) => {
     const { id } = req.params;
 
     try {
         await prisma.profile.delete({
             where: { id: parseInt(id) },
+        });
+
+        logJob({
+            type: 'controller',
+            status: 'ok',
+            context: `Perfil ${id} deletado com sucesso`,
+            profile: { user_id: id }
         });
 
         return res.status(200).json({ message: `Perfil com ID ${id} deletado com sucesso` });
@@ -153,11 +189,9 @@ export const deletarProfile = async (req, res) => {
     }
 };
 
-
-// GET /api/profiles/:id/logs
 export const getLogs = async (req, res) => {
     const { id } = req.params;
-    const logsPath = path.join(process.cwd(), 'scheduler', 'logs.jsonl');
+    const logsPath = path.join(__dirname, '../scheduler/logs.jsonl');
 
     try {
         if (!fs.existsSync(logsPath)) {
@@ -190,4 +224,41 @@ export const getLogs = async (req, res) => {
         console.error(`[LOGS] Erro ao ler logs para perfil ${id}:`, error.message);
         res.status(500).json({ error: 'Erro ao ler logs' });
     }
+};
+
+export const getAllLogs = async (req, res) => {
+  const { user_id } = req.query;
+  const logsPath = path.join(__dirname, '../scheduler/logs.jsonl');
+
+  try {
+    if (!fs.existsSync(logsPath)) {
+      return res.status(404).json({ error: 'Arquivo de log não encontrado' });
+    }
+
+    const fileStream = fs.createReadStream(logsPath);
+    const rl = readline.createInterface({
+      input: fileStream,
+      crlfDelay: Infinity,
+    });
+
+    const logs = [];
+
+    for await (const line of rl) {
+      try {
+        const entry = JSON.parse(line);
+        const profileId = entry?.profile?.user_id || entry?.profile?.data?.user_id;
+
+        if (!user_id || String(profileId) === String(user_id)) {
+          logs.push(entry);
+        }
+      } catch (err) {
+        console.warn('[LOGS] Linha inválida no log JSONL:', err.message);
+      }
+    }
+
+    res.status(200).json(logs);
+  } catch (error) {
+    console.error(`[LOGS] Erro ao ler logs:`, error.message);
+    res.status(500).json({ error: 'Erro ao ler logs' });
+  }
 };

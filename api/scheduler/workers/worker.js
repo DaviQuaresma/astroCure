@@ -125,12 +125,24 @@ new Worker(
 
             if (!dbProfile) {
                 console.error(`[WORKER] Perfil ${profileId} não encontrado`);
+                await logJob({
+                    type: 'worker',
+                    profile: { user_id: profileId },
+                    status: 'erro',
+                    context: 'Perfil não encontrado para video-post',
+                });
                 return await job.moveToFailed({ message: 'Perfil não encontrado' });
             }
 
             const { email, password } = dbProfile.tiktok || {};
             if (!email || !password) {
                 console.error(`[WORKER] Credenciais ausentes para o perfil ${profileId}`);
+                await logJob({
+                    type: 'worker',
+                    profile: { user_id: profileId },
+                    status: 'erro',
+                    context: 'Credenciais ausentes no video-post',
+                });
                 return await job.moveToFailed({ message: 'Credenciais ausentes' });
             }
 
@@ -145,10 +157,24 @@ new Worker(
                     throw new Error('Erro no postVideo');
                 }
 
+                await logJob({
+                    type: 'worker',
+                    profile: { user_id: profileId },
+                    status: 'ok',
+                    context: 'Postagem de vídeo concluída com sucesso',
+                });
+
             } catch (err) {
                 console.error(`[WORKER] Erro no processamento do job ${job.id}:`, err);
                 await job.moveToFailed({ message: err.message || 'Erro inesperado no worker' });
 
+                await logJob({
+                    type: 'worker',
+                    profile: { user_id: profileId },
+                    status: 'erro',
+                    context: 'Erro no video-post',
+                    error: err.message,
+                });
             } finally {
                 if (browser) await browser.close().catch(() => { });
                 await stopSession(profileId);
@@ -169,6 +195,13 @@ new Worker(
         } catch (err) {
             console.error('[WORKER] Erro no job orgânico:', err);
             await job.moveToFailed({ message: err.message || 'Erro no job orgânico' });
+
+            await logJob({
+                type: 'worker',
+                status: 'erro',
+                context: 'Erro no job orgânico',
+                error: err.message,
+            });
         }
     },
     {
