@@ -1,24 +1,32 @@
-import express from "express";
-import dotenv from "dotenv";
-import profileRoutes from "./routes/profile.js";
-import schedulerRoutes from "./routes/scheduler.js";
-import videoRoutes from "./routes/video.js";
+import express from "express"
+import cors from "cors"
+import dotenv from "dotenv"
 
-dotenv.config();
+import profileRoutes from "./routes/profile.js"
+import schedulerRoutes from "./routes/scheduler.js"
+import videoRoutes from "./routes/video.js"
 
-const app = express();
-app.use(express.json());
+dotenv.config()
 
-app.use("/api", profileRoutes);
-app.use("/api", schedulerRoutes);
-app.use("/api", videoRoutes);
+const app = express()
+
+app.use(cors({
+  origin: process.env.CORS_ORIGIN || "*", // ou: "http://localhost:3000"
+  credentials: true,
+}))
+
+app.use(express.json())
+
+app.use("/api", profileRoutes)
+app.use("/api", schedulerRoutes)
+app.use("/api", videoRoutes)
 
 app.get("/health", (req, res) => {
-  res.status(200).send("API Middleware online");
-});
+  res.status(200).send("API Middleware online")
+})
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4000
 
 app.listen(PORT, () => {
-  console.log(`Middleware rodando na porta ${PORT}`);
-});
+  console.log(`Middleware rodando na porta ${PORT}`)
+})
