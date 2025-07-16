@@ -1,65 +1,55 @@
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="min-h-screen px-6 py-16 sm:px-10 bg-gray-950 text-gray-200 font-sans">
+      <main className="max-w-5xl mx-auto space-y-14">
+        <section className="text-center">
+          <h1 className="text-4xl font-bold text-white mb-4">
+            Bem-vindo ao Painel de Automação 🎯
+          </h1>
+          <p className="text-lg text-gray-400">
+            Este painel controla todo o fluxo de postagens automatizadas nas
+            redes sociais com controle de perfis, vídeos e logs detalhados.
+          </p>
+        </section>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
+        <section className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+          <div className="bg-gray-900 rounded-xl p-6 border border-gray-800 shadow-md hover:shadow-lg transition">
+            <h2 className="text-xl font-semibold text-white mb-2">
+              1. Postagem de Vídeos
+            </h2>
+            <p className="text-sm text-gray-400">
+              Faça o envio de vídeos com descrições, selecione os grupos de
+              perfis desejados, e o sistema cuida da publicação automática.
+            </p>
+          </div>
+
+          <div className="bg-gray-900 rounded-xl p-6 border border-gray-800 shadow-md hover:shadow-lg transition">
+            <h2 className="text-xl font-semibold text-white mb-2">
+              2. Gerenciamento de Perfis
+            </h2>
+            <p className="text-sm text-gray-400">
+              Crie, edite ou exclua perfis conectados ao AdsPower. Cada perfil
+              representa uma conta social automatizada no processo.
+            </p>
+          </div>
+
+          <div className="bg-gray-900 rounded-xl p-6 border border-gray-800 shadow-md hover:shadow-lg transition">
+            <h2 className="text-xl font-semibold text-white mb-2">
+              3. Logs e Execuções
+            </h2>
+            <p className="text-sm text-gray-400">
+              Visualize logs completos das execuções, com filtros por status,
+              data e perfil. Ideal para auditoria e debugging.
+            </p>
+          </div>
+        </section>
+
+        <section className="text-center mt-12">
+          <p className="text-sm text-gray-500">
+            Desenvolvido por Davi Quaresma
+          </p>
+        </section>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }

@@ -6,7 +6,7 @@ interface LogEntry {
   timestamp: string;
   type: string;
   status: string;
-  duration?: number;
+  user_id?: string;
   error?: string;
   context?: string;
 }
@@ -15,6 +15,8 @@ export default function ProfileLogTimeline({ userId }: { userId?: string }) {
   const [logs, setLogs] = useState<LogEntry[]>([]);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<"all" | "ok" | "erro">("all");
+  const [order, setOrder] = useState<"asc" | "desc">("desc");
+  const [dateFilter, setDateFilter] = useState<string>("");
 
   useEffect(() => {
     const fetchLogs = async () => {
@@ -22,10 +24,7 @@ export default function ProfileLogTimeline({ userId }: { userId?: string }) {
         const url = new URL(
           `${process.env.NEXT_PUBLIC_API_URL}/api/profiles/logs`
         );
-        if (userId) {
-          url.searchParams.append("user_id", userId);
-        }
-
+        if (userId) url.searchParams.append("user_id", userId);
         const res = await fetch(url.toString());
         const data = await res.json();
         setLogs(Array.isArray(data) ? data : []);
@@ -38,8 +37,20 @@ export default function ProfileLogTimeline({ userId }: { userId?: string }) {
     fetchLogs();
   }, [userId]);
 
-  const filteredLogs =
-    filter === "all" ? logs : logs.filter((log) => log.status === filter);
+  const filteredLogs = logs
+    .filter((log) => {
+      if (filter !== "all" && log.status !== filter) return false;
+      if (dateFilter) {
+        const logDate = new Date(log.timestamp).toISOString().split("T")[0];
+        return logDate === dateFilter;
+      }
+      return true;
+    })
+    .sort((a, b) =>
+      order === "asc"
+        ? new Date(a.timestamp).getTime() - new Date(b.timestamp).getTime()
+        : new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime()
+    );
 
   return (
     <div className="min-h-screen w-full bg-gray-950 px-4 py-10">
@@ -48,7 +59,7 @@ export default function ProfileLogTimeline({ userId }: { userId?: string }) {
           Logs do Perfil
         </h2>
 
-        <div className="flex justify-center gap-4 mb-10">
+        <div className="flex flex-wrap justify-center gap-4 mb-8">
           {["all", "ok", "erro"].map((f) => {
             const label =
               f === "all" ? "Todos" : f === "ok" ? "Sucesso" : "Erros";
@@ -68,6 +79,22 @@ export default function ProfileLogTimeline({ userId }: { userId?: string }) {
               </button>
             );
           })}
+
+          <select
+            value={order}
+            onChange={(e) => setOrder(e.target.value as "asc" | "desc")}
+            className="px-3 py-2 text-sm bg-gray-800 text-white rounded"
+          >
+            <option value="desc">Mais recentes</option>
+            <option value="asc">Mais antigos</option>
+          </select>
+
+          <input
+            type="date"
+            value={dateFilter}
+            onChange={(e) => setDateFilter(e.target.value)}
+            className="px-3 py-2 text-sm bg-gray-800 text-white rounded"
+          />
         </div>
 
         {loading ? (
@@ -105,10 +132,16 @@ export default function ProfileLogTimeline({ userId }: { userId?: string }) {
                   {log.type}
                 </p>
 
-                <p className="text-sm text-gray-300 mb-1">
-                  <span className="font-semibold text-white">Duração:</span>{" "}
-                  {typeof log.duration === "number" ? `${log.duration}ms` : "—"}
-                </p>
+                {/* <p className="text-sm text-gray-300 mb-1">
+                  <span className="font-semibold text-white">
+                    Executado por:
+                  </span>{" "}
+                  {log.user_id?.trim() ||
+                    (() => {
+                      const match = log.error?.match(/perfil\s+(\w+)/i);
+                      return match ? match[1] : "—";
+                    })()}
+                </p> */}
 
                 {log.context && (
                   <p className="text-sm text-gray-400 mt-2 italic">

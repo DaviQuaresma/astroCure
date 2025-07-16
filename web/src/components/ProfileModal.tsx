@@ -58,7 +58,10 @@ export default function ProfileModal({
         [platform]: { ...prev[platform as keyof Profile], [field]: value },
       }));
     } else {
-      setFormData((prev) => ({ ...prev, [name]: value }));
+      setFormData((prev) => ({
+        ...prev,
+        [name]: name === "group" ? Number(value) : value,
+      }));
     }
   };
 
