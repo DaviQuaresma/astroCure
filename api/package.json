@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "nodemon index.js",
     "worker": "node scheduler/workers/worker.js",
-    "seed": "node prisma/seed.js"
+    "seed": "node prisma/seed.js",
+    "agent": "node sockets/agentSocket.js"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,8 @@
     "jsonwebtoken": "^9.0.2",
     "multer": "^2.0.1",
     "playwright": "^1.52.0",
+    "socket.io": "^4.8.1",
+    "ws": "^8.0.0",
     "zod": "^4.0.5"
   },
   "devDependencies": {
