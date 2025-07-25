@@ -1,18 +1,12 @@
 # Dockerfile.agent
-FROM node:20-alpine
+FROM node:20
 
 WORKDIR /app
 
-# Copia o package.json e o lock para instalar dependências corretamente
-COPY ./api/package*.json ./
+COPY ./api .
 
 RUN npm install
 
-# Agora copia o restante da API, depois das dependências instaladas
-COPY ./api .
-
-# Expõe a porta que o agente usa
 EXPOSE 5050
 
-# Roda o socket do agente
 CMD ["node", "sockets/agentSocket.js"]

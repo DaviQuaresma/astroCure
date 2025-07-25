@@ -3,9 +3,8 @@ FROM node:20
 
 WORKDIR /app
 
-COPY ./api/package*.json ./
-RUN npm install
+COPY ./api . 
 
-COPY ./api ./
+RUN npm install
 
 CMD ["node", "scheduler/workers/worker.js"]
