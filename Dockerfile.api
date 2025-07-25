@@ -3,12 +3,17 @@ FROM node:20
 WORKDIR /app
 
 COPY ./api/package*.json ./
+
+# Garante que devDeps como Prisma sejam instalados para o build
 RUN npm install
 
 COPY ./api .
 
+# Gera o client Prisma
 RUN npx prisma generate
 
 EXPOSE 4000
+EXPOSE 5050
 
-CMD ["npm", "run", "dev"]
+# Produção: não usa nodemon
+CMD ["node", "index.js"]
