@@ -56,7 +56,7 @@ services:
     depends_on:
       - api
     environment:
-      NEXT_PUBLIC_API_URL: http://api:4000
+      NEXT_PUBLIC_API_URL: http://178.156.135.171:4000
 
   worker:
     build:
