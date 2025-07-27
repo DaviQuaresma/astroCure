@@ -21,7 +21,7 @@ export const upload = multer({ storage });
 
 router.post('/upload', upload.single('video'), uploadVideo);               // Envio individual
 router.post('/post', triggerVideoPost);                                    // Post individual
-router.post('/upload/multiple', upload.array('videos', 30), uploadMultipleVideos); // Envio em lote
+router.post('/upload/multiple', upload.array('videos', 50), uploadMultipleVideos); // Envio em lote
 router.post('/post/group', triggerGroupPostMultiple);                      // Novo: post por grupo
 
 export default router;

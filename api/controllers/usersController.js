@@ -43,3 +43,27 @@ export const criarUser = async (req, res) => {
         return res.status(500).json({ error: 'Erro interno do servidor' });
     }
 };
+
+export const getUsers = async (req, res) => {
+    try {
+        const users = await prisma.user.findMany({
+            select: {
+                id: true,
+                email: true,
+                name: true,
+                admin: true,
+                createdAt: true,
+                updatedAt: true,
+            },
+        });
+
+        return res.status(200).json({
+            message: 'Usuários encontrados com sucesso',
+            count: users.length,
+            data: users,
+        });
+    } catch (err) {
+        console.error(err);
+        return res.status(500).json({ error: 'Erro ao buscar usuários' });
+    }
+};
