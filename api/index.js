@@ -7,7 +7,6 @@ import schedulerRoutes from "./routes/scheduler.js"
 import videoRoutes from "./routes/video.js"
 import usersRoutes from "./routes/users.js"
 import authRoutes from "./routes/authRoutes.js"
-import agentRoutes from "./routes/agent.js"
 
 dotenv.config()
 
@@ -25,7 +24,6 @@ app.use("/api", schedulerRoutes)
 app.use("/api", videoRoutes)
 app.use("/api", usersRoutes)
 app.use('/api/auth', authRoutes);
-app.use('/api', agentRoutes);
 
 app.get("/health", (req, res) => {
   res.status(200).send("API Middleware online")

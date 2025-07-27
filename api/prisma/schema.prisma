@@ -51,13 +51,3 @@ enum UploadStatus {
   POSTED
   FAILED
 }
-
-model Agent {
-  id         String   @id @default(uuid())
-  name       String
-  token      String   @unique
-  status     String   @default("offline")
-  lastPing   DateTime @default(now())
-  createdAt  DateTime @default(now())
-  updatedAt  DateTime @updatedAt
-}
