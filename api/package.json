@@ -5,7 +5,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
     "dev": "nodemon index.js",
     "worker": "node scheduler/workers/worker.js",
     "seed": "node prisma/seed.js",
