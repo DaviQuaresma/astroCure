@@ -14,7 +14,7 @@ dotenv.config()
 const app = express()
 
 app.use(cors({
-  origin: "*", // ou: "http://localhost:3000"
+  origin: process.env.CORS_ORIGIN || "*", // ou: "http://localhost:3000"
   credentials: true,
 }))
 
