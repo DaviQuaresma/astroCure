@@ -26,7 +26,7 @@ services:
     container_name: api
     ports:
       - "4001:4000"
-      # - "5050:5050"
+      - "5050:5050"
     depends_on:
       - redis
       - postgres
