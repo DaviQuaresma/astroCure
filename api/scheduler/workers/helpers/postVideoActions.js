@@ -1,4 +1,5 @@
 import { ensureLoggedIn } from '../../utils/loginUtils.js';
+import path from 'path';
 
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
@@ -11,25 +12,24 @@ export async function postVideo(page, credentials = {}, videoPath, descricao = '
         console.log('[UPLOAD] Acessando página de upload...');
         await page.goto('https://www.tiktok.com/tiktokstudio/upload?from=webapp', {
             waitUntil: 'domcontentloaded',
-            timeout: 30000,
+            timeout: 60000,
         });
 
-        console.log(`[UPLOAD] Enviando vídeo: ${videoPath}`);
+        // Corrigir o path absoluto (garante compatibilidade no container Docker)
+        const absoluteVideoPath = path.resolve('/videos', path.basename(videoPath));
+        console.log(`[UPLOAD] Enviando vídeo: ${absoluteVideoPath}`);
 
-        // Clica no botão estilizado
-        const selectButton = await page.waitForSelector('button[data-e2e="select_video_button"]', { timeout: 10000 });
+        const selectButton = await page.waitForSelector('button[data-e2e="select_video_button"]', { timeout: 30000 });
         if (!selectButton) throw new Error('Botão "Selecionar vídeos" não encontrado');
         await selectButton.click();
         await delay(1000);
 
-        // Força o input a ficar visível e envia o arquivo
         const fileInput = await page.$('input[type="file"]');
         if (!fileInput) throw new Error('Campo de upload não encontrado');
+        await page.evaluate(el => el.style.display = 'block', fileInput);
+        await fileInput.setInputFiles(absoluteVideoPath);
 
-        await page.evaluate(el => el.style.display = 'block', fileInput); // força visibilidade
-        await fileInput.setInputFiles(videoPath);
-
-        await page.waitForSelector('[data-e2e="caption_container"]', { timeout: 15000 });
+        await page.waitForSelector('[data-e2e="caption_container"]', { timeout: 30000 });
 
         console.log('[UPLOAD] Preenchendo descrição...');
         const descricaoField = await page.$('div.DraftEditor-root');
@@ -41,7 +41,7 @@ export async function postVideo(page, credentials = {}, videoPath, descricao = '
         await page.keyboard.up('Control');
         await page.keyboard.press('Backspace');
         await delay(300);
-        await page.keyboard.type(descricao, { delay: 30 });
+        await page.keyboard.type(descricao, { delay: 240 });
 
         await delay(1000);
 
@@ -51,18 +51,16 @@ export async function postVideo(page, credentials = {}, videoPath, descricao = '
 
         await botaoPublicar.click();
 
-        // Espera algum indicativo visual ou timeout de fallback
         try {
             await Promise.race([
-                page.waitForNavigation({ timeout: 10000 }),
-                page.waitForSelector('[data-e2e="upload_success_toast"]', { timeout: 10000 }),
-                delay(10000), // fallback: não achou nada, mas esperou o suficiente
+                page.waitForNavigation({ timeout: 30000 }),
+                page.waitForSelector('[data-e2e="upload_success_toast"]', { timeout: 30000 }),
+                delay(10000),
             ]);
         } catch (err) {
             console.warn('[UPLOAD] Timeout aguardando confirmação visual, prosseguindo mesmo assim.');
         }
 
-        // Verifica visualmente se houve falha
         const erroUpload = await page.$('div[class*="upload-error"], [data-e2e*="error"]');
         if (erroUpload) {
             console.warn('[UPLOAD] Detectado possível erro visual durante upload.');
@@ -70,8 +68,13 @@ export async function postVideo(page, credentials = {}, videoPath, descricao = '
 
         console.log('[UPLOAD] Postagem finalizada (com ou sem confirmação).');
         return true;
+
     } catch (err) {
-        console.error(`[UPLOAD] Erro no processo de postagem: ${err.message}`);
+        if (err.message.includes('Credenciais ausentes')) {
+            console.warn('[UPLOAD] Credenciais ausentes e login necessário. Pulando perfil.');
+        } else {
+            console.error(`[UPLOAD] Erro no processo de postagem: ${err.message}`);
+        }
         return false;
     }
 }

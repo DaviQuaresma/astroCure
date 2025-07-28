@@ -139,3 +139,524 @@
 {"timestamp":"2025-07-27T10:11:46.132Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":49}
 {"timestamp":"2025-07-27T10:11:49.484Z","type":"controller","status":"ok","context":"Perfil criado com sucesso","profile":{"user_id":"kynhvni"}}
 {"timestamp":"2025-07-27T10:11:49.493Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":50}
+{"timestamp":"2025-07-28T14:12:22.940Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":50}
+{"timestamp":"2025-07-28T14:29:03.790Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:03.881Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:03.897Z","type":"worker","profile":{"user_id":"k11m9kg2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:03.915Z","type":"worker","profile":{"user_id":"k11m9c5q"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:03.936Z","type":"worker","profile":{"user_id":"k11m98f7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:03.956Z","type":"worker","profile":{"user_id":"k11m94o9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:03.976Z","type":"worker","profile":{"user_id":"k11m90u6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:03.996Z","type":"worker","profile":{"user_id":"k11m8vn8"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.026Z","type":"worker","profile":{"user_id":"k11m8rtp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.039Z","type":"worker","profile":{"user_id":"k11m8d9u"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.051Z","type":"worker","profile":{"user_id":"k11m60xx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.065Z","type":"worker","profile":{"user_id":"k11m5ssy"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.084Z","type":"worker","profile":{"user_id":"k11m5p6r"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.099Z","type":"worker","profile":{"user_id":"k11m5ih2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.114Z","type":"worker","profile":{"user_id":"k11m5awc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.129Z","type":"worker","profile":{"user_id":"k11m543v"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.145Z","type":"worker","profile":{"user_id":"k11m4vg7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.159Z","type":"worker","profile":{"user_id":"k11m4rf1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.174Z","type":"worker","profile":{"user_id":"k11m4kub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.188Z","type":"worker","profile":{"user_id":"k11m4g1e"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.204Z","type":"worker","profile":{"user_id":"k11m48ub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.219Z","type":"worker","profile":{"user_id":"k11m3yhh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.234Z","type":"worker","profile":{"user_id":"k11m3ucc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.247Z","type":"worker","profile":{"user_id":"k11m3pwu"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.264Z","type":"worker","profile":{"user_id":"k11m3k37"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.284Z","type":"worker","profile":{"user_id":"k11m32fo"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.299Z","type":"worker","profile":{"user_id":"k11m2woh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.319Z","type":"worker","profile":{"user_id":"k11m2qxi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.339Z","type":"worker","profile":{"user_id":"k11m2jgl"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.356Z","type":"worker","profile":{"user_id":"k11m2dfd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.372Z","type":"worker","profile":{"user_id":"k11m29i9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.388Z","type":"worker","profile":{"user_id":"k11m21qr"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.403Z","type":"worker","profile":{"user_id":"k11m1t7t"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.421Z","type":"worker","profile":{"user_id":"k11m1om0"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.437Z","type":"worker","profile":{"user_id":"k11m1er9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.456Z","type":"worker","profile":{"user_id":"k11m17k1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.475Z","type":"worker","profile":{"user_id":"k11m0yfx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.494Z","type":"worker","profile":{"user_id":"k11lojpw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.511Z","type":"worker","profile":{"user_id":"k11lo58s"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.530Z","type":"worker","profile":{"user_id":"k11lnspi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.541Z","type":"worker","profile":{"user_id":"kynksw9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.555Z","type":"worker","profile":{"user_id":"kynkngq"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.574Z","type":"worker","profile":{"user_id":"kynkdje"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.588Z","type":"worker","profile":{"user_id":"kynk78o"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.604Z","type":"worker","profile":{"user_id":"kynjwf6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.619Z","type":"worker","profile":{"user_id":"kynjckp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.632Z","type":"worker","profile":{"user_id":"kynj3vn"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.647Z","type":"worker","profile":{"user_id":"kynix9l"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.666Z","type":"worker","profile":{"user_id":"kynip30"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.682Z","type":"worker","profile":{"user_id":"kynhvni"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.698Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.714Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.728Z","type":"worker","profile":{"user_id":"k11m9kg2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.743Z","type":"worker","profile":{"user_id":"k11m9c5q"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.763Z","type":"worker","profile":{"user_id":"k11m98f7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.785Z","type":"worker","profile":{"user_id":"k11m94o9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.800Z","type":"worker","profile":{"user_id":"k11m90u6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.816Z","type":"worker","profile":{"user_id":"k11m8vn8"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.832Z","type":"worker","profile":{"user_id":"k11m8rtp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.849Z","type":"worker","profile":{"user_id":"k11m8d9u"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.866Z","type":"worker","profile":{"user_id":"k11m60xx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.885Z","type":"worker","profile":{"user_id":"k11m5ssy"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.901Z","type":"worker","profile":{"user_id":"k11m5p6r"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.915Z","type":"worker","profile":{"user_id":"k11m5ih2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.931Z","type":"worker","profile":{"user_id":"k11m5awc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.945Z","type":"worker","profile":{"user_id":"k11m543v"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.964Z","type":"worker","profile":{"user_id":"k11m4vg7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.978Z","type":"worker","profile":{"user_id":"k11m4rf1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:04.992Z","type":"worker","profile":{"user_id":"k11m4kub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.006Z","type":"worker","profile":{"user_id":"k11m4g1e"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.020Z","type":"worker","profile":{"user_id":"k11m48ub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.037Z","type":"worker","profile":{"user_id":"k11m3yhh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.054Z","type":"worker","profile":{"user_id":"k11m3ucc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.071Z","type":"worker","profile":{"user_id":"k11m3pwu"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.088Z","type":"worker","profile":{"user_id":"k11m3k37"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.105Z","type":"worker","profile":{"user_id":"k11m32fo"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.119Z","type":"worker","profile":{"user_id":"k11m2woh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.137Z","type":"worker","profile":{"user_id":"k11m2qxi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.150Z","type":"worker","profile":{"user_id":"k11m2jgl"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.171Z","type":"worker","profile":{"user_id":"k11m2dfd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.192Z","type":"worker","profile":{"user_id":"k11m29i9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.211Z","type":"worker","profile":{"user_id":"k11m21qr"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.229Z","type":"worker","profile":{"user_id":"k11m1t7t"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.251Z","type":"worker","profile":{"user_id":"k11m1om0"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.266Z","type":"worker","profile":{"user_id":"k11m1er9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.287Z","type":"worker","profile":{"user_id":"k11m17k1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.299Z","type":"worker","profile":{"user_id":"k11m0yfx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.313Z","type":"worker","profile":{"user_id":"k11lojpw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.329Z","type":"worker","profile":{"user_id":"k11lo58s"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.342Z","type":"worker","profile":{"user_id":"k11lnspi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.354Z","type":"worker","profile":{"user_id":"kynksw9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.366Z","type":"worker","profile":{"user_id":"kynkngq"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.379Z","type":"worker","profile":{"user_id":"kynkdje"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.394Z","type":"worker","profile":{"user_id":"kynk78o"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.410Z","type":"worker","profile":{"user_id":"kynjwf6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.426Z","type":"worker","profile":{"user_id":"kynjckp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.443Z","type":"worker","profile":{"user_id":"kynj3vn"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.454Z","type":"worker","profile":{"user_id":"kynix9l"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.466Z","type":"worker","profile":{"user_id":"kynip30"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.479Z","type":"worker","profile":{"user_id":"kynhvni"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.493Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.507Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.520Z","type":"worker","profile":{"user_id":"k11m9kg2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.532Z","type":"worker","profile":{"user_id":"k11m9c5q"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.546Z","type":"worker","profile":{"user_id":"k11m98f7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.562Z","type":"worker","profile":{"user_id":"k11m94o9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.576Z","type":"worker","profile":{"user_id":"k11m90u6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.590Z","type":"worker","profile":{"user_id":"k11m8vn8"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.603Z","type":"worker","profile":{"user_id":"k11m8rtp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.616Z","type":"worker","profile":{"user_id":"k11m8d9u"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.631Z","type":"worker","profile":{"user_id":"k11m60xx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.645Z","type":"worker","profile":{"user_id":"k11m5ssy"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.661Z","type":"worker","profile":{"user_id":"k11m5p6r"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.677Z","type":"worker","profile":{"user_id":"k11m5ih2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.694Z","type":"worker","profile":{"user_id":"k11m5awc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.710Z","type":"worker","profile":{"user_id":"k11m543v"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.730Z","type":"worker","profile":{"user_id":"k11m4vg7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.741Z","type":"worker","profile":{"user_id":"k11m4rf1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.761Z","type":"worker","profile":{"user_id":"k11m4kub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.772Z","type":"worker","profile":{"user_id":"k11m4g1e"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.786Z","type":"worker","profile":{"user_id":"k11m48ub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.800Z","type":"worker","profile":{"user_id":"k11m3yhh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.815Z","type":"worker","profile":{"user_id":"k11m3ucc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.833Z","type":"worker","profile":{"user_id":"k11m3pwu"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.849Z","type":"worker","profile":{"user_id":"k11m3k37"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.862Z","type":"worker","profile":{"user_id":"k11m32fo"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.878Z","type":"worker","profile":{"user_id":"k11m2woh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.897Z","type":"worker","profile":{"user_id":"k11m2qxi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.912Z","type":"worker","profile":{"user_id":"k11m2jgl"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.928Z","type":"worker","profile":{"user_id":"k11m2dfd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.946Z","type":"worker","profile":{"user_id":"k11m29i9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.962Z","type":"worker","profile":{"user_id":"k11m21qr"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.980Z","type":"worker","profile":{"user_id":"k11m1t7t"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:05.999Z","type":"worker","profile":{"user_id":"k11m1om0"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.014Z","type":"worker","profile":{"user_id":"k11m1er9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.030Z","type":"worker","profile":{"user_id":"k11m17k1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.044Z","type":"worker","profile":{"user_id":"k11m0yfx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.072Z","type":"worker","profile":{"user_id":"k11lojpw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.084Z","type":"worker","profile":{"user_id":"k11lo58s"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.102Z","type":"worker","profile":{"user_id":"k11lnspi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.121Z","type":"worker","profile":{"user_id":"kynksw9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.135Z","type":"worker","profile":{"user_id":"kynkngq"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.154Z","type":"worker","profile":{"user_id":"kynkdje"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.169Z","type":"worker","profile":{"user_id":"kynk78o"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.186Z","type":"worker","profile":{"user_id":"kynjwf6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.200Z","type":"worker","profile":{"user_id":"kynjckp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.216Z","type":"worker","profile":{"user_id":"kynj3vn"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.233Z","type":"worker","profile":{"user_id":"kynix9l"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.249Z","type":"worker","profile":{"user_id":"kynip30"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:29:06.263Z","type":"worker","profile":{"user_id":"kynhvni"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T14:30:23.358Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":50}
+{"timestamp":"2025-07-28T14:30:36.063Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":50}
+{"timestamp":"2025-07-28T15:07:51.551Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":50}
+{"timestamp":"2025-07-28T15:32:56.054Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.112Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.126Z","type":"worker","profile":{"user_id":"k11m9kg2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.142Z","type":"worker","profile":{"user_id":"k11m9c5q"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.159Z","type":"worker","profile":{"user_id":"k11m98f7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.183Z","type":"worker","profile":{"user_id":"k11m94o9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.194Z","type":"worker","profile":{"user_id":"k11m90u6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.207Z","type":"worker","profile":{"user_id":"k11m8vn8"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.221Z","type":"worker","profile":{"user_id":"k11m8rtp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.235Z","type":"worker","profile":{"user_id":"k11m8d9u"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.248Z","type":"worker","profile":{"user_id":"k11m60xx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.270Z","type":"worker","profile":{"user_id":"k11m5ssy"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.281Z","type":"worker","profile":{"user_id":"k11m5p6r"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.294Z","type":"worker","profile":{"user_id":"k11m5ih2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.308Z","type":"worker","profile":{"user_id":"k11m5awc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.321Z","type":"worker","profile":{"user_id":"k11m543v"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.334Z","type":"worker","profile":{"user_id":"k11m4vg7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.347Z","type":"worker","profile":{"user_id":"k11m4rf1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.360Z","type":"worker","profile":{"user_id":"k11m4kub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.375Z","type":"worker","profile":{"user_id":"k11m4g1e"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.396Z","type":"worker","profile":{"user_id":"k11m48ub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.407Z","type":"worker","profile":{"user_id":"k11m3yhh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.421Z","type":"worker","profile":{"user_id":"k11m3ucc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.433Z","type":"worker","profile":{"user_id":"k11m3pwu"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.447Z","type":"worker","profile":{"user_id":"k11m3k37"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.460Z","type":"worker","profile":{"user_id":"k11m32fo"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.474Z","type":"worker","profile":{"user_id":"k11m2woh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.494Z","type":"worker","profile":{"user_id":"k11m2qxi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.506Z","type":"worker","profile":{"user_id":"k11m2jgl"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.517Z","type":"worker","profile":{"user_id":"k11m2dfd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.530Z","type":"worker","profile":{"user_id":"k11m29i9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.544Z","type":"worker","profile":{"user_id":"k11m21qr"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.557Z","type":"worker","profile":{"user_id":"k11m1t7t"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.571Z","type":"worker","profile":{"user_id":"k11m1om0"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.595Z","type":"worker","profile":{"user_id":"k11m1er9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.605Z","type":"worker","profile":{"user_id":"k11m17k1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.620Z","type":"worker","profile":{"user_id":"k11m0yfx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.632Z","type":"worker","profile":{"user_id":"k11lojpw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.645Z","type":"worker","profile":{"user_id":"k11lo58s"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.662Z","type":"worker","profile":{"user_id":"k11lnspi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.675Z","type":"worker","profile":{"user_id":"kynksw9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.694Z","type":"worker","profile":{"user_id":"kynkngq"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.724Z","type":"worker","profile":{"user_id":"kynkdje"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.734Z","type":"worker","profile":{"user_id":"kynk78o"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.748Z","type":"worker","profile":{"user_id":"kynjwf6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.761Z","type":"worker","profile":{"user_id":"kynjckp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.775Z","type":"worker","profile":{"user_id":"kynj3vn"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.791Z","type":"worker","profile":{"user_id":"kynix9l"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.806Z","type":"worker","profile":{"user_id":"kynip30"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.820Z","type":"worker","profile":{"user_id":"kynhvni"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.833Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.857Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.867Z","type":"worker","profile":{"user_id":"k11m9kg2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.879Z","type":"worker","profile":{"user_id":"k11m9c5q"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.891Z","type":"worker","profile":{"user_id":"k11m98f7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.906Z","type":"worker","profile":{"user_id":"k11m94o9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.918Z","type":"worker","profile":{"user_id":"k11m90u6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.932Z","type":"worker","profile":{"user_id":"k11m8vn8"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.951Z","type":"worker","profile":{"user_id":"k11m8rtp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.961Z","type":"worker","profile":{"user_id":"k11m8d9u"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.974Z","type":"worker","profile":{"user_id":"k11m60xx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:56.989Z","type":"worker","profile":{"user_id":"k11m5ssy"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.003Z","type":"worker","profile":{"user_id":"k11m5p6r"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.020Z","type":"worker","profile":{"user_id":"k11m5ih2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.033Z","type":"worker","profile":{"user_id":"k11m5awc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.053Z","type":"worker","profile":{"user_id":"k11m543v"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.065Z","type":"worker","profile":{"user_id":"k11m4vg7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.078Z","type":"worker","profile":{"user_id":"k11m4rf1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.091Z","type":"worker","profile":{"user_id":"k11m4kub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.106Z","type":"worker","profile":{"user_id":"k11m4g1e"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.119Z","type":"worker","profile":{"user_id":"k11m48ub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.134Z","type":"worker","profile":{"user_id":"k11m3yhh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.148Z","type":"worker","profile":{"user_id":"k11m3ucc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.163Z","type":"worker","profile":{"user_id":"k11m3pwu"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.183Z","type":"worker","profile":{"user_id":"k11m3k37"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.196Z","type":"worker","profile":{"user_id":"k11m32fo"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.211Z","type":"worker","profile":{"user_id":"k11m2woh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.225Z","type":"worker","profile":{"user_id":"k11m2qxi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.239Z","type":"worker","profile":{"user_id":"k11m2jgl"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.253Z","type":"worker","profile":{"user_id":"k11m2dfd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.268Z","type":"worker","profile":{"user_id":"k11m29i9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.284Z","type":"worker","profile":{"user_id":"k11m21qr"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.296Z","type":"worker","profile":{"user_id":"k11m1t7t"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.311Z","type":"worker","profile":{"user_id":"k11m1om0"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.326Z","type":"worker","profile":{"user_id":"k11m1er9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.340Z","type":"worker","profile":{"user_id":"k11m17k1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.354Z","type":"worker","profile":{"user_id":"k11m0yfx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.368Z","type":"worker","profile":{"user_id":"k11lojpw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.387Z","type":"worker","profile":{"user_id":"k11lo58s"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.405Z","type":"worker","profile":{"user_id":"k11lnspi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.421Z","type":"worker","profile":{"user_id":"kynksw9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.436Z","type":"worker","profile":{"user_id":"kynkngq"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.451Z","type":"worker","profile":{"user_id":"kynkdje"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.466Z","type":"worker","profile":{"user_id":"kynk78o"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.481Z","type":"worker","profile":{"user_id":"kynjwf6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.497Z","type":"worker","profile":{"user_id":"kynjckp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.511Z","type":"worker","profile":{"user_id":"kynj3vn"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.527Z","type":"worker","profile":{"user_id":"kynix9l"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.543Z","type":"worker","profile":{"user_id":"kynip30"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.556Z","type":"worker","profile":{"user_id":"kynhvni"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.570Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.586Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.598Z","type":"worker","profile":{"user_id":"k11m9kg2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.612Z","type":"worker","profile":{"user_id":"k11m9c5q"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.626Z","type":"worker","profile":{"user_id":"k11m98f7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.641Z","type":"worker","profile":{"user_id":"k11m94o9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.657Z","type":"worker","profile":{"user_id":"k11m90u6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.674Z","type":"worker","profile":{"user_id":"k11m8vn8"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.690Z","type":"worker","profile":{"user_id":"k11m8rtp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.710Z","type":"worker","profile":{"user_id":"k11m8d9u"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.732Z","type":"worker","profile":{"user_id":"k11m60xx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.751Z","type":"worker","profile":{"user_id":"k11m5ssy"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.770Z","type":"worker","profile":{"user_id":"k11m5p6r"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.786Z","type":"worker","profile":{"user_id":"k11m5ih2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.802Z","type":"worker","profile":{"user_id":"k11m5awc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.824Z","type":"worker","profile":{"user_id":"k11m543v"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.845Z","type":"worker","profile":{"user_id":"k11m4vg7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.866Z","type":"worker","profile":{"user_id":"k11m4rf1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.883Z","type":"worker","profile":{"user_id":"k11m4kub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.904Z","type":"worker","profile":{"user_id":"k11m4g1e"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.922Z","type":"worker","profile":{"user_id":"k11m48ub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.940Z","type":"worker","profile":{"user_id":"k11m3yhh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.957Z","type":"worker","profile":{"user_id":"k11m3ucc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.974Z","type":"worker","profile":{"user_id":"k11m3pwu"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:57.991Z","type":"worker","profile":{"user_id":"k11m3k37"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.007Z","type":"worker","profile":{"user_id":"k11m32fo"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.023Z","type":"worker","profile":{"user_id":"k11m2woh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.040Z","type":"worker","profile":{"user_id":"k11m2qxi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.055Z","type":"worker","profile":{"user_id":"k11m2jgl"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.071Z","type":"worker","profile":{"user_id":"k11m2dfd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.089Z","type":"worker","profile":{"user_id":"k11m29i9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.101Z","type":"worker","profile":{"user_id":"k11m21qr"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.117Z","type":"worker","profile":{"user_id":"k11m1t7t"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.133Z","type":"worker","profile":{"user_id":"k11m1om0"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.149Z","type":"worker","profile":{"user_id":"k11m1er9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.165Z","type":"worker","profile":{"user_id":"k11m17k1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.181Z","type":"worker","profile":{"user_id":"k11m0yfx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.197Z","type":"worker","profile":{"user_id":"k11lojpw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.212Z","type":"worker","profile":{"user_id":"k11lo58s"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.227Z","type":"worker","profile":{"user_id":"k11lnspi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.245Z","type":"worker","profile":{"user_id":"kynksw9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.264Z","type":"worker","profile":{"user_id":"kynkngq"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.280Z","type":"worker","profile":{"user_id":"kynkdje"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.294Z","type":"worker","profile":{"user_id":"kynk78o"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.307Z","type":"worker","profile":{"user_id":"kynjwf6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.321Z","type":"worker","profile":{"user_id":"kynjckp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.335Z","type":"worker","profile":{"user_id":"kynj3vn"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.350Z","type":"worker","profile":{"user_id":"kynix9l"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.365Z","type":"worker","profile":{"user_id":"kynip30"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T15:32:58.380Z","type":"worker","profile":{"user_id":"kynhvni"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:04:28.708Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":50}
+{"timestamp":"2025-07-28T16:06:31.733Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:31.802Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.080Z","type":"worker","profile":{"user_id":"k11m9kg2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.099Z","type":"worker","profile":{"user_id":"k11m9c5q"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.129Z","type":"worker","profile":{"user_id":"k11m98f7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.153Z","type":"worker","profile":{"user_id":"k11m94o9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.177Z","type":"worker","profile":{"user_id":"k11m90u6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.204Z","type":"worker","profile":{"user_id":"k11m8vn8"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.228Z","type":"worker","profile":{"user_id":"k11m8rtp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.259Z","type":"worker","profile":{"user_id":"k11m8d9u"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.286Z","type":"worker","profile":{"user_id":"k11m60xx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.309Z","type":"worker","profile":{"user_id":"k11m5ssy"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.331Z","type":"worker","profile":{"user_id":"k11m5p6r"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.360Z","type":"worker","profile":{"user_id":"k11m5ih2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.406Z","type":"worker","profile":{"user_id":"k11m5awc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.439Z","type":"worker","profile":{"user_id":"k11m543v"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.461Z","type":"worker","profile":{"user_id":"k11m4vg7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.506Z","type":"worker","profile":{"user_id":"k11m4rf1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.574Z","type":"worker","profile":{"user_id":"k11m4kub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.643Z","type":"worker","profile":{"user_id":"k11m4g1e"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.704Z","type":"worker","profile":{"user_id":"k11m48ub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.751Z","type":"worker","profile":{"user_id":"k11m3yhh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.790Z","type":"worker","profile":{"user_id":"k11m3ucc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.811Z","type":"worker","profile":{"user_id":"k11m3pwu"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.834Z","type":"worker","profile":{"user_id":"k11m3k37"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.859Z","type":"worker","profile":{"user_id":"k11m32fo"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.879Z","type":"worker","profile":{"user_id":"k11m2woh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.910Z","type":"worker","profile":{"user_id":"k11m2qxi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.936Z","type":"worker","profile":{"user_id":"k11m2jgl"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.968Z","type":"worker","profile":{"user_id":"k11m2dfd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:32.997Z","type":"worker","profile":{"user_id":"k11m29i9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.029Z","type":"worker","profile":{"user_id":"k11m21qr"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.063Z","type":"worker","profile":{"user_id":"k11m1t7t"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.091Z","type":"worker","profile":{"user_id":"k11m1om0"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.123Z","type":"worker","profile":{"user_id":"k11m1er9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.146Z","type":"worker","profile":{"user_id":"k11m17k1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.184Z","type":"worker","profile":{"user_id":"k11m0yfx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.213Z","type":"worker","profile":{"user_id":"k11lojpw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.240Z","type":"worker","profile":{"user_id":"k11lo58s"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.266Z","type":"worker","profile":{"user_id":"k11lnspi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.292Z","type":"worker","profile":{"user_id":"kynksw9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.314Z","type":"worker","profile":{"user_id":"kynkngq"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.336Z","type":"worker","profile":{"user_id":"kynkdje"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.361Z","type":"worker","profile":{"user_id":"kynk78o"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.383Z","type":"worker","profile":{"user_id":"kynjwf6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.407Z","type":"worker","profile":{"user_id":"kynjckp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.429Z","type":"worker","profile":{"user_id":"kynj3vn"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.449Z","type":"worker","profile":{"user_id":"kynix9l"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.473Z","type":"worker","profile":{"user_id":"kynip30"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.494Z","type":"worker","profile":{"user_id":"kynhvni"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.515Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.537Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.556Z","type":"worker","profile":{"user_id":"k11m9kg2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.579Z","type":"worker","profile":{"user_id":"k11m9c5q"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.601Z","type":"worker","profile":{"user_id":"k11m98f7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.626Z","type":"worker","profile":{"user_id":"k11m94o9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.646Z","type":"worker","profile":{"user_id":"k11m90u6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.669Z","type":"worker","profile":{"user_id":"k11m8vn8"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.690Z","type":"worker","profile":{"user_id":"k11m8rtp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.714Z","type":"worker","profile":{"user_id":"k11m8d9u"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.740Z","type":"worker","profile":{"user_id":"k11m60xx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.763Z","type":"worker","profile":{"user_id":"k11m5ssy"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.789Z","type":"worker","profile":{"user_id":"k11m5p6r"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.815Z","type":"worker","profile":{"user_id":"k11m5ih2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.836Z","type":"worker","profile":{"user_id":"k11m5awc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.859Z","type":"worker","profile":{"user_id":"k11m543v"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.884Z","type":"worker","profile":{"user_id":"k11m4vg7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.902Z","type":"worker","profile":{"user_id":"k11m4rf1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.924Z","type":"worker","profile":{"user_id":"k11m4kub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.946Z","type":"worker","profile":{"user_id":"k11m4g1e"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.965Z","type":"worker","profile":{"user_id":"k11m48ub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:33.987Z","type":"worker","profile":{"user_id":"k11m3yhh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.008Z","type":"worker","profile":{"user_id":"k11m3ucc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.031Z","type":"worker","profile":{"user_id":"k11m3pwu"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.053Z","type":"worker","profile":{"user_id":"k11m3k37"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.073Z","type":"worker","profile":{"user_id":"k11m32fo"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.093Z","type":"worker","profile":{"user_id":"k11m2woh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.115Z","type":"worker","profile":{"user_id":"k11m2qxi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.138Z","type":"worker","profile":{"user_id":"k11m2jgl"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.154Z","type":"worker","profile":{"user_id":"k11m2dfd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.178Z","type":"worker","profile":{"user_id":"k11m29i9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.200Z","type":"worker","profile":{"user_id":"k11m21qr"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.221Z","type":"worker","profile":{"user_id":"k11m1t7t"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.242Z","type":"worker","profile":{"user_id":"k11m1om0"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.269Z","type":"worker","profile":{"user_id":"k11m1er9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.295Z","type":"worker","profile":{"user_id":"k11m17k1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.321Z","type":"worker","profile":{"user_id":"k11m0yfx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.344Z","type":"worker","profile":{"user_id":"k11lojpw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.369Z","type":"worker","profile":{"user_id":"k11lo58s"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.390Z","type":"worker","profile":{"user_id":"k11lnspi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.414Z","type":"worker","profile":{"user_id":"kynksw9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.436Z","type":"worker","profile":{"user_id":"kynkngq"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.462Z","type":"worker","profile":{"user_id":"kynkdje"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.482Z","type":"worker","profile":{"user_id":"kynk78o"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.505Z","type":"worker","profile":{"user_id":"kynjwf6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.531Z","type":"worker","profile":{"user_id":"kynjckp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.554Z","type":"worker","profile":{"user_id":"kynj3vn"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.580Z","type":"worker","profile":{"user_id":"kynix9l"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.598Z","type":"worker","profile":{"user_id":"kynip30"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.621Z","type":"worker","profile":{"user_id":"kynhvni"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.640Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.661Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.677Z","type":"worker","profile":{"user_id":"k11m9kg2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.699Z","type":"worker","profile":{"user_id":"k11m9c5q"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.720Z","type":"worker","profile":{"user_id":"k11m98f7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.739Z","type":"worker","profile":{"user_id":"k11m94o9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.757Z","type":"worker","profile":{"user_id":"k11m90u6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.775Z","type":"worker","profile":{"user_id":"k11m8vn8"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.798Z","type":"worker","profile":{"user_id":"k11m8rtp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.820Z","type":"worker","profile":{"user_id":"k11m8d9u"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.839Z","type":"worker","profile":{"user_id":"k11m60xx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.861Z","type":"worker","profile":{"user_id":"k11m5ssy"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.883Z","type":"worker","profile":{"user_id":"k11m5p6r"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.904Z","type":"worker","profile":{"user_id":"k11m5ih2"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.925Z","type":"worker","profile":{"user_id":"k11m5awc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.944Z","type":"worker","profile":{"user_id":"k11m543v"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.965Z","type":"worker","profile":{"user_id":"k11m4vg7"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:34.986Z","type":"worker","profile":{"user_id":"k11m4rf1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.005Z","type":"worker","profile":{"user_id":"k11m4kub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.024Z","type":"worker","profile":{"user_id":"k11m4g1e"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.044Z","type":"worker","profile":{"user_id":"k11m48ub"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.064Z","type":"worker","profile":{"user_id":"k11m3yhh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.085Z","type":"worker","profile":{"user_id":"k11m3ucc"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.104Z","type":"worker","profile":{"user_id":"k11m3pwu"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.126Z","type":"worker","profile":{"user_id":"k11m3k37"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.145Z","type":"worker","profile":{"user_id":"k11m32fo"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.163Z","type":"worker","profile":{"user_id":"k11m2woh"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.186Z","type":"worker","profile":{"user_id":"k11m2qxi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.206Z","type":"worker","profile":{"user_id":"k11m2jgl"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.227Z","type":"worker","profile":{"user_id":"k11m2dfd"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.246Z","type":"worker","profile":{"user_id":"k11m29i9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.263Z","type":"worker","profile":{"user_id":"k11m21qr"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.283Z","type":"worker","profile":{"user_id":"k11m1t7t"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.305Z","type":"worker","profile":{"user_id":"k11m1om0"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.322Z","type":"worker","profile":{"user_id":"k11m1er9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.341Z","type":"worker","profile":{"user_id":"k11m17k1"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.361Z","type":"worker","profile":{"user_id":"k11m0yfx"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.381Z","type":"worker","profile":{"user_id":"k11lojpw"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.404Z","type":"worker","profile":{"user_id":"k11lo58s"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.425Z","type":"worker","profile":{"user_id":"k11lnspi"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.453Z","type":"worker","profile":{"user_id":"kynksw9"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.473Z","type":"worker","profile":{"user_id":"kynkngq"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.496Z","type":"worker","profile":{"user_id":"kynkdje"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.517Z","type":"worker","profile":{"user_id":"kynk78o"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.537Z","type":"worker","profile":{"user_id":"kynjwf6"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.606Z","type":"worker","profile":{"user_id":"kynjckp"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.638Z","type":"worker","profile":{"user_id":"kynj3vn"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.669Z","type":"worker","profile":{"user_id":"kynix9l"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.697Z","type":"worker","profile":{"user_id":"kynip30"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:06:35.719Z","type":"worker","profile":{"user_id":"kynhvni"},"status":"erro","context":"Credenciais ausentes no video-post"}
+{"timestamp":"2025-07-28T16:10:51.021Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:11:07.540Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:11:24.245Z","type":"worker","profile":{"user_id":"k11m9kg2"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:11:41.903Z","type":"worker","profile":{"user_id":"k11m9c5q"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:11:57.050Z","type":"worker","profile":{"user_id":"k11m98f7"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:12:06.947Z","type":"worker","profile":{"user_id":"k11m94o9"},"status":"erro","context":"Erro no video-post","error":"Erro ao abrir perfil k11m94o9: Falha ao iniciar perfil no AdsPower: desconhecido"}
+{"timestamp":"2025-07-28T16:12:16.200Z","type":"worker","profile":{"user_id":"k11m90u6"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:12:26.236Z","type":"worker","profile":{"user_id":"k11m8vn8"},"status":"erro","context":"Erro no video-post","error":"Erro ao abrir perfil k11m8vn8: Falha ao iniciar perfil no AdsPower: desconhecido"}
+{"timestamp":"2025-07-28T16:12:34.153Z","type":"worker","profile":{"user_id":"k11m8rtp"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:12:51.917Z","type":"worker","profile":{"user_id":"k11m8d9u"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:13:08.133Z","type":"worker","profile":{"user_id":"k11m60xx"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:13:31.124Z","type":"worker","profile":{"user_id":"k11m5ssy"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:13:50.700Z","type":"worker","profile":{"user_id":"k11m5p6r"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:14:53.457Z","type":"worker","profile":{"user_id":"k11m5ih2"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:15:18.126Z","type":"worker","profile":{"user_id":"k11m5awc"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:15:34.271Z","type":"worker","profile":{"user_id":"k11m543v"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:15:49.909Z","type":"worker","profile":{"user_id":"k11m4vg7"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:16:05.444Z","type":"worker","profile":{"user_id":"k11m4rf1"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:42:35.571Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:42:52.733Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:43:10.121Z","type":"worker","profile":{"user_id":"k11m9kg2"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:43:26.997Z","type":"worker","profile":{"user_id":"k11m9c5q"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:43:44.706Z","type":"worker","profile":{"user_id":"k11m98f7"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:44:00.139Z","type":"worker","profile":{"user_id":"k11m94o9"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:44:18.691Z","type":"worker","profile":{"user_id":"k11m90u6"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:44:35.588Z","type":"worker","profile":{"user_id":"k11m8vn8"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:44:52.578Z","type":"worker","profile":{"user_id":"k11m8rtp"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:45:10.137Z","type":"worker","profile":{"user_id":"k11m8d9u"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:46:23.604Z","type":"worker","profile":{"user_id":"k11m5ssy"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:47:36.479Z","type":"worker","profile":{"user_id":"k11m60xx"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:49:09.956Z","type":"worker","profile":{"user_id":"k11m5p6r"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:50:06.300Z","type":"worker","profile":{"user_id":"k11m5ih2"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:51:31.083Z","type":"worker","profile":{"user_id":"k11m543v"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:51:52.711Z","type":"worker","profile":{"user_id":"k11m4vg7"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:52:33.715Z","type":"worker","profile":{"user_id":"k11m5awc"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:53:04.717Z","type":"worker","profile":{"user_id":"k11m4rf1"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:53:47.165Z","type":"worker","profile":{"user_id":"k11m4kub"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:54:28.285Z","type":"worker","profile":{"user_id":"k11m4g1e"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:55:09.272Z","type":"worker","profile":{"user_id":"k11m48ub"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:57:02.017Z","type":"worker","profile":{"user_id":"k11m3yhh"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T16:58:33.597Z","type":"worker","profile":{"user_id":"k11m3ucc"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T17:00:09.701Z","type":"worker","profile":{"user_id":"k11m3pwu"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T17:01:25.735Z","type":"worker","profile":{"user_id":"k11m3k37"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T17:02:00.049Z","type":"worker","profile":{"user_id":"k11m32fo"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T17:02:38.166Z","type":"worker","profile":{"user_id":"k11m2woh"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T17:03:46.002Z","type":"worker","profile":{"user_id":"k11m2qxi"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T17:05:13.160Z","type":"worker","profile":{"user_id":"k11m2jgl"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T17:05:51.057Z","type":"worker","profile":{"user_id":"k11m2dfd"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T17:06:28.679Z","type":"worker","profile":{"user_id":"k11m29i9"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T17:08:20.345Z","type":"worker","profile":{"user_id":"k11m21qr"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T17:08:35.547Z","type":"worker","profile":{"user_id":"k11m1t7t"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T17:08:53.193Z","type":"worker","profile":{"user_id":"k11m1om0"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:33:05.347Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:33:46.317Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:35:29.233Z","type":"worker","profile":{"user_id":"k11m9kg2"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:36:43.091Z","type":"worker","profile":{"user_id":"k11m9c5q"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:38:19.463Z","type":"worker","profile":{"user_id":"k11m98f7"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-28T18:39:47.481Z","type":"worker","profile":{"user_id":"k11m94o9"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:41:43.905Z","type":"worker","profile":{"user_id":"k11m90u6"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-28T18:43:49.023Z","type":"worker","profile":{"user_id":"k11m8vn8"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-28T18:44:37.372Z","type":"worker","profile":{"user_id":"k11m8rtp"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:46:18.545Z","type":"worker","profile":{"user_id":"k11m8d9u"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-28T18:47:36.981Z","type":"worker","profile":{"user_id":"k11m60xx"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:48:19.257Z","type":"worker","profile":{"user_id":"k11m5ssy"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:49:49.939Z","type":"worker","profile":{"user_id":"k11m5p6r"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:52:14.261Z","type":"worker","profile":{"user_id":"k11m5ih2"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}

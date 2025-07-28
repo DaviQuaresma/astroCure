@@ -20,6 +20,9 @@ interface Props {
   profile?: Profile | null;
 }
 
+type Platform = "tiktok" | "instagram" | "youtube" | "kwai";
+type PlatformData = { email?: string; password?: string };
+
 export default function ProfileModal({
   open,
   onClose,
@@ -52,10 +55,16 @@ export default function ProfileModal({
     const { name, value } = e.target;
 
     if (name.includes(".")) {
-      const [platform, field] = name.split(".");
+      const [platform, field] = name.split(".") as [
+        Platform,
+        keyof PlatformData
+      ];
       setFormData((prev) => ({
         ...prev,
-        [platform]: { ...prev[platform as keyof Profile], [field]: value },
+        [platform]: {
+          ...(prev[platform] ?? {}),
+          [field]: value,
+        },
       }));
     } else {
       setFormData((prev) => ({

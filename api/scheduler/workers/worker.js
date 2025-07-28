@@ -37,14 +37,10 @@ async function processProfile(profile) {
     }
 
     const { email, password } = dbProfile.tiktok || {};
-    if (!email || !password) {
-        console.error(`[WORKER] Credenciais ausentes para o perfil ${userId}`);
-        return;
-    }
 
     const fullProfile = {
         ...profile,
-        email,
+        email: email || '',
     };
 
     let tentativas = 0;
@@ -134,17 +130,7 @@ new Worker(
                 return await job.moveToFailed({ message: 'Perfil não encontrado' });
             }
 
-            const { email, password } = dbProfile.tiktok || {};
-            if (!email || !password) {
-                console.error(`[WORKER] Credenciais ausentes para o perfil ${profileId}`);
-                await logJob({
-                    type: 'worker',
-                    profile: { user_id: profileId },
-                    status: 'erro',
-                    context: 'Credenciais ausentes no video-post',
-                });
-                return await job.moveToFailed({ message: 'Credenciais ausentes' });
-            }
+            const { email = '', password = '' } = dbProfile.tiktok || {};
 
             let page, browser;
             try {

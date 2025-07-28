@@ -8,6 +8,14 @@ import videoRoutes from "./routes/video.js"
 import usersRoutes from "./routes/users.js"
 import authRoutes from "./routes/authRoutes.js"
 
+import fs from 'fs';
+import path from 'path';
+
+const videosDir = path.resolve('/videos');
+if (!fs.existsSync(videosDir)) {
+  fs.mkdirSync(videosDir, { recursive: true });
+}
+
 dotenv.config()
 
 const app = express()

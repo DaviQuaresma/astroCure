@@ -1,11 +1,12 @@
-# Dockerfile.worker
 FROM node:20
 
 WORKDIR /app
 
+# Copia os arquivos de dependência e instala antes (cache otimizado)
 COPY ./api/package*.json ./
 RUN npm install
 
+# Copia todo o projeto, incluindo schema e workers
 COPY ./api ./
 
 CMD ["node", "scheduler/workers/worker.js"]
