@@ -19,7 +19,7 @@ export async function postVideo(page, credentials = {}, videoPath, descricao = '
         const absoluteVideoPath = path.resolve('/videos', path.basename(videoPath));
         console.log(`[UPLOAD] Enviando vídeo: ${absoluteVideoPath}`);
 
-        const selectButton = await page.waitForSelector('button[data-e2e="select_video_button"]', { timeout: 30000 });
+        const selectButton = await page.waitForSelector('button[data-e2e="select_video_button"]', { timeout: 60000 });
         if (!selectButton) throw new Error('Botão "Selecionar vídeos" não encontrado');
         await selectButton.click();
         await delay(1000);
@@ -28,6 +28,24 @@ export async function postVideo(page, credentials = {}, videoPath, descricao = '
         if (!fileInput) throw new Error('Campo de upload não encontrado');
         await page.evaluate(el => el.style.display = 'block', fileInput);
         await fileInput.setInputFiles(absoluteVideoPath);
+
+        try {
+            const modalClose = await page.waitForSelector('.common-modal-close-icon', { timeout: 5000 });
+            if (modalClose) {
+                console.log('[UPLOAD] Modal de verificação automática detectado. Fechando...');
+                await modalClose.click();
+                await delay(500); // espera o modal sumir
+            }
+        } catch (modalErr) {
+            console.log('[UPLOAD] Nenhum modal de verificação apareceu.');
+        }
+
+        console.log('[UPLOAD] Aguardando processamento completo do vídeo...');
+        await page.waitForFunction(() => {
+            const btn = document.querySelector('button[data-e2e="post_video_button"]');
+            return btn && !btn.disabled;
+        }, { timeout: 60000 });
+        console.log('[UPLOAD] Vídeo processado. Prosseguindo...');
 
         await page.waitForSelector('[data-e2e="caption_container"]', { timeout: 30000 });
 

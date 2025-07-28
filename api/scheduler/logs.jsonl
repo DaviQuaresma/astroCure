@@ -660,3 +660,59 @@
 {"timestamp":"2025-07-28T18:48:19.257Z","type":"worker","profile":{"user_id":"k11m5ssy"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
 {"timestamp":"2025-07-28T18:49:49.939Z","type":"worker","profile":{"user_id":"k11m5p6r"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
 {"timestamp":"2025-07-28T18:52:14.261Z","type":"worker","profile":{"user_id":"k11m5ih2"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-28T18:52:54.720Z","type":"worker","profile":{"user_id":"k11m5awc"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:53:30.039Z","type":"worker","profile":{"user_id":"k11m543v"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:54:17.431Z","type":"worker","profile":{"user_id":"k11m4vg7"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:54:59.248Z","type":"worker","profile":{"user_id":"k11m4rf1"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:55:33.162Z","type":"worker","profile":{"user_id":"k11m4kub"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:56:11.431Z","type":"worker","profile":{"user_id":"k11m4g1e"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:56:44.160Z","type":"worker","profile":{"user_id":"k11m48ub"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:57:33.997Z","type":"worker","profile":{"user_id":"k11m3yhh"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T18:58:55.964Z","type":"worker","profile":{"user_id":"k11m3ucc"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:00:28.306Z","type":"worker","profile":{"user_id":"k11m3pwu"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:01:32.780Z","type":"worker","profile":{"user_id":"k11m3k37"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:02:11.291Z","type":"worker","profile":{"user_id":"k11m32fo"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:02:45.112Z","type":"worker","profile":{"user_id":"k11m2woh"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:03:52.403Z","type":"worker","profile":{"user_id":"k11m2qxi"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:05:29.045Z","type":"worker","profile":{"user_id":"k11m2jgl"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:06:13.153Z","type":"worker","profile":{"user_id":"k11m2dfd"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:09:15.483Z","type":"worker","profile":{"user_id":"k11m21qr"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:10:43.189Z","type":"worker","profile":{"user_id":"k11m29i9"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:11:23.552Z","type":"worker","profile":{"user_id":"k11m1t7t"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:13:48.724Z","type":"worker","profile":{"user_id":"k11m1er9"},"status":"erro","context":"Erro no video-post","error":"Erro ao conectar via CDP: browserType.connectOverCDP: Target page, context or browser has been closed\nCall log:\n  - <ws connecting> ws://host.docker.internal:62160/devtools/browser/6f0f7027-880e-48ea-b850-8a709a481325\n  - <ws connected> ws://host.docker.internal:62160/devtools/browser/6f0f7027-880e-48ea-b850-8a709a481325\n  - <ws disconnected> ws://host.docker.internal:62160/devtools/browser/6f0f7027-880e-48ea-b850-8a709a481325 code=1006 reason=\n"}
+{"timestamp":"2025-07-28T19:13:58.531Z","type":"worker","profile":{"user_id":"k11m1om0"},"status":"erro","context":"Erro no video-post","error":"Erro ao conectar via CDP: browserType.connectOverCDP: WebSocket error: connect ECONNREFUSED 192.168.65.254:61870\nCall log:\n  - <ws connecting> ws://host.docker.internal:61870/devtools/browser/3aa1b2b0-cc2b-4430-adfa-18db9dc1592a\n  - <ws error> ws://host.docker.internal:61870/devtools/browser/3aa1b2b0-cc2b-4430-adfa-18db9dc1592a error connect ECONNREFUSED 192.168.65.254:61870\n  - <ws connect error> ws://host.docker.internal:61870/devtools/browser/3aa1b2b0-cc2b-4430-adfa-18db9dc1592a connect ECONNREFUSED 192.168.65.254:61870\n  - <ws disconnected> ws://host.docker.internal:61870/devtools/browser/3aa1b2b0-cc2b-4430-adfa-18db9dc1592a code=1006 reason=\n"}
+{"timestamp":"2025-07-28T19:14:49.158Z","type":"worker","profile":{"user_id":"k11m17k1"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:17:08.943Z","type":"worker","profile":{"user_id":"k11m0yfx"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-28T19:17:45.072Z","type":"worker","profile":{"user_id":"k11lojpw"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:18:05.691Z","type":"worker","profile":{"user_id":"k11lo58s"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:21:04.949Z","type":"worker","profile":{"user_id":"k11lnspi"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-28T19:23:44.260Z","type":"worker","profile":{"user_id":"kynksw9"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-28T19:25:03.695Z","type":"worker","profile":{"user_id":"kynkngq"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:26:18.865Z","type":"worker","profile":{"user_id":"kynkdje"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:28:40.191Z","type":"worker","profile":{"user_id":"kynk78o"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:29:55.924Z","type":"worker","profile":{"user_id":"kynjwf6"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:31:31.004Z","type":"worker","profile":{"user_id":"kynjckp"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:33:22.742Z","type":"worker","profile":{"user_id":"kynj3vn"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:35:13.122Z","type":"worker","profile":{"user_id":"kynix9l"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:36:49.570Z","type":"worker","profile":{"user_id":"kynip30"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:38:26.849Z","type":"worker","profile":{"user_id":"kynhvni"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:39:04.927Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:39:42.778Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:41:59.062Z","type":"worker","profile":{"user_id":"k11m9kg2"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-28T19:44:00.638Z","type":"worker","profile":{"user_id":"k11m9c5q"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-28T19:45:49.949Z","type":"worker","profile":{"user_id":"k11m94o9"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-28T19:46:25.598Z","type":"worker","profile":{"user_id":"k11m8rtp"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:47:30.308Z","type":"worker","profile":{"user_id":"k11m60xx"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:48:10.166Z","type":"worker","profile":{"user_id":"k11m5ssy"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:49:42.935Z","type":"worker","profile":{"user_id":"k11m5p6r"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:51:14.920Z","type":"worker","profile":{"user_id":"k11m5awc"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:52:01.012Z","type":"worker","profile":{"user_id":"k11m543v"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:52:44.192Z","type":"worker","profile":{"user_id":"k11m4vg7"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:53:33.295Z","type":"worker","profile":{"user_id":"k11m4rf1"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:54:07.041Z","type":"worker","profile":{"user_id":"k11m4kub"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:54:47.962Z","type":"worker","profile":{"user_id":"k11m4g1e"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:55:23.941Z","type":"worker","profile":{"user_id":"k11m48ub"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:56:48.386Z","type":"worker","profile":{"user_id":"k11m3yhh"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-28T19:59:23.351Z","type":"worker","profile":{"user_id":"k11m3ucc"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-28T20:02:21.675Z","type":"worker","profile":{"user_id":"k11m3pwu"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-28T20:03:25.579Z","type":"worker","profile":{"user_id":"k11m3k37"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
