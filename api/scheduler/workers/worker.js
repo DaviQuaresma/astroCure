@@ -8,7 +8,8 @@ import {
 } from './helpers/adsPowerSession.js';
 import { simulateUserActions } from './helpers/simulatedActions.js';
 import { queue } from '../utils/jobQueue.js';
-import { postVideo } from './helpers/postVideoActions.js';
+import { postVideo } from './helpers/postVideoTiktok.js';
+import { postVideoYouTube } from './helpers/postVideoYoutube.js';
 import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
@@ -137,10 +138,29 @@ new Worker(
                 const ws = await startSession(profileId);
                 ({ page, browser } = await connectToBrowser(ws.replace('127.0.0.1', 'host.docker.internal')));
 
-                const success = await postVideo(page, { email, password }, videoPath, description);
+                const postingStrategies = [
+                    // { name: 'TikTok', fn: postVideo },
+                    { name: 'YouTube', fn: postVideoYouTube },
+                ];
 
-                if (!success) {
-                    throw new Error('Erro no postVideo');
+                for (const { name, fn } of postingStrategies) {
+                    try {
+                        console.log(`[WORKER] Postando em ${name}...`);
+                        const success = await fn(page, { email, password }, videoPath, description);
+                        if (!success) {
+                            throw new Error(`Erro no postVideo${name}`);
+                        }
+                        console.log(`[WORKER] Postagem concluída em ${name}.`);
+                    } catch (err) {
+                        console.warn(`[WORKER] Falha ao postar em ${name}: ${err.message}`);
+                        await logJob({
+                            type: 'worker',
+                            profile: { user_id: profileId },
+                            status: 'erro',
+                            context: `Erro na rede ${name}`,
+                            error: err.message,
+                        });
+                    }
                 }
 
                 await logJob({

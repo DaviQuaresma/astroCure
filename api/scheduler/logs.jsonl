@@ -716,3 +716,68 @@
 {"timestamp":"2025-07-28T19:59:23.351Z","type":"worker","profile":{"user_id":"k11m3ucc"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
 {"timestamp":"2025-07-28T20:02:21.675Z","type":"worker","profile":{"user_id":"k11m3pwu"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
 {"timestamp":"2025-07-28T20:03:25.579Z","type":"worker","profile":{"user_id":"k11m3k37"},"status":"erro","context":"Erro no video-post","error":"Erro no postVideo"}
+{"timestamp":"2025-07-29T19:09:01.268Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":50}
+{"timestamp":"2025-07-29T19:12:46.586Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede TikTok","error":"Erro no postVideoTikTok"}
+{"timestamp":"2025-07-29T19:13:20.455Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-07-29T19:13:20.464Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-29T19:13:39.547Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Erro na rede TikTok","error":"Erro no postVideoTikTok"}
+{"timestamp":"2025-07-29T19:13:39.568Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-07-29T19:13:39.594Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-29T19:29:09.232Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede TikTok","error":"Erro no postVideoTikTok"}
+{"timestamp":"2025-07-29T19:29:31.514Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-07-29T19:29:31.693Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-29T19:30:15.319Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Erro na rede TikTok","error":"Erro no postVideoTikTok"}
+{"timestamp":"2025-07-29T19:30:30.570Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-07-29T19:30:30.575Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-29T19:33:12.550Z","type":"worker","profile":{"user_id":"k11m9kg2"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-07-29T19:33:12.570Z","type":"worker","profile":{"user_id":"k11m9kg2"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-29T19:36:53.846Z","type":"worker","profile":{"user_id":"k11m98f7"},"status":"erro","context":"Erro na rede TikTok","error":"Erro no postVideoTikTok"}
+{"timestamp":"2025-07-29T19:37:27.108Z","type":"worker","profile":{"user_id":"k11m98f7"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-07-29T19:37:27.207Z","type":"worker","profile":{"user_id":"k11m98f7"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-29T19:45:35.255Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-07-29T19:45:35.335Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-29T19:45:50.851Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Erro na rede TikTok","error":"Erro no postVideoTikTok"}
+{"timestamp":"2025-07-29T19:45:51.268Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Erro na rede YouTube","error":"browserContext.newPage: Target page, context or browser has been closed"}
+{"timestamp":"2025-07-29T19:45:51.338Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-29T20:01:52.172Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede TikTok","error":"Erro no postVideoTikTok"}
+{"timestamp":"2025-07-29T20:01:54.313Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-07-29T20:01:54.286Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-29T20:02:14.782Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Erro na rede TikTok","error":"Erro no postVideoTikTok"}
+{"timestamp":"2025-07-29T20:02:14.837Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Erro na rede YouTube","error":"browserContext.newPage: Target page, context or browser has been closed"}
+{"timestamp":"2025-07-29T20:02:14.849Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-29T20:25:01.315Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-07-29T20:25:01.386Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-07-29T20:25:19.904Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-07-29T20:25:19.935Z","type":"worker","profile":{"user_id":"k11m9nvw"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-03T16:49:42.857Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":0}
+{"timestamp":"2025-08-03T16:49:46.046Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":0}
+{"timestamp":"2025-08-03T16:50:17.820Z","type":"controller","status":"ok","context":"Perfil criado com sucesso","profile":{"user_id":"k11m9rsd"}}
+{"timestamp":"2025-08-03T16:50:17.837Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":1}
+{"timestamp":"2025-08-03T16:51:24.930Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-08-03T16:51:25.417Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-03T16:53:33.585Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-08-03T16:53:33.608Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-03T16:54:09.135Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-08-03T16:54:09.157Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-04T18:16:37.293Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":1}
+{"timestamp":"2025-08-04T18:18:01.297Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-08-04T18:18:01.335Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-04T18:26:48.707Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Cannot read properties of undefined (reading 'context')"}
+{"timestamp":"2025-08-04T18:26:48.724Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-04T18:29:47.933Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-08-04T18:29:47.940Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-04T18:43:24.628Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-08-04T18:43:24.665Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-04T19:06:12.406Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-08-04T19:06:12.462Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-04T19:22:55.450Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-08-04T19:22:55.475Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-04T19:36:21.299Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-08-04T19:36:21.321Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-04T19:37:42.847Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-08-04T19:37:42.876Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-04T19:43:57.760Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-08-04T19:43:57.848Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-04T19:48:09.759Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-08-04T19:48:09.786Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-04T19:58:14.531Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
