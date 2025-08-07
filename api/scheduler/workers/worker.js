@@ -11,6 +11,7 @@ import { queue } from '../utils/jobQueue.js';
 import { postVideo } from './helpers/postVideoTiktok.js';
 import { postVideoYouTube } from './helpers/postVideoYoutube.js';
 import { PrismaClient } from '@prisma/client';
+import { postVideoInstagram } from './helpers/postVideoInstagram.js';
 
 const prisma = new PrismaClient();
 const connection = new IORedis({
@@ -140,7 +141,8 @@ new Worker(
 
                 const postingStrategies = [
                     // { name: 'TikTok', fn: postVideo },
-                    { name: 'YouTube', fn: postVideoYouTube },
+                    // { name: 'YouTube', fn: postVideoYouTube },
+                    { name: 'Instagram', fn: postVideoInstagram },
                 ];
 
                 for (const { name, fn } of postingStrategies) {
