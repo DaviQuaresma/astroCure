@@ -2,8 +2,6 @@ import { PrismaClient } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
-let activeAdsPowerEndpoint = null;
-
 export async function addAdsPowerEndpoint(req, res) {
     const { endPoint } = req.body;
 
@@ -35,23 +33,46 @@ export async function addAdsPowerEndpoint(req, res) {
 
 export async function setActiveAdsPowerEndpoint(req, res) {
     const { id } = req.params;
+    const endpointId = Number(id);
+
+    if (!Number.isInteger(endpointId)) {
+        return res.status(400).json({ message: "id inválido" });
+    }
 
     try {
-        const activeEndpoint = await prisma.adsPower.update({
-            where: { id: parseInt(id) },
-            data: { active: true}
+        const exists = await prisma.adsPower.findUnique({
+            where: { id: endpointId },
+            select: { id: true, endPoint: true },
         });
-
-        if (!activeEndpoint) {
-            return res.status(404).json({ error: 'Nenhum endpoint ativo encontrado' });
+        if (!exists) {
+            return res.status(404).json({ message: "Endpoint não encontrado" });
         }
 
-        activeAdsPowerEndpoint = activeEndpoint.endPoint;
+        const result = await prisma.$transaction(async (tx) => {
+            const unset = await tx.adsPower.updateMany({
+                where: { active: true },
+                data: { active: false },
+            });
 
-        return res.json(activeEndpoint);
+            const updated = await tx.adsPower.update({
+                where: { id: endpointId },
+                data: { active: true },
+            });
+
+            return { unsetCount: unset.count, updated };
+        });
+
+        return res.status(200).json({
+            id: result.updated.id,
+            endPoint: result.updated.endPoint,
+            active: result.updated.active,
+        });
     } catch (err) {
-        console.error(err);
-        res.status(500).json({ error: 'Erro interno ao buscar o endpoint' });
+        if (err?.code === "P2025") {
+            return res.status(404).json({ message: "Endpoint não encontrado" });
+        }
+        console.error("Erro ao ativar endpoint AdsPower:", err);
+        return res.status(500).json({ message: "Internal server error" });
     }
 }
 
