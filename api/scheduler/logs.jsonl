@@ -1,0 +1,17 @@
+{"timestamp":"2025-08-12T19:32:51.100Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":0}
+{"timestamp":"2025-08-12T19:33:09.975Z","type":"controller","status":"ok","context":"Perfil criado com sucesso","profile":{"user_id":"k11m9rsd"}}
+{"timestamp":"2025-08-12T19:33:09.988Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":1}
+{"timestamp":"2025-08-12T19:35:20.614Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":1}
+{"timestamp":"2025-08-12T20:43:46.698Z","type":"controller","status":"ok","context":"Listagem de perfis realizada","count":1}
+{"timestamp":"2025-08-12T20:58:49.709Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede TikTok","error":"Erro no postVideoTikTok"}
+{"timestamp":"2025-08-12T20:59:08.155Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"Erro no postVideoYouTube"}
+{"timestamp":"2025-08-12T20:59:17.170Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede Instagram","error":"Erro no postVideoInstagram"}
+{"timestamp":"2025-08-12T20:59:17.196Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-12T20:59:38.906Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede TikTok","error":"Erro no postVideoTikTok"}
+{"timestamp":"2025-08-12T20:59:38.979Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"browserContext.newPage: Protocol error (Target.createTarget): Failed to open a new tab"}
+{"timestamp":"2025-08-12T20:59:39.030Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede Instagram","error":"browserContext.newPage: Target page, context or browser has been closed"}
+{"timestamp":"2025-08-12T20:59:39.053Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}
+{"timestamp":"2025-08-12T21:00:06.818Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede TikTok","error":"Erro no postVideoTikTok"}
+{"timestamp":"2025-08-12T21:00:07.180Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede YouTube","error":"browserContext.newPage: Protocol error (Target.createTarget): Failed to open a new tab"}
+{"timestamp":"2025-08-12T21:00:07.392Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"erro","context":"Erro na rede Instagram","error":"browserContext.newPage: Target page, context or browser has been closed"}
+{"timestamp":"2025-08-12T21:00:07.412Z","type":"worker","profile":{"user_id":"k11m9rsd"},"status":"ok","context":"Postagem de vídeo concluída com sucesso"}

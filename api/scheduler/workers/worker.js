@@ -140,8 +140,8 @@ new Worker(
                 ({ page, browser } = await connectToBrowser(ws.replace('127.0.0.1', 'host.docker.internal')));
 
                 const postingStrategies = [
-                    // { name: 'TikTok', fn: postVideo },
-                    // { name: 'YouTube', fn: postVideoYouTube },
+                    { name: 'TikTok', fn: postVideo },
+                    { name: 'YouTube', fn: postVideoYouTube },
                     { name: 'Instagram', fn: postVideoInstagram },
                 ];
 

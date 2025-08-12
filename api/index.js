@@ -7,6 +7,7 @@ import schedulerRoutes from "./routes/scheduler.js"
 import videoRoutes from "./routes/video.js"
 import usersRoutes from "./routes/users.js"
 import authRoutes from "./routes/authRoutes.js"
+import adspowerRoutes from "./routes/adspowerRoutes.js"
 
 import fs from 'fs';
 import path from 'path';
@@ -21,7 +22,7 @@ dotenv.config()
 const app = express()
 
 app.use(cors({
-  origin: "*", // ou: "http://localhost:3000"
+  origin: "*",
   credentials: false,
 }))
 
@@ -32,6 +33,7 @@ app.use("/api", schedulerRoutes)
 app.use("/api", videoRoutes)
 app.use("/api", usersRoutes)
 app.use('/api/auth', authRoutes);
+app.use('/api/', adspowerRoutes);
 
 app.get("/health", (req, res) => {
   res.status(200).send("API Middleware online")

@@ -8,7 +8,7 @@ const routes = [
   { href: "/", label: "Início" },
   { href: "/admin/group-post", label: "Postar Vídeos" },
   { href: "/admin/manage-profiles", label: "Gerenciamento de Perfis" },
-//   { href: "", label: "Gestão de acessos" },
+  { href: "/admin/endpoint", label: "Gerenciamento do AdsPower" },
   { href: "/admin/log-panel", label: "Logs" },
 //   { href: "", label: "Configurações" },
 ];
