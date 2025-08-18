@@ -40,7 +40,6 @@ services:
       ADSPOWER_URL: http://host.docker.internal:50325
       DATABASE_URL: postgresql://astrocure:cure123@postgres:5432/cura
     volumes:
-      - ./api:/app
       - ./videos:/videos
     command: >
       sh -c "npx prisma generate &&
@@ -59,8 +58,6 @@ services:
       - api
     environment:
       NEXT_PUBLIC_API_URL: http://localhost:4001
-    volumes:
-      - ./web:/app
 
   worker:
     build:
@@ -68,6 +65,7 @@ services:
       dockerfile: Dockerfile.worker
     container_name: worker
     depends_on:
+      - api
       - redis
       - postgres
     environment:
@@ -76,8 +74,9 @@ services:
       ADSPOWER_URL: http://host.docker.internal:50325
       DATABASE_URL: postgresql://astrocure:cure123@postgres:5432/cura
     volumes:
-      - ./api:/app
       - ./videos:/videos
+    command: >
+      sh -c "npx prisma generate && npm run worker"
 
 volumes:
   pgdatacure:

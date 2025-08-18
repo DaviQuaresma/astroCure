@@ -16,7 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "@faker-js/faker": "^9.8.0",
-    "@prisma/client": "^6.11.1",
+    "@prisma/client": "^6.14.0",
     "axios": "^1.9.0",
     "bcryptjs": "^3.0.2",
     "bullmq": "^5.58.0",
@@ -32,6 +32,6 @@
   "devDependencies": {
     "concurrently": "^9.1.2",
     "nodemon": "^3.1.10",
-    "prisma": "^6.11.1"
+    "prisma": "^6.14.0"
   }
 }
