@@ -1,155 +1,82 @@
------ Docker:
+# AstroCure
 
-# Força o shutdown do WSL (resolve travamentos do Docker Desktop)
-wsl --shutdown
+> Plataforma de automação de postagens e gerenciamento de perfis para redes sociais, utilizando Node.js, Next.js, Docker, Prisma e integração dinâmica com AdsPower.
 
-# Verifica se o Docker está rodando
-docker info
+## Visão Geral
 
-# Lista os containers ativos
-docker ps
+O AstroCure é um sistema distribuído composto por múltiplos serviços:
 
-# Lista todos os containers (ativos e parados)
-docker ps -a
+- **api/**: Backend Node.js (Express) para autenticação, perfis, vídeos, usuários, integração com AdsPower, filas e controle de jobs.
+- **web/**: Frontend Next.js (React) para painel administrativo e login.
+- **worker/**: Serviço de automação que executa jobs de postagem e simulação de ações em perfis, usando Playwright e integração dinâmica com AdsPower.
+- **scheduler/**: Utilitários e workers para orquestração de tarefas.
+- **Banco de dados**: PostgreSQL gerenciado via Prisma ORM.
+- **Redis**: Gerenciamento de filas com BullMQ.
 
-# Inicia os containers em segundo plano
+## Tecnologias Principais
+
+- Node.js 20
+- Next.js 15
+- Prisma ORM
+- BullMQ & IORedis
+- Playwright
+- Docker & Docker Compose
+- AdsPower (endpoint dinâmico)
+
+## Estrutura dos Serviços
+
+### API (Express)
+- Rotas REST para autenticação, perfis, vídeos, usuários, integração com AdsPower.
+- Integração com Prisma para persistência.
+- Integração com BullMQ para filas de jobs.
+- Integração dinâmica com AdsPower: o endpoint é buscado do banco de dados, nunca fixo por variável de ambiente.
+
+### Web (Next.js)
+- Painel administrativo e tela de login.
+- Consome a API via variável de ambiente `NEXT_PUBLIC_API_URL` definida no Docker Compose.
+- Build e start em ambiente Docker.
+
+### Worker
+- Executa jobs de automação (postagem, simulação de ações) em perfis de redes sociais.
+- Usa Playwright para automação de browser.
+- Busca o endpoint do AdsPower dinamicamente do banco.
+
+## Variáveis de Ambiente Importantes
+
+- `NEXT_PUBLIC_API_URL` (web): URL da API para o frontend.
+- `DATABASE_URL` (api, worker): string de conexão do PostgreSQL.
+- `REDIS_HOST`, `REDIS_PORT` (api, worker): conexão com Redis.
+
+> **Nota:** O endpoint do AdsPower é sempre buscado do banco de dados, nunca fixo por variável de ambiente.
+
+## Comandos Docker
+
+Build e execução dos serviços:
+
+```bash
+docker compose build
 docker compose up -d
+```
 
-# Exibe os logs de um container
-docker logs <nome_ou_id_do_container>
+Para rebuildar o frontend após alteração de variáveis de ambiente:
 
-# Subir e reconstruir os containers (mantém cache)
-docker compose up -d --build
+```bash
+docker compose build web
+docker compose up -d web
+```
 
-# Forçar rebuild total sem cache
-docker compose build --no-cache
+## Fluxo de Automação
 
-# Comando pra rodar caso tenha mudado o arquivo e queira testar sem compilar:
-docker-compose restart worker
+1. Perfis e endpoints do AdsPower são cadastrados via API.
+2. O worker busca o endpoint ativo do AdsPower do banco.
+3. Jobs são adicionados à fila (BullMQ/Redis) para automação de postagens.
+4. O worker executa as ações automatizadas usando Playwright.
 
-# Se precisar rebuildar com tudo parado
-docker compose down
-docker compose up -d --build
+## Observações
 
-# Limpa tudo que não está mais sendo usado (⚠️ cuidado!)
-docker system prune -af
+- Não utilize variáveis de ambiente fixas para AdsPower, o sistema é dinâmico.
+- Sempre que alterar variáveis de ambiente do frontend, faça rebuild do container web.
+- O volume `/videos` é compartilhado entre api, worker e containers para upload e processamento de vídeos.
 
-# Remove volumes e containers órfãos
-docker compose down --volumes --remove-orphans
-
-# Ver variável de ambiente de um container
-docker compose exec <serviço> env | grep VARIAVEL
-
-# Entrar no container para testar
-docker exec -it <nome_do_container> bash
-
-# Dentro do container, conectar no banco PostgreSQL
-psql -U <usuario> -d <nome_do_banco>
-
-# Ver containers usando rede específica
-docker ps -a --filter network=<nome_da_rede>
-
-# Remover todos os containers forçando
-docker rm -f $(docker ps -aq)
-
-# Reset geral dentro da VPS
-docker compose down -v
-docker compose build --no-cache
-docker compose up -d
-
-
------ NGINX:
-# Editar config default
-sudo nano /etc/nginx/sites-available/default
-
-# Exemplo de bloco server para proxy reverso:
-server {
-    listen 80;
-    server_name _;
-
-    location /api/ {
-        proxy_pass http://localhost:4000/;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
-    }
-
-    location / {
-        proxy_pass http://localhost:3002/;
-        proxy_http_version 1.1;
-        proxy_set_header Upgrade $http_upgrade;
-        proxy_set_header Connection 'upgrade';
-        proxy_set_header Host $host;
-        proxy_cache_bypass $http_upgrade;
-    }
-}
-
-# Testa config
-sudo nginx -t
-
-# Reinicia o serviço
-sudo systemctl restart nginx
-
-
-
------- Redis:
-
-# Entra no cliente Redis (se tiver instalado)
-redis-cli
-
-# Lista todas as chaves (evite usar em produção!)
-KEYS *
-
-# Ver o conteúdo de uma chave (string)
-GET nome_da_chave
-
-# Ver jobs pendentes na fila do BullMQ
-LRANGE bull:profile-jobs:wait 0 -1
-
-# Remover tudo do Redis (⚠️ perigo em produção)
-FLUSHALL
-
-# Dica extra para inspeção visual via Docker
-docker exec -it redis redis-cli
-
------- Prisma:
-
-# Instalar Prisma (caso esteja começando)
-npm install prisma --save-dev
-npm install @prisma/client
-npx prisma init
-
-# Gerar cliente Prisma após alteração no schema
-npx prisma generate
-
-# Criar ou atualizar migração
-npx prisma migrate dev --name nome_da_migracao
-
-# Ver status atual das migrações
-npx prisma migrate status
-
-# Executar seed de dados (se configurado no package.json)
-npx prisma db seed
-
-# Aplicar todas as migrações em produção
-npx prisma migrate deploy
-
-# Resetar banco e recriar tudo (⚠️ deleta dados!)
-npx prisma migrate reset
-
-# Rodar comandos Prisma com uma URL customizada
-DATABASE_URL="postgresql://user:senha@host:porta/db" npx prisma migrate deploy
-
-# Rodar o Prisma Studio (visualizador de dados)
-npx prisma studio
-
-# Inspecionar estrutura de banco existente (reverse engineering)
-npx prisma db pull
-
-# Diagnóstico (verifica problemas na config do schema)
-npx prisma validate
-
-# Formatador automático do schema
-npx prisma format
+---
+Desenvolvido por Davi Quaresma.

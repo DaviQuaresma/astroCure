@@ -37,7 +37,6 @@ services:
       PG_USER: astrocure
       PG_PASSWORD: cure123
       PG_DB: cura
-      ADSPOWER_URL: http://host.docker.internal:50325
       DATABASE_URL: postgresql://astrocure:cure123@postgres:5432/cura
     volumes:
       - ./videos:/videos
@@ -71,7 +70,6 @@ services:
     environment:
       REDIS_HOST: redis
       REDIS_PORT: 6379
-      ADSPOWER_URL: http://host.docker.internal:50325
       DATABASE_URL: postgresql://astrocure:cure123@postgres:5432/cura
     volumes:
       - ./videos:/videos
