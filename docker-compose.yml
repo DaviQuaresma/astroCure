@@ -58,6 +58,8 @@ services:
       - api
     environment:
       NEXT_PUBLIC_API_URL: http://localhost:4001
+    args:
+        NEXT_PUBLIC_API_URL: http://localhost:4001
 
   worker:
     build:
